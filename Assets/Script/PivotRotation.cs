@@ -27,17 +27,17 @@ public class PivotRotation : MonoBehaviour
     {
         if(dragging&&!autoRotating)
         {
-            Wall.rotating = true;
+            CubeState.autoRotating = true;
             SpinSide(activeSide);
             if(Input.GetMouseButtonUp(0))//not dragging anymore
             {
                 dragging = false;
-                Wall.rotating = false;
                 RotateToRightAngle();//fix the rotation angle
             }
         }
         if(autoRotating)
         {
+            CubeState.autoRotating = true;
             AutoRotate();
         }
     }
