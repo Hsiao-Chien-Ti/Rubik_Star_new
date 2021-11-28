@@ -14,27 +14,30 @@ public class Automate : MonoBehaviour
     private CubeState cubeState;
     private ReadCube readCube;
     public GameObject player;
+    public GameObject timer;
     bool shuffled=false;
+    public bool startShuffle = false;
     private void Start()
     {
         cubeState = FindObjectOfType<CubeState>();
         readCube = FindObjectOfType<ReadCube>();
-        Shuffle();
+        //Shuffle();
     }
     private void Update()
     {
         //print(moveList.Count);
-        if(moveList.Count==0&&!shuffled)
+        if(moveList.Count==0&&!shuffled&&startShuffle)
         {
             shuffled = true;
         }
         if(shuffled&&!CubeState.autoRotating)
         {
             player.SetActive(true);
+            timer.SetActive(true);
         }
         if(moveList.Count>0&&!CubeState.autoRotating&&CubeState.started)
         {
-            print(moveList[0]);
+            //print(moveList[0]);
             DoMove(moveList[0]);
             moveList.Remove(moveList[0]);
             //if(moveList.Count==0)
@@ -128,8 +131,9 @@ public class Automate : MonoBehaviour
     public void Shuffle()
     {
         List<string> moves = new List<string>();
-        int shuffleLength = Random.Range(10, 30);
-        for(int i=0;i<shuffleLength;i++)
+        //int shuffleLength = Random.Range(10, 30);
+        int shuffleLength = 15;
+        for (int i=0;i<shuffleLength;i++)
         {
             int randomMove = Random.Range(0, allMove.Count);
             moves.Add(allMove[randomMove]);
