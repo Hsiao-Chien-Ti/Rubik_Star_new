@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9186824068679811148}
   - component: {fileID: 4262603755536297439}
   - component: {fileID: 5472733413077957091}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,6 +56,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4262603755536297439
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90,9 +93,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 3307223150466033097, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5472733413077957091
 Rigidbody:
@@ -123,7 +126,7 @@ GameObject:
   - component: {fileID: 5984521232867569005}
   - component: {fileID: 7650349633993898239}
   - component: {fileID: 4561305577512535416}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.093
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,6 +169,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -190,6 +195,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7650349633993898239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -200,9 +206,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1670758045654531170, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4561305577512535416
 Rigidbody:
@@ -233,7 +239,7 @@ GameObject:
   - component: {fileID: 6459961173583627844}
   - component: {fileID: 7203792383253692794}
   - component: {fileID: 2682258333849648452}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,6 +282,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -300,6 +308,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7203792383253692794
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -310,9 +319,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2867691360781000047, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2682258333849648452
 Rigidbody:
@@ -343,7 +352,7 @@ GameObject:
   - component: {fileID: 3678164358442105885}
   - component: {fileID: 2543307534559575532}
   - component: {fileID: 7288049525226041257}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,6 +395,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -410,6 +421,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2543307534559575532
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -420,9 +432,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 6227018014655733808, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7288049525226041257
 Rigidbody:
@@ -453,7 +465,7 @@ GameObject:
   - component: {fileID: 4696077647185624542}
   - component: {fileID: 3329702196055779551}
   - component: {fileID: 7665471877072353654}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -496,6 +508,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -520,6 +534,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3329702196055779551
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -530,9 +545,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5190196250430552493, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7665471877072353654
 Rigidbody:
@@ -563,7 +578,7 @@ GameObject:
   - component: {fileID: 7386041328235558226}
   - component: {fileID: 3075891880183075201}
   - component: {fileID: 6239637538135977304}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,6 +621,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -630,6 +647,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3075891880183075201
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -640,9 +658,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7402555620132889176, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6239637538135977304
 Rigidbody:
@@ -673,7 +691,7 @@ GameObject:
   - component: {fileID: 2451365377318154457}
   - component: {fileID: 2916263826602515650}
   - component: {fileID: 6663819421928927404}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,6 +734,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -740,6 +760,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2916263826602515650
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -750,9 +771,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1795925228353450985, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6663819421928927404
 Rigidbody:
@@ -783,7 +804,7 @@ GameObject:
   - component: {fileID: 6613554107221696311}
   - component: {fileID: 2639108200929159055}
   - component: {fileID: 8132939748411295753}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -826,6 +847,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -850,6 +873,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2639108200929159055
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -860,9 +884,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3151802178718649589, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8132939748411295753
 Rigidbody:
@@ -893,7 +917,7 @@ GameObject:
   - component: {fileID: 2391658888931500412}
   - component: {fileID: 7343482206703327093}
   - component: {fileID: 7112511808980403021}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,6 +960,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -960,6 +986,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7343482206703327093
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -970,9 +997,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5579966043327804765, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7112511808980403021
 Rigidbody:
@@ -1003,7 +1030,7 @@ GameObject:
   - component: {fileID: 4906128000903200959}
   - component: {fileID: 6186708843586675261}
   - component: {fileID: 7696706666826310094}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,6 +1073,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1070,6 +1099,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6186708843586675261
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1080,9 +1110,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1686251352514582026, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7696706666826310094
 Rigidbody:
@@ -1113,7 +1143,7 @@ GameObject:
   - component: {fileID: 3020179795430252289}
   - component: {fileID: 6696696091966732145}
   - component: {fileID: 6061693050931628858}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1156,6 +1186,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1180,6 +1212,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6696696091966732145
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1190,9 +1223,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -869483922910712300, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6061693050931628858
 Rigidbody:
@@ -1223,7 +1256,7 @@ GameObject:
   - component: {fileID: 295361748656674966}
   - component: {fileID: 4722940768356433564}
   - component: {fileID: 5347354335130813328}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.085
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1266,6 +1299,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1290,6 +1325,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4722940768356433564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1300,9 +1336,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2500442444284458372, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5347354335130813328
 Rigidbody:
@@ -1333,7 +1369,7 @@ GameObject:
   - component: {fileID: 1399757530881711268}
   - component: {fileID: 7831904131248356772}
   - component: {fileID: 4624998789807319098}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.069
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1376,6 +1412,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1400,6 +1438,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7831904131248356772
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1410,9 +1449,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 3668916500995119513, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4624998789807319098
 Rigidbody:
@@ -1443,7 +1482,7 @@ GameObject:
   - component: {fileID: 8194448132711510775}
   - component: {fileID: 751073253780665063}
   - component: {fileID: 8441651398873312350}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.089
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1486,6 +1525,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1510,6 +1551,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &751073253780665063
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1520,9 +1562,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7724849709377837473, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8441651398873312350
 Rigidbody:
@@ -1553,7 +1595,7 @@ GameObject:
   - component: {fileID: 5784349466139374282}
   - component: {fileID: 4808679297801620898}
   - component: {fileID: 2543593196665384293}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1596,6 +1638,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1620,6 +1664,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4808679297801620898
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1630,9 +1675,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2877501185213357299, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2543593196665384293
 Rigidbody:
@@ -1663,7 +1708,7 @@ GameObject:
   - component: {fileID: 3100384101737085425}
   - component: {fileID: 4196951445833219888}
   - component: {fileID: 3425579224393704596}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.091
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1706,6 +1751,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1730,6 +1777,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4196951445833219888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1740,9 +1788,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4214102519187532394, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &3425579224393704596
 Rigidbody:
@@ -1773,7 +1821,7 @@ GameObject:
   - component: {fileID: 3432442248698143422}
   - component: {fileID: 1529957712831861651}
   - component: {fileID: 5622663861580155590}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.079
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1816,6 +1864,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1840,6 +1890,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1529957712831861651
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1850,9 +1901,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4226122845171860208, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5622663861580155590
 Rigidbody:
@@ -1883,7 +1934,7 @@ GameObject:
   - component: {fileID: 7763485320054967972}
   - component: {fileID: 7005332364128371857}
   - component: {fileID: 7219681546370539913}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.084
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1926,6 +1977,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1950,6 +2003,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7005332364128371857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1960,9 +2014,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1793103758941235879, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7219681546370539913
 Rigidbody:
@@ -1993,7 +2047,7 @@ GameObject:
   - component: {fileID: 5270624004264641948}
   - component: {fileID: 5702956301978600300}
   - component: {fileID: 986923996311274112}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.087
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2036,6 +2090,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2060,6 +2116,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5702956301978600300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2070,9 +2127,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 6736636845330154577, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &986923996311274112
 Rigidbody:
@@ -2103,7 +2160,7 @@ GameObject:
   - component: {fileID: 311138654446948997}
   - component: {fileID: 2404241487161432612}
   - component: {fileID: 4860717132440007437}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2146,6 +2203,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2170,6 +2229,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2404241487161432612
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2180,9 +2240,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 3320634809538404104, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4860717132440007437
 Rigidbody:
@@ -2213,7 +2273,7 @@ GameObject:
   - component: {fileID: 6539610241842052054}
   - component: {fileID: 7255893282587129567}
   - component: {fileID: 5878916440463875169}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.066
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,6 +2316,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2280,6 +2342,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7255893282587129567
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2290,9 +2353,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8071446265247037252, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5878916440463875169
 Rigidbody:
@@ -2323,7 +2386,7 @@ GameObject:
   - component: {fileID: 5935132941686670828}
   - component: {fileID: 647694211617053888}
   - component: {fileID: 4150052165808756589}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.082
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2366,6 +2429,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2390,6 +2455,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &647694211617053888
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2400,9 +2466,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4200010570868990141, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4150052165808756589
 Rigidbody:
@@ -2433,7 +2499,7 @@ GameObject:
   - component: {fileID: 727762024547062962}
   - component: {fileID: 4934781396677447322}
   - component: {fileID: 2438146744646127677}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2476,6 +2542,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2500,6 +2568,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4934781396677447322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2510,9 +2579,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 3613183543537962409, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2438146744646127677
 Rigidbody:
@@ -2543,7 +2612,7 @@ GameObject:
   - component: {fileID: 2556982147667192553}
   - component: {fileID: 8155825367683435867}
   - component: {fileID: 1301223791507673396}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.088
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2586,6 +2655,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2610,6 +2681,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &8155825367683435867
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2620,9 +2692,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -6810924069638785020, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1301223791507673396
 Rigidbody:
@@ -2653,7 +2725,7 @@ GameObject:
   - component: {fileID: 5215543770389107992}
   - component: {fileID: 5210077351440862659}
   - component: {fileID: 1910930337086843742}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.063
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2696,6 +2768,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2720,6 +2794,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5210077351440862659
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2730,9 +2805,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4596211838906858063, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1910930337086843742
 Rigidbody:
@@ -2763,7 +2838,7 @@ GameObject:
   - component: {fileID: 1762612331975245579}
   - component: {fileID: 4978251703218367904}
   - component: {fileID: 6801569738971837769}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2806,6 +2881,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2830,6 +2907,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4978251703218367904
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2840,9 +2918,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7922596043983830672, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6801569738971837769
 Rigidbody:
@@ -2873,7 +2951,7 @@ GameObject:
   - component: {fileID: 6900170682291699012}
   - component: {fileID: 2125814368432968665}
   - component: {fileID: 8028347508641025155}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.049
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2916,6 +2994,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2940,6 +3020,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2125814368432968665
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2950,9 +3031,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7615715162935678263, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8028347508641025155
 Rigidbody:
@@ -2983,7 +3064,7 @@ GameObject:
   - component: {fileID: 9089872847798212463}
   - component: {fileID: 1613996027251193054}
   - component: {fileID: 5667037349693613473}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3026,6 +3107,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3050,6 +3133,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1613996027251193054
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3060,9 +3144,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -6859507483882417184, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5667037349693613473
 Rigidbody:
@@ -3093,7 +3177,7 @@ GameObject:
   - component: {fileID: 2384533771508499936}
   - component: {fileID: 1255308149969612732}
   - component: {fileID: 7675860460758857440}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3136,6 +3220,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3160,6 +3246,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1255308149969612732
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3170,9 +3257,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2510966973782891484, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7675860460758857440
 Rigidbody:
@@ -3203,7 +3290,7 @@ GameObject:
   - component: {fileID: 7190224427890277888}
   - component: {fileID: 5490826916879553540}
   - component: {fileID: 1628385987494209746}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3246,6 +3333,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3270,6 +3359,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5490826916879553540
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3280,9 +3370,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7462244112193387287, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1628385987494209746
 Rigidbody:
@@ -3313,7 +3403,7 @@ GameObject:
   - component: {fileID: 4636777409746101782}
   - component: {fileID: 5481016189570941720}
   - component: {fileID: 6140718388109788622}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.077
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3356,6 +3446,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3380,6 +3472,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5481016189570941720
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3390,9 +3483,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8483590491891237099, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6140718388109788622
 Rigidbody:
@@ -3423,7 +3516,7 @@ GameObject:
   - component: {fileID: 4398261021853013829}
   - component: {fileID: 2236401515181827599}
   - component: {fileID: 2914710529466082937}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3466,6 +3559,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3490,6 +3585,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2236401515181827599
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3500,9 +3596,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5751031460557166065, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2914710529466082937
 Rigidbody:
@@ -3533,7 +3629,7 @@ GameObject:
   - component: {fileID: 1232213628696217834}
   - component: {fileID: 1260969511868479175}
   - component: {fileID: 4116107953310238590}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.095
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3576,6 +3672,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3600,6 +3698,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1260969511868479175
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3610,9 +3709,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8684663141259584219, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4116107953310238590
 Rigidbody:
@@ -3643,7 +3742,7 @@ GameObject:
   - component: {fileID: 7308875571754330614}
   - component: {fileID: 4726061754998186280}
   - component: {fileID: 672846670779326742}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3686,6 +3785,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3710,6 +3811,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4726061754998186280
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3720,9 +3822,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2706085813205470303, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &672846670779326742
 Rigidbody:
@@ -3753,7 +3855,7 @@ GameObject:
   - component: {fileID: 549695116562850871}
   - component: {fileID: 4296879179717884561}
   - component: {fileID: 5840418093097691629}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.058
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3796,6 +3898,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3820,6 +3924,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4296879179717884561
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3830,9 +3935,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7019070519032882451, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5840418093097691629
 Rigidbody:
@@ -3863,7 +3968,7 @@ GameObject:
   - component: {fileID: 4553545517976491771}
   - component: {fileID: 7222639717048726724}
   - component: {fileID: 6062480559410752002}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.057
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3906,6 +4011,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3930,6 +4037,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7222639717048726724
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3940,9 +4048,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2540045029121938768, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6062480559410752002
 Rigidbody:
@@ -3973,7 +4081,7 @@ GameObject:
   - component: {fileID: 4562369034179417374}
   - component: {fileID: 641446697374364491}
   - component: {fileID: 8976330871105969468}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.076
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4016,6 +4124,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4040,6 +4150,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &641446697374364491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4050,9 +4161,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1199868377051402677, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8976330871105969468
 Rigidbody:
@@ -4083,7 +4194,7 @@ GameObject:
   - component: {fileID: 1443379205010213152}
   - component: {fileID: 2747000251227482431}
   - component: {fileID: 1491201191572821179}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.059
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4126,6 +4237,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4150,6 +4263,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2747000251227482431
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4160,9 +4274,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8880667490597695392, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1491201191572821179
 Rigidbody:
@@ -4193,7 +4307,7 @@ GameObject:
   - component: {fileID: 3580746850466560073}
   - component: {fileID: 7356508730073844480}
   - component: {fileID: 8301330298416146947}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.072
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4236,6 +4350,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4260,6 +4376,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7356508730073844480
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4270,9 +4387,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1045894428566587211, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8301330298416146947
 Rigidbody:
@@ -4303,7 +4420,7 @@ GameObject:
   - component: {fileID: 4469789527043960885}
   - component: {fileID: 7605212868871633858}
   - component: {fileID: 3400826192888692456}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4346,6 +4463,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4370,6 +4489,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7605212868871633858
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4380,9 +4500,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2318740593268399550, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &3400826192888692456
 Rigidbody:
@@ -4413,7 +4533,7 @@ GameObject:
   - component: {fileID: 4892541997794154943}
   - component: {fileID: 6301773640286927887}
   - component: {fileID: 6840978970483261406}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.086
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4456,6 +4576,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4480,6 +4602,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6301773640286927887
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4490,9 +4613,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -6614261235472587964, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6840978970483261406
 Rigidbody:
@@ -4523,7 +4646,7 @@ GameObject:
   - component: {fileID: 6706183474817159499}
   - component: {fileID: 7734568772649025623}
   - component: {fileID: 6743568076029121346}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4566,6 +4689,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4590,6 +4715,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7734568772649025623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4600,9 +4726,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5425575847974512625, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6743568076029121346
 Rigidbody:
@@ -4633,7 +4759,7 @@ GameObject:
   - component: {fileID: 3261114221834336547}
   - component: {fileID: 1757605691436626}
   - component: {fileID: 2644382060770632867}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4676,6 +4802,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4700,6 +4828,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1757605691436626
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4710,9 +4839,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5046811981714530355, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2644382060770632867
 Rigidbody:
@@ -4743,7 +4872,7 @@ GameObject:
   - component: {fileID: 5795584278112013414}
   - component: {fileID: 5220469275704189885}
   - component: {fileID: 4211270315368805788}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.064
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4786,6 +4915,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4810,6 +4941,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5220469275704189885
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4820,9 +4952,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8884556848274354434, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4211270315368805788
 Rigidbody:
@@ -4853,7 +4985,7 @@ GameObject:
   - component: {fileID: 6881429868375844206}
   - component: {fileID: 4731649011585661163}
   - component: {fileID: 3208065873809150124}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4896,6 +5028,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4920,6 +5054,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4731649011585661163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4930,9 +5065,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4608144633179261009, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &3208065873809150124
 Rigidbody:
@@ -4963,7 +5098,7 @@ GameObject:
   - component: {fileID: 385034024697161238}
   - component: {fileID: 662123338700001746}
   - component: {fileID: 141340506455029621}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.096
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5006,6 +5141,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5030,6 +5167,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &662123338700001746
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5040,9 +5178,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -5645992515648913615, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &141340506455029621
 Rigidbody:
@@ -5073,7 +5211,7 @@ GameObject:
   - component: {fileID: 1864660987531252800}
   - component: {fileID: 8417639119995093268}
   - component: {fileID: 2461430133758473710}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.078
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5116,6 +5254,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5140,6 +5280,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &8417639119995093268
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5150,9 +5291,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8451378147287185955, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2461430133758473710
 Rigidbody:
@@ -5183,7 +5324,7 @@ GameObject:
   - component: {fileID: 5017018032043243995}
   - component: {fileID: 1238980874784953730}
   - component: {fileID: 1476089931920078265}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5226,6 +5367,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5250,6 +5393,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1238980874784953730
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5260,9 +5404,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1765203032624045759, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1476089931920078265
 Rigidbody:
@@ -5293,7 +5437,7 @@ GameObject:
   - component: {fileID: 8584073749123987962}
   - component: {fileID: 7714584209282178973}
   - component: {fileID: 825760907074433046}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5336,6 +5480,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5360,6 +5506,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7714584209282178973
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5370,9 +5517,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8369477363099850156, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &825760907074433046
 Rigidbody:
@@ -5403,7 +5550,7 @@ GameObject:
   - component: {fileID: 5488382943826909867}
   - component: {fileID: 6306795984253839675}
   - component: {fileID: 5475921973869955729}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5446,6 +5593,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5470,6 +5619,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6306795984253839675
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5480,9 +5630,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -446930281935664757, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5475921973869955729
 Rigidbody:
@@ -5513,7 +5663,7 @@ GameObject:
   - component: {fileID: 4633222747668588120}
   - component: {fileID: 3162337488654653807}
   - component: {fileID: 8884149420843343126}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.060
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5556,6 +5706,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5580,6 +5732,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3162337488654653807
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5590,9 +5743,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4625920365381032729, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8884149420843343126
 Rigidbody:
@@ -5623,7 +5776,7 @@ GameObject:
   - component: {fileID: 5443421648897100584}
   - component: {fileID: 1241662803121022516}
   - component: {fileID: 142373470058608160}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5666,6 +5819,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5690,6 +5845,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1241662803121022516
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5700,9 +5856,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2606416078601037341, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &142373470058608160
 Rigidbody:
@@ -5733,7 +5889,7 @@ GameObject:
   - component: {fileID: 5977128571175543470}
   - component: {fileID: 3862110359313969316}
   - component: {fileID: 5585730583843040269}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.070
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5776,6 +5932,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5800,6 +5958,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3862110359313969316
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5810,9 +5969,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 518285456467664833, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5585730583843040269
 Rigidbody:
@@ -5843,7 +6002,7 @@ GameObject:
   - component: {fileID: 3245219329620522137}
   - component: {fileID: 7786770455520834484}
   - component: {fileID: 2026433214920876617}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.092
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5886,6 +6045,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5910,6 +6071,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7786770455520834484
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5920,9 +6082,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8144450129534310646, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2026433214920876617
 Rigidbody:
@@ -5953,7 +6115,7 @@ GameObject:
   - component: {fileID: 7144954401875775970}
   - component: {fileID: 294816954289962465}
   - component: {fileID: 2154339463253644906}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.065
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5996,6 +6158,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6020,6 +6184,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &294816954289962465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6030,9 +6195,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2666300517317463813, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2154339463253644906
 Rigidbody:
@@ -6063,7 +6228,7 @@ GameObject:
   - component: {fileID: 5042967667238831568}
   - component: {fileID: 8909339369676977747}
   - component: {fileID: 7050729551557215996}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.067
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6106,6 +6271,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6130,6 +6297,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &8909339369676977747
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6140,9 +6308,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2622821109736025977, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7050729551557215996
 Rigidbody:
@@ -6173,7 +6341,7 @@ GameObject:
   - component: {fileID: 7825407358477306006}
   - component: {fileID: 4339237380159517022}
   - component: {fileID: 2750516165351432612}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6216,6 +6384,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6240,6 +6410,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4339237380159517022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6250,9 +6421,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2692450624151958207, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2750516165351432612
 Rigidbody:
@@ -6283,7 +6454,7 @@ GameObject:
   - component: {fileID: 8688389755984414848}
   - component: {fileID: 8478365969329974957}
   - component: {fileID: 1488686930121819486}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.080
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6326,6 +6497,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6350,6 +6523,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &8478365969329974957
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6360,9 +6534,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 673337496018080760, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1488686930121819486
 Rigidbody:
@@ -6393,7 +6567,7 @@ GameObject:
   - component: {fileID: 3317518772017824608}
   - component: {fileID: 6865011344700224742}
   - component: {fileID: 1135772277717536865}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6436,6 +6610,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6460,6 +6636,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6865011344700224742
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6470,9 +6647,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 6606165619076594704, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1135772277717536865
 Rigidbody:
@@ -6503,7 +6680,7 @@ GameObject:
   - component: {fileID: 7497338803488833473}
   - component: {fileID: 2304130310522926037}
   - component: {fileID: 7958901595816218317}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.047
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6546,6 +6723,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6570,6 +6749,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2304130310522926037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6580,9 +6760,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -6250564654684217923, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7958901595816218317
 Rigidbody:
@@ -6613,7 +6793,7 @@ GameObject:
   - component: {fileID: 7603676566913853050}
   - component: {fileID: 9178730416735331061}
   - component: {fileID: 3247722952427167980}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6656,6 +6836,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6680,6 +6862,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &9178730416735331061
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6690,9 +6873,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 319920105012465747, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &3247722952427167980
 Rigidbody:
@@ -6723,7 +6906,7 @@ GameObject:
   - component: {fileID: 2330198677848422603}
   - component: {fileID: 103152546543413015}
   - component: {fileID: 1118775768861608803}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.074
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6766,6 +6949,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6790,6 +6975,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &103152546543413015
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6800,9 +6986,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2863600347949669008, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1118775768861608803
 Rigidbody:
@@ -6833,7 +7019,7 @@ GameObject:
   - component: {fileID: 8990473248491299084}
   - component: {fileID: 7016769367720441683}
   - component: {fileID: 7461439323525087096}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6876,6 +7062,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6900,6 +7088,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7016769367720441683
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6910,9 +7099,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7723137760365320067, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7461439323525087096
 Rigidbody:
@@ -6943,7 +7132,7 @@ GameObject:
   - component: {fileID: 3651806745956396259}
   - component: {fileID: 2085375811089516611}
   - component: {fileID: 1843293046098046882}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.073
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6986,6 +7175,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7010,6 +7201,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2085375811089516611
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7020,9 +7212,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -788980910675941176, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1843293046098046882
 Rigidbody:
@@ -7053,7 +7245,7 @@ GameObject:
   - component: {fileID: 4545289971482724403}
   - component: {fileID: 3099519474976773432}
   - component: {fileID: 4719450004806698368}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7096,6 +7288,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7120,6 +7314,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3099519474976773432
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7130,9 +7325,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 7975524244672693435, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4719450004806698368
 Rigidbody:
@@ -7163,7 +7358,7 @@ GameObject:
   - component: {fileID: 936707464653553307}
   - component: {fileID: 6502284983499121038}
   - component: {fileID: 8751192064027926434}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.099
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7206,6 +7401,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7230,6 +7427,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6502284983499121038
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7240,9 +7438,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1192690436175698374, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8751192064027926434
 Rigidbody:
@@ -7273,7 +7471,7 @@ GameObject:
   - component: {fileID: 6451958716286906818}
   - component: {fileID: 4058650474905660827}
   - component: {fileID: 6924634757836977600}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7316,6 +7514,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7340,6 +7540,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4058650474905660827
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7350,9 +7551,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3502897529484144938, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6924634757836977600
 Rigidbody:
@@ -7383,7 +7584,7 @@ GameObject:
   - component: {fileID: 320055138512950301}
   - component: {fileID: 8277419963923855633}
   - component: {fileID: 5072378344535304476}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.098
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7426,6 +7627,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7450,6 +7653,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &8277419963923855633
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7460,9 +7664,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1009645000384533026, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5072378344535304476
 Rigidbody:
@@ -7493,7 +7697,7 @@ GameObject:
   - component: {fileID: 5019563825403616529}
   - component: {fileID: 4269111499074865699}
   - component: {fileID: 1590195414532691622}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7536,6 +7740,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7560,6 +7766,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4269111499074865699
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7570,9 +7777,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -520662792923836324, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1590195414532691622
 Rigidbody:
@@ -7603,7 +7810,7 @@ GameObject:
   - component: {fileID: 3735420922701979155}
   - component: {fileID: 1770011220114524582}
   - component: {fileID: 7309137924138667001}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.094
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7646,6 +7853,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7670,6 +7879,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1770011220114524582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7680,9 +7890,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2238717303264680825, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7309137924138667001
 Rigidbody:
@@ -7713,7 +7923,7 @@ GameObject:
   - component: {fileID: 7814517105628956779}
   - component: {fileID: 6396108063381408285}
   - component: {fileID: 8837518468229875010}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7756,6 +7966,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7780,6 +7992,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6396108063381408285
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7790,9 +8003,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4248718118791913204, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8837518468229875010
 Rigidbody:
@@ -7823,7 +8036,7 @@ GameObject:
   - component: {fileID: 2602566265779821280}
   - component: {fileID: 5118737332420954261}
   - component: {fileID: 3979131606441695173}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.048
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7866,6 +8079,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7890,6 +8105,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5118737332420954261
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7900,9 +8116,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4661568311695170286, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &3979131606441695173
 Rigidbody:
@@ -7933,7 +8149,7 @@ GameObject:
   - component: {fileID: 8388485348732469515}
   - component: {fileID: 3884905733512964305}
   - component: {fileID: 6859572963105657589}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.051
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7976,6 +8192,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8000,6 +8218,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3884905733512964305
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8010,9 +8229,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8558554564915023763, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6859572963105657589
 Rigidbody:
@@ -8043,7 +8262,7 @@ GameObject:
   - component: {fileID: 236534219872105899}
   - component: {fileID: 4795137235905307707}
   - component: {fileID: 5920534118367186741}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8086,6 +8305,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8110,6 +8331,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4795137235905307707
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8120,9 +8342,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1173266580482446300, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5920534118367186741
 Rigidbody:
@@ -8153,7 +8375,7 @@ GameObject:
   - component: {fileID: 34589628854992380}
   - component: {fileID: 5731673099648707658}
   - component: {fileID: 6156055658697534589}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.083
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8196,6 +8418,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8220,6 +8444,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5731673099648707658
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8230,9 +8455,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7695846469865100223, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6156055658697534589
 Rigidbody:
@@ -8259,7 +8484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2389116134035336837}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: RockFracture11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8275,7 +8500,7 @@ Transform:
   m_GameObject: {fileID: 6659000685879201544}
   m_LocalRotation: {x: 0.0000000814605, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 3291036291443017974}
   - {fileID: 6928974212808201190}
@@ -8394,7 +8619,7 @@ GameObject:
   - component: {fileID: 3144457834265220784}
   - component: {fileID: 6527915804110164251}
   - component: {fileID: 6108240690564804470}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8437,6 +8662,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8461,6 +8688,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6527915804110164251
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8471,9 +8699,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1651926732858867632, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6108240690564804470
 Rigidbody:
@@ -8504,7 +8732,7 @@ GameObject:
   - component: {fileID: 4469084822925980890}
   - component: {fileID: 890055589154675405}
   - component: {fileID: 6217034090488997805}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.068
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8547,6 +8775,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8571,6 +8801,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &890055589154675405
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8581,9 +8812,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -403483307739984928, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6217034090488997805
 Rigidbody:
@@ -8614,7 +8845,7 @@ GameObject:
   - component: {fileID: 1007392953562177604}
   - component: {fileID: 6743901338915369894}
   - component: {fileID: 4560949915525018244}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.045
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8657,6 +8888,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8681,6 +8914,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6743901338915369894
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8691,9 +8925,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 5769511932376602721, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4560949915525018244
 Rigidbody:
@@ -8724,7 +8958,7 @@ GameObject:
   - component: {fileID: 7283865641514940457}
   - component: {fileID: 1367350102012718946}
   - component: {fileID: 4702159408810873390}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8767,6 +9001,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8791,6 +9027,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1367350102012718946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8801,9 +9038,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 3220095798115680013, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4702159408810873390
 Rigidbody:
@@ -8834,7 +9071,7 @@ GameObject:
   - component: {fileID: 2656651037334176096}
   - component: {fileID: 3643874806325293859}
   - component: {fileID: 2422905530589844224}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8877,6 +9114,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8901,6 +9140,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3643874806325293859
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8911,9 +9151,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7320700972001956159, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2422905530589844224
 Rigidbody:
@@ -8944,7 +9184,7 @@ GameObject:
   - component: {fileID: 2526797785609084263}
   - component: {fileID: 1170661615003193088}
   - component: {fileID: 6228255953201274242}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.090
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8987,6 +9227,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9011,6 +9253,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1170661615003193088
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9021,9 +9264,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -2546569521660778759, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6228255953201274242
 Rigidbody:
@@ -9054,7 +9297,7 @@ GameObject:
   - component: {fileID: 934582249874938287}
   - component: {fileID: 4215856715322254449}
   - component: {fileID: 2753383910487081616}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.071
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9097,6 +9340,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9121,6 +9366,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4215856715322254449
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9131,9 +9377,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 374546245434604856, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2753383910487081616
 Rigidbody:
@@ -9164,7 +9410,7 @@ GameObject:
   - component: {fileID: 8777670278115834417}
   - component: {fileID: 1077118777047757036}
   - component: {fileID: 4266975813471614894}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9207,6 +9453,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9231,6 +9479,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1077118777047757036
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9241,9 +9490,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2824357887905277670, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4266975813471614894
 Rigidbody:
@@ -9274,7 +9523,7 @@ GameObject:
   - component: {fileID: 3715338668909168161}
   - component: {fileID: 3618263311343284459}
   - component: {fileID: 6127563076378225919}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9317,6 +9566,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9341,6 +9592,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3618263311343284459
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9351,9 +9603,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 357169746675192197, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6127563076378225919
 Rigidbody:
@@ -9384,7 +9636,7 @@ GameObject:
   - component: {fileID: 342617949615229768}
   - component: {fileID: 459021458515494416}
   - component: {fileID: 4421262792094905605}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.062
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9427,6 +9679,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9451,6 +9705,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &459021458515494416
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9461,9 +9716,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7250688764936938889, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &4421262792094905605
 Rigidbody:
@@ -9494,7 +9749,7 @@ GameObject:
   - component: {fileID: 1353642511000495810}
   - component: {fileID: 3718570900468615317}
   - component: {fileID: 7064926253900024713}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.061
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9537,6 +9792,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9561,6 +9818,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &3718570900468615317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9571,9 +9829,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4233857137942039141, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7064926253900024713
 Rigidbody:
@@ -9604,7 +9862,7 @@ GameObject:
   - component: {fileID: 5668893141975245906}
   - component: {fileID: 4979831439483298661}
   - component: {fileID: 2920081920211329182}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9647,6 +9905,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9671,6 +9931,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4979831439483298661
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9681,9 +9942,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8791973661549256520, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2920081920211329182
 Rigidbody:
@@ -9714,7 +9975,7 @@ GameObject:
   - component: {fileID: 6861040158330980801}
   - component: {fileID: 1325403257480096502}
   - component: {fileID: 7865342662764795660}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9757,6 +10018,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9781,6 +10044,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1325403257480096502
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9791,9 +10055,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1232032147856525709, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7865342662764795660
 Rigidbody:
@@ -9824,7 +10088,7 @@ GameObject:
   - component: {fileID: 6902732340886553909}
   - component: {fileID: 5714337535619617302}
   - component: {fileID: 6066247250781262391}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.097
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9867,6 +10131,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9891,6 +10157,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5714337535619617302
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9901,9 +10168,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -8559018248314091148, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6066247250781262391
 Rigidbody:
@@ -9934,7 +10201,7 @@ GameObject:
   - component: {fileID: 8689077892858339278}
   - component: {fileID: 5137449185879065255}
   - component: {fileID: 8835430698635976877}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9977,6 +10244,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10001,6 +10270,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5137449185879065255
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10011,9 +10281,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4140717839841262081, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &8835430698635976877
 Rigidbody:
@@ -10044,7 +10314,7 @@ GameObject:
   - component: {fileID: 7796017428592156877}
   - component: {fileID: 5157381672351078964}
   - component: {fileID: 2436427923052253795}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10087,6 +10357,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10111,6 +10383,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5157381672351078964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10121,9 +10394,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 3977417901631499674, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &2436427923052253795
 Rigidbody:
@@ -10154,7 +10427,7 @@ GameObject:
   - component: {fileID: 2351330416049826249}
   - component: {fileID: 5200427811864572912}
   - component: {fileID: 6034841917799900807}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10197,6 +10470,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10221,6 +10496,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &5200427811864572912
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10231,9 +10507,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1780466024767144831, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6034841917799900807
 Rigidbody:
@@ -10264,7 +10540,7 @@ GameObject:
   - component: {fileID: 505252426720992290}
   - component: {fileID: 1701127186327837354}
   - component: {fileID: 1770677401262905359}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10307,6 +10583,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10331,6 +10609,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1701127186327837354
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10341,9 +10620,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4108363659593841506, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1770677401262905359
 Rigidbody:
@@ -10374,7 +10653,7 @@ GameObject:
   - component: {fileID: 7293827369117457905}
   - component: {fileID: 955691200959648179}
   - component: {fileID: 5109431694257285167}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10417,6 +10696,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10441,6 +10722,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &955691200959648179
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10451,9 +10733,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -1838249317197822387, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5109431694257285167
 Rigidbody:
@@ -10484,7 +10766,7 @@ GameObject:
   - component: {fileID: 9206644557865166055}
   - component: {fileID: 4366449886991775727}
   - component: {fileID: 1982163278196404469}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.050
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10527,6 +10809,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10551,6 +10835,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4366449886991775727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10561,9 +10846,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1134925645345758216, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1982163278196404469
 Rigidbody:
@@ -10594,7 +10879,7 @@ GameObject:
   - component: {fileID: 2197777921398428909}
   - component: {fileID: 2818169456926253783}
   - component: {fileID: 3747515680909041325}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10637,6 +10922,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10661,6 +10948,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &2818169456926253783
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10671,9 +10959,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 2977801598108422518, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &3747515680909041325
 Rigidbody:
@@ -10704,7 +10992,7 @@ GameObject:
   - component: {fileID: 4565333501025872671}
   - component: {fileID: 4186567287464078231}
   - component: {fileID: 6933994614320404179}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10747,6 +11035,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10771,6 +11061,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4186567287464078231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10781,9 +11072,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3708124185043691155, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &6933994614320404179
 Rigidbody:
@@ -10814,7 +11105,7 @@ GameObject:
   - component: {fileID: 1915864313101607608}
   - component: {fileID: 891069029619291740}
   - component: {fileID: 5831721199191437353}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.081
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10857,6 +11148,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10881,6 +11174,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &891069029619291740
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10891,9 +11185,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -6048150056287500532, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5831721199191437353
 Rigidbody:
@@ -10924,7 +11218,7 @@ GameObject:
   - component: {fileID: 7405448070437688988}
   - component: {fileID: 8405357523402351625}
   - component: {fileID: 5279854187330986711}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10967,6 +11261,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10991,6 +11287,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &8405357523402351625
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11001,9 +11298,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7043403171741062056, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &5279854187330986711
 Rigidbody:
@@ -11034,7 +11331,7 @@ GameObject:
   - component: {fileID: 8552553621894193599}
   - component: {fileID: 7263627426942856537}
   - component: {fileID: 1202769999555803697}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.056
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11077,6 +11374,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11101,6 +11400,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7263627426942856537
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11111,9 +11411,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1753376320079558683, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &1202769999555803697
 Rigidbody:
@@ -11144,7 +11444,7 @@ GameObject:
   - component: {fileID: 8344892115583696929}
   - component: {fileID: 6340507685380666441}
   - component: {fileID: 7092394574268329625}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rock.011_cell.075
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11187,6 +11487,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11211,6 +11513,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &6340507685380666441
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11221,9 +11524,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 300210909173517435, guid: ba8ad55c52432c9458973a60328b3451, type: 3}
 --- !u!54 &7092394574268329625
 Rigidbody:
