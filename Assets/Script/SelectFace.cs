@@ -30,24 +30,44 @@ public class SelectFace : MonoBehaviour
                 //make a list of all sides
                 //side是單一一塊(GameObject)的list
                 //整個cube是sides的list
-                List<List<GameObject>> cubeSides = new List<List<GameObject>>()
-                {
-                    cubeState.up,
-                    cubeState.down,
-                    cubeState.right,
-                    cubeState.left,
-                    cubeState.front,
-                    cubeState.back
-                };
+                //List<List<GameObject>> cubeSides = new List<List<GameObject>>()
+                //{
+                //    cubeState.up,
+                //    cubeState.down,
+                //    cubeState.right,
+                //    cubeState.left,
+                //    cubeState.front,
+                //    cubeState.back
+                //};
                 //看剛剛點的那塊是屬於哪個面
-                foreach(List<GameObject> cubeSide in cubeSides)
+                //foreach(List<GameObject> cubeSide in cubeSides)
+                //{
+                //    if(cubeSide.Contains(face))
+                //    {
+                //        cubeState.PickUp(cubeSide);
+                //        cubeSide[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeSide);
+                //    }
+                //}
+                if(cubeState.back.Contains(face))//click back side
                 {
-                    if(cubeSide.Contains(face))
+                    for(int i=0;i<9;i++)
                     {
-                        cubeState.PickUp(cubeSide);
-                        cubeSide[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeSide);
+                        if(face==cubeState.back[i])
+                        {
+                            if(i==5)
+                            {
+                                cubeState.PickUp(cubeState.left);
+                                cubeState.left[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.left);
+                            }
+                            if (i == 0 || i == 3 || i == 6)
+                            {
+                                cubeState.PickUp(cubeState.right);
+                                cubeState.right[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.right);
+                            }
+                        }
                     }
                 }
+
             }
         }
     }

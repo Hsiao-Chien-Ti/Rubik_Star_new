@@ -12,10 +12,11 @@ public class RotateBigCube : MonoBehaviour
     Vector3 mouseDelta;
     public GameObject targetCube;
     float speed = 200f;
+    ReadCube readCube;
     // Start is called before the first frame update
     void Start()
     {
-        
+        readCube = FindObjectOfType<ReadCube>();
     }
 
     // Update is called once per frame
@@ -82,7 +83,9 @@ public class RotateBigCube : MonoBehaviour
             {
                 targetCube.transform.Rotate(-90, 0, 0, Space.World);
             }
+            readCube.ReadState();
         }
+
     }
     bool LeftSwipe(Vector2 swipe)
     {
