@@ -6,6 +6,7 @@ public class SelectFace : MonoBehaviour
 {
     CubeState cubeState;
     ReadCube readCube;
+    
     int layerMask = 1 << 8;//raycast只偵測face layer
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,8 @@ public class SelectFace : MonoBehaviour
             if(Physics.Raycast(ray,out hit,100.0f,layerMask))
             {
                 GameObject face = hit.collider.gameObject;
+                //print(face.transform.parent.name);
+                face.transform.parent.GetComponent<PivotRotation>().Rotate(face);
                 //make a list of all sides
                 //side是單一一塊(GameObject)的list
                 //整個cube是sides的list
@@ -48,25 +51,25 @@ public class SelectFace : MonoBehaviour
                 //        cubeSide[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeSide);
                 //    }
                 //}
-                if(cubeState.back.Contains(face))//click back side
-                {
-                    for(int i=0;i<9;i++)
-                    {
-                        if(face==cubeState.back[i])
-                        {
-                            if(i==5)
-                            {
-                                cubeState.PickUp(cubeState.left);
-                                cubeState.left[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.left);
-                            }
-                            if (i == 0 || i == 3 || i == 6)
-                            {
-                                cubeState.PickUp(cubeState.right);
-                                cubeState.right[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.right);
-                            }
-                        }
-                    }
-                }
+                //if(cubeState.back.Contains(face))//click back side
+                //{
+                //    for(int i=0;i<9;i++)
+                //    {
+                //        if(face==cubeState.back[i])
+                //        {
+                //            if(i==5)
+                //            {
+                //                cubeState.PickUp(cubeState.left);
+                //                cubeState.left[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.left);
+                //            }
+                //            if (i == 3)
+                //            {
+                //                cubeState.PickUp(cubeState.right);
+                //                cubeState.right[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.right);
+                //            }
+                //        }
+                //    }
+                //}
 
             }
         }

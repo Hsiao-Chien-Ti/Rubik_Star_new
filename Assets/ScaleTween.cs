@@ -5,11 +5,13 @@ using UnityEngine;
 public class ScaleTween : MonoBehaviour
 {
     public GameObject x;
+    public GameObject text;
     public Automate cube;
     private void Start()
     {
-        LeanTween.scale(gameObject, new Vector3(1, 1, 1), 0.5f);
+        LeanTween.scale(gameObject, new Vector3(1, 1, 1), 1f);
         cube = FindObjectOfType<Automate>();
+        text.SetActive(true);
         
     }
     public void close()

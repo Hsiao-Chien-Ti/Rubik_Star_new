@@ -15,6 +15,8 @@ public class PivotRotation : MonoBehaviour
     private Vector3 rotation;
     private bool autoRotating = false;
     private Quaternion targetQuaternion;
+    private GameObject face;
+    private bool dirfix = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,13 +27,15 @@ public class PivotRotation : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        //print(dirfix);
         if(dragging&&!autoRotating)
         {
             CubeState.autoRotating = true;
-            SpinSide(activeSide);
+            SpinSide();
             if(Input.GetMouseButtonUp(0))//not dragging anymore
             {
                 dragging = false;
+                dirfix=false;
                 RotateToRightAngle();//fix the rotation angle
             }
         }
@@ -41,56 +45,350 @@ public class PivotRotation : MonoBehaviour
             AutoRotate();
         }
     }
-    private void SpinSide(List<GameObject>side)
+    private void SpinSide()
     {
         //reset the rotation
         rotation = Vector3.zero;
         //看滑鼠移動多少來決定要轉多少
         Vector3 mouseOffset = (Input.mousePosition - mouseRef);
-        if(side==cubeState.front)
-        {
-            rotation.x = (mouseOffset.x + mouseOffset.y) * sensitivity*-1;
+        //List<GameObject> side=new List<GameObject>();
+        if (cubeState.back.Contains(face))//click back side
+        {            
+            for (int i = 0; i < 9; i++)
+            {
+                if (face == cubeState.back[i])
+                {
+                    if(i==4)
+                    {
+                        cubeState.PickUp(cubeState.back);
+                        activeSide = cubeState.back;
+                    }
+                    if (i == 5)
+                    {
+                        cubeState.PickUp(cubeState.left);
+                        activeSide = cubeState.left;
+                    }
+                    if (i == 7)
+                    {
+                        cubeState.PickUp(cubeState.down);
+                        activeSide = cubeState.down;
+                    }
+                    if (i == 3)
+                    {
+                        cubeState.PickUp(cubeState.right);
+                        activeSide = cubeState.right;
+                    }
+                    if (i == 1)
+                    {
+                        cubeState.PickUp(cubeState.up);
+                        activeSide = cubeState.up;
+                    }
+                    if (i==0)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.up);
+                            activeSide = cubeState.up;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.right);
+                            activeSide = cubeState.right;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 2)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.up);
+                            activeSide = cubeState.up;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.left);
+                            activeSide = cubeState.left;
+                            dirfix = true;
+                        }
+                    }
+                    if(i==6)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.down);
+                            activeSide = cubeState.down;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.right);
+                            activeSide = cubeState.right;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 8)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.down);
+                            activeSide = cubeState.down;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.left);
+                            activeSide = cubeState.left;
+                            dirfix = true;
+                        }
+                    }
+                }
+            }
         }
-        if (side == cubeState.back)
+        if (cubeState.left.Contains(face))//click back side
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                if (face == cubeState.left[i])
+                {
+                    if (i == 4)
+                    {
+                        cubeState.PickUp(cubeState.left);
+                        activeSide = cubeState.left;
+                    }
+                    if (i == 5)
+                    {
+                        cubeState.PickUp(cubeState.front);
+                        activeSide = cubeState.front;
+                    }
+                    if (i == 7)
+                    {
+                        cubeState.PickUp(cubeState.down);
+                        activeSide = cubeState.down;
+                    }
+                    if (i == 3)
+                    {
+                        cubeState.PickUp(cubeState.back);
+                        activeSide = cubeState.back;
+                    }
+                    if (i == 1)
+                    {
+                        cubeState.PickUp(cubeState.up);
+                        activeSide = cubeState.up;
+                    }
+                    if (i == 0)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.up);
+                            activeSide = cubeState.up;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.back);
+                            activeSide = cubeState.back;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 2)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.up);
+                            activeSide = cubeState.up;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.front);
+                            activeSide = cubeState.front;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 6)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.down);
+                            activeSide = cubeState.down;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.back);
+                            activeSide = cubeState.back;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 8)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.down);
+                            activeSide = cubeState.down;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.front);
+                            activeSide = cubeState.front;
+                            dirfix = true;
+                        }
+                    }
+                }
+            }
+        }
+
+        if (cubeState.up.Contains(face))//click back side
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                if (face == cubeState.up[i])
+                {
+                    if (i == 4)
+                    {
+                        cubeState.PickUp(cubeState.up);
+                        activeSide = cubeState.up;
+                    }
+                    if (i == 5)
+                    {
+                        cubeState.PickUp(cubeState.left);
+                        activeSide = cubeState.left;
+                    }
+                    if (i == 7)
+                    {
+                        cubeState.PickUp(cubeState.back);
+                        activeSide = cubeState.back;
+                    }
+                    if (i == 3)
+                    {
+                        cubeState.PickUp(cubeState.right);
+                        activeSide = cubeState.right;
+                    }
+                    if (i == 1)
+                    {
+                        cubeState.PickUp(cubeState.front);
+                        activeSide = cubeState.front;
+                    }
+                    if (i == 0)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.front);
+                            activeSide = cubeState.front;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.right);
+                            activeSide = cubeState.right;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 2)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.front);
+                            activeSide = cubeState.front;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.left);
+                            activeSide = cubeState.left;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 6)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.back);
+                            activeSide = cubeState.back;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.right);
+                            activeSide = cubeState.right;
+                            dirfix = true;
+                        }
+                    }
+                    if (i == 8)
+                    {
+                        if (Mathf.Abs(mouseOffset.x) > Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.back);
+                            activeSide = cubeState.back;
+                            dirfix = true;
+                        }
+                        else if (Mathf.Abs(mouseOffset.x) < Mathf.Abs(mouseOffset.y) && !dirfix)
+                        {
+                            cubeState.PickUp(cubeState.left);
+                            activeSide = cubeState.left;
+                            dirfix = true;
+                        }
+                    }
+                }
+            }
+        }
+
+        if (activeSide == cubeState.front)
         {
             rotation.x = (mouseOffset.x + mouseOffset.y) * sensitivity;
+            if(cubeState.up.Contains(face))
+            {
+                rotation.x *= -1;
+            }
         }
-        if (side == cubeState.up)
+        if (activeSide == cubeState.back)
+        {
+            rotation.x = (mouseOffset.x + mouseOffset.y) * sensitivity;
+            if (cubeState.up.Contains(face))
+            {
+                rotation.x *= -1;
+            }
+        }
+        if (activeSide == cubeState.up)
         {
             rotation.y = (mouseOffset.x + mouseOffset.y) * sensitivity*-1;
         }
-        if (side == cubeState.down)
+        if (activeSide == cubeState.down)
         {
-            rotation.y = (mouseOffset.x + mouseOffset.y) * sensitivity;
+            rotation.y = (mouseOffset.x + mouseOffset.y) * sensitivity*-1;
         }
-        if (side == cubeState.left)
+        if (activeSide == cubeState.left)
         {
             rotation.z = (mouseOffset.x + mouseOffset.y) * sensitivity*-1 ;
         }
-        if (side == cubeState.right)
+        if (activeSide == cubeState.right)
         {
             rotation.z = (mouseOffset.x + mouseOffset.y) * sensitivity *-1;
         }
 
 
         //rotate
-        transform.Rotate(rotation, Space.World);
+        transform.parent.transform.Rotate(rotation, Space.World);
         //store mouse position for next rotation
         mouseRef = Input.mousePosition;
     }
-    public void Rotate(List<GameObject> side)
+    public void Rotate(GameObject clickedFace)
     {
-        activeSide = side;
+        //activeSide = side;
+        face = clickedFace;
         mouseRef = Input.mousePosition;
         dragging = true;
         //create a vector to rotate around
-        localForward = Vector3.zero - side[4].transform.parent.transform.localPosition;
+        //localForward = Vector3.zero - face.transform.parent.transform.localPosition;
     }
 
     //避免轉一半的狀況發生
     public void RotateToRightAngle()
     {
-        Vector3 vec = transform.localEulerAngles;
+        Vector3 vec = transform.parent.transform.localEulerAngles;
         //round vec to the nearest 90 degrees
         //轉一半的話強迫他轉到最靠近的90度
         vec.x = Mathf.Round(vec.x / 90) * 90;
@@ -103,7 +401,7 @@ public class PivotRotation : MonoBehaviour
     {
         cubeState.PickUp(side);
         Vector3 localForward = Vector3.zero - side[4].transform.parent.transform.localPosition;
-        targetQuaternion = Quaternion.AngleAxis(angle, localForward)*transform.localRotation;
+        targetQuaternion = Quaternion.AngleAxis(angle, localForward)*transform.parent.transform.localRotation;
         activeSide = side;
         autoRotating = true;
     }
@@ -111,12 +409,12 @@ public class PivotRotation : MonoBehaviour
     {
         dragging = false;//避免同時旋轉
         var step = speed * Time.deltaTime;
-        transform.localRotation = Quaternion.RotateTowards(transform.localRotation, targetQuaternion, step);
+        transform.parent.transform.localRotation = Quaternion.RotateTowards(transform.parent.transform.localRotation, targetQuaternion, step);
         //如果轉到了(誤差1度內)就停止旋轉
-        if(Quaternion.Angle(transform.localRotation,targetQuaternion)<=1)
+        if(Quaternion.Angle(transform.parent.transform.localRotation,targetQuaternion)<=1)
         {
-            transform.localRotation = targetQuaternion;
-            cubeState.PutDown(activeSide, transform.parent);
+            transform.parent.transform.localRotation = targetQuaternion;
+            cubeState.PutDown(activeSide, cubeState.transform);
             readCube.ReadState();
             CubeState.autoRotating = false;
             autoRotating = false;
