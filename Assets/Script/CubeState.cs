@@ -12,6 +12,7 @@ public class CubeState : MonoBehaviour
     public List<GameObject> right = new List<GameObject>();
     public static bool autoRotating = false;
     public static bool started = false;
+    //public static bool dragging = false;
     public GameObject player;
     
     public void PickUp(List<GameObject> cubeSide)
