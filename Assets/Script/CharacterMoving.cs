@@ -78,10 +78,10 @@ public class CharacterMoving : MonoBehaviour
 
         float magnitude = Mathf.Clamp01(movement.magnitude) * speed;
         movement.Normalize();
-        //if(CubeState.dragging)
-        //{
-        //    movement = Vector3.zero;
-        //}
+        if (CubeState.dragging)
+        {
+            movement = Vector3.zero;
+        }
         if (movement != Vector3.zero)
         {
             anim.SetBool("IsRunning", true);

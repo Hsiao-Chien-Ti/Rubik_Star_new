@@ -1,80 +1,215 @@
 fileFormatVersion: 2
 guid: 02dd6406ed1ebc248b2fafd0485e0de9
-timeCreated: 1521227275
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Arm_1_Left
-    100002: Arm_1_Right
-    100004: Arm_2_Left
-    100006: Arm_2_Left_end
-    100008: Arm_2_Right
-    100010: Arm_2_Right_end
-    100012: Armature
-    100014: //RootNode
-    100016: Body_Upper
-    100018: Foot_1_Left
-    100020: Foot_1_Right
-    100022: Foot_2_Left
-    100024: Foot_2_Left_end
-    100026: Foot_2_Right
-    100028: Foot_2_Right_end
-    100030: Head
-    100032: Head_end
-    100034: IK_Arm_Left
-    100036: IK_Arm_Left_end
-    100038: IK_Arm_Right
-    100040: IK_Arm_Right_end
-    100042: IK_Foot_Left
-    100044: IK_Foot_Left_end
-    100046: IK_Foot_Right
-    100048: IK_Foot_Right_end
-    100050: Player
-    100052: Root
-    400000: Arm_1_Left
-    400002: Arm_1_Right
-    400004: Arm_2_Left
-    400006: Arm_2_Left_end
-    400008: Arm_2_Right
-    400010: Arm_2_Right_end
-    400012: Armature
-    400014: //RootNode
-    400016: Body_Upper
-    400018: Foot_1_Left
-    400020: Foot_1_Right
-    400022: Foot_2_Left
-    400024: Foot_2_Left_end
-    400026: Foot_2_Right
-    400028: Foot_2_Right_end
-    400030: Head
-    400032: Head_end
-    400034: IK_Arm_Left
-    400036: IK_Arm_Left_end
-    400038: IK_Arm_Right
-    400040: IK_Arm_Right_end
-    400042: IK_Foot_Left
-    400044: IK_Foot_Left_end
-    400046: IK_Foot_Right
-    400048: IK_Foot_Right_end
-    400050: Player
-    400052: Root
-    4300000: Player
-    7400000: Animation
-    7400002: Idle
-    7400004: Walk
-    7400006: Run
-    7400008: Jump_start
-    7400010: Flip
-    7400012: Jump_loop
-    7400014: Float
-    7400016: Jump_end
-    9500000: //RootNode
-    13700000: Player
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Arm_1_Left
+  - first:
+      1: 100002
+    second: Arm_1_Right
+  - first:
+      1: 100004
+    second: Arm_2_Left
+  - first:
+      1: 100006
+    second: Arm_2_Left_end
+  - first:
+      1: 100008
+    second: Arm_2_Right
+  - first:
+      1: 100010
+    second: Arm_2_Right_end
+  - first:
+      1: 100012
+    second: Armature
+  - first:
+      1: 100014
+    second: //RootNode
+  - first:
+      1: 100016
+    second: Body_Upper
+  - first:
+      1: 100018
+    second: Foot_1_Left
+  - first:
+      1: 100020
+    second: Foot_1_Right
+  - first:
+      1: 100022
+    second: Foot_2_Left
+  - first:
+      1: 100024
+    second: Foot_2_Left_end
+  - first:
+      1: 100026
+    second: Foot_2_Right
+  - first:
+      1: 100028
+    second: Foot_2_Right_end
+  - first:
+      1: 100030
+    second: Head
+  - first:
+      1: 100032
+    second: Head_end
+  - first:
+      1: 100034
+    second: IK_Arm_Left
+  - first:
+      1: 100036
+    second: IK_Arm_Left_end
+  - first:
+      1: 100038
+    second: IK_Arm_Right
+  - first:
+      1: 100040
+    second: IK_Arm_Right_end
+  - first:
+      1: 100042
+    second: IK_Foot_Left
+  - first:
+      1: 100044
+    second: IK_Foot_Left_end
+  - first:
+      1: 100046
+    second: IK_Foot_Right
+  - first:
+      1: 100048
+    second: IK_Foot_Right_end
+  - first:
+      1: 100050
+    second: Player
+  - first:
+      1: 100052
+    second: Root
+  - first:
+      4: 400000
+    second: Arm_1_Left
+  - first:
+      4: 400002
+    second: Arm_1_Right
+  - first:
+      4: 400004
+    second: Arm_2_Left
+  - first:
+      4: 400006
+    second: Arm_2_Left_end
+  - first:
+      4: 400008
+    second: Arm_2_Right
+  - first:
+      4: 400010
+    second: Arm_2_Right_end
+  - first:
+      4: 400012
+    second: Armature
+  - first:
+      4: 400014
+    second: //RootNode
+  - first:
+      4: 400016
+    second: Body_Upper
+  - first:
+      4: 400018
+    second: Foot_1_Left
+  - first:
+      4: 400020
+    second: Foot_1_Right
+  - first:
+      4: 400022
+    second: Foot_2_Left
+  - first:
+      4: 400024
+    second: Foot_2_Left_end
+  - first:
+      4: 400026
+    second: Foot_2_Right
+  - first:
+      4: 400028
+    second: Foot_2_Right_end
+  - first:
+      4: 400030
+    second: Head
+  - first:
+      4: 400032
+    second: Head_end
+  - first:
+      4: 400034
+    second: IK_Arm_Left
+  - first:
+      4: 400036
+    second: IK_Arm_Left_end
+  - first:
+      4: 400038
+    second: IK_Arm_Right
+  - first:
+      4: 400040
+    second: IK_Arm_Right_end
+  - first:
+      4: 400042
+    second: IK_Foot_Left
+  - first:
+      4: 400044
+    second: IK_Foot_Left_end
+  - first:
+      4: 400046
+    second: IK_Foot_Right
+  - first:
+      4: 400048
+    second: IK_Foot_Right_end
+  - first:
+      4: 400050
+    second: Player
+  - first:
+      4: 400052
+    second: Root
+  - first:
+      43: 4300000
+    second: Player
+  - first:
+      74: 7400000
+    second: Animation
+  - first:
+      74: 7400002
+    second: Idle
+  - first:
+      74: 7400004
+    second: Walk
+  - first:
+      74: 7400006
+    second: Run
+  - first:
+      74: 7400008
+    second: Jump_start
+  - first:
+      74: 7400010
+    second: Flip
+  - first:
+      74: 7400012
+    second: Jump_loop
+  - first:
+      74: 7400014
+    second: Float
+  - first:
+      74: 7400016
+    second: Jump_end
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Player
+  - first:
+      74: 5206626448873564102
+    second: Armature|CharacterAnimation
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -87,16 +222,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Animation
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 0
       lastFrame: 660
       wrapMode: 0
@@ -179,6 +318,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 30
       lastFrame: 110
       wrapMode: 0
@@ -261,6 +401,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 140
       lastFrame: 180
       wrapMode: 0
@@ -343,6 +484,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 210
       lastFrame: 250
       wrapMode: 0
@@ -425,6 +567,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump_start
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 280
       lastFrame: 296
       wrapMode: 0
@@ -507,6 +650,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Flip
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 309
       lastFrame: 329
       wrapMode: 0
@@ -589,6 +733,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump_loop
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 360
       lastFrame: 400
       wrapMode: 0
@@ -671,6 +816,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Float
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 440
       lastFrame: 580
       wrapMode: 0
@@ -753,6 +899,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump_end
       takeName: Armature|CharacterAnimation
+      internalID: 0
       firstFrame: 640
       lastFrame: 660
       wrapMode: 0
@@ -838,28 +985,142 @@ ModelImporter:
     globalScale: 0.001
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: astronaut(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: astronaaat
+      parentName: astronaut(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: control
+      parentName: astronaaat
+      position: {x: 0.000010000001, y: -5.960465e-13, z: 0.000009630752}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: core
+      parentName: control
+      position: {x: -0, y: 0.000010000001, z: 0}
+      rotation: {x: -0.00000009415697, y: 0.7071068, z: 0.7071067, w: -0.00000009415696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm1.L
+      parentName: core
+      position: {x: -0, y: 0.000006730793, z: 0}
+      rotation: {x: -0.79612935, y: -0.000000004840989, z: 0.000000006369004, w: 0.60512644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm2.L
+      parentName: arm1.L
+      position: {x: 3.552714e-20, y: 0.000005239233, z: -1.4901155e-13}
+      rotation: {x: 0.056734502, y: 0.000000005774558, z: 9.2334523e-10, w: 0.9983893}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: arm2.L_end
+      parentName: arm2.L
+      position: {x: -0, y: 0.000003577905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm1.R
+      parentName: core
+      position: {x: -0, y: 0.000006730793, z: 0}
+      rotation: {x: 0.7759155, y: 0.0000011403063, z: -0.00000082654554, w: -0.63083684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm2.R
+      parentName: arm1.R
+      position: {x: -2.1371794e-20, y: 0.000005239233, z: 1.4901157e-13}
+      rotation: {x: -0.056734502, y: -0.00000003885692, z: 7.674707e-10, w: 0.9983893}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: arm2.R_end
+      parentName: arm2.R
+      position: {x: -0, y: 0.000003577905, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: core
+      position: {x: -0, y: 0.000006730793, z: 0}
+      rotation: {x: 0, y: -0.000000043711392, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_end
+      parentName: head
+      position: {x: -0, y: 0.0000047972953, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hip.L
+      parentName: control
+      position: {x: -0, y: 0.000010000001, z: 0}
+      rotation: {x: -0.00000014901161, y: -0.6578946, z: 0.75311005, w: -0.000000059604645}
+      scale: {x: 1, y: 1.0000001, z: 1.0000131}
+    - name: leg.L
+      parentName: hip.L
+      position: {x: 4.440892e-20, y: 0.0000016406345, z: -1.7695131e-13}
+      rotation: {x: -0.23491925, y: 0.05077441, z: 0.05524366, w: 0.96911454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg.L_end
+      parentName: leg.L
+      position: {x: -0, y: 0.00000736916, z: 0}
+      rotation: {x: 0.17169043, y: -0.047091745, z: -0.05841479, w: 0.98228943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hip.R
+      parentName: control
+      position: {x: -0, y: 0.000010000001, z: 0}
+      rotation: {x: 0.000000029802322, y: 0.75311005, z: -0.6578947, w: 0}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: leg.R
+      parentName: hip.R
+      position: {x: -0, y: 0.0000016406345, z: 1.2107192e-13}
+      rotation: {x: 0.23491973, y: -0.050774403, z: 0.05524382, w: 0.9691144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: leg.R_end
+      parentName: leg.R
+      position: {x: -0, y: 0.00000736916, z: 0}
+      rotation: {x: -0.17169115, y: 0.047091626, z: -0.05841466, w: 0.9822893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: afronaut
+      parentName: astronaut(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.50000006, y: -0.49999994, z: -0.49999997, w: 0.50000006}
+      scale: {x: 100, y: 100, z: 100}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -867,14 +1128,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.001
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
