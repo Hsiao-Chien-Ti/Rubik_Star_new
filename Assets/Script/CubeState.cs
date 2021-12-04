@@ -15,17 +15,20 @@ public class CubeState : MonoBehaviour
     public static bool dragging = false;
     public GameObject player;
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (autoRotating)
         {
+            
             player.GetComponent<BoxCollider>().enabled = false;
         }
         else
         {
+            print("rotating");
             player.GetComponent<BoxCollider>().enabled = true;
         }
     }
+
 
     public void PickUp(List<GameObject> cubeSide)
     {

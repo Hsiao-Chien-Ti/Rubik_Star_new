@@ -125,7 +125,7 @@ public class Automate : MonoBehaviour
     }
     void RotateSide(List<GameObject>side,float angle)
     {
-        PivotRotation pr = side[4].transform.parent.GetComponent<PivotRotation>();
+        PivotRotation pr = side[0].transform.parent.GetComponent<PivotRotation>();
         pr.StartAutoRotate(side, angle);
     }
     public void Shuffle()
