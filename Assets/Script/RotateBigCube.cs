@@ -113,14 +113,12 @@ public class RotateBigCube : MonoBehaviour
     }
     public void xRotate()
     {
-        targetCube.transform.Rotate(0, 0, -270, Space.World);
-    }
-    public void mxRotate()
-    {
-        targetCube.transform.Rotate(0, 0, -90, Space.World);
+        print("xrot");
+        targetCube.transform.Rotate(0, 0, 90, Space.World);
     }
     public void zRotate()
     {
+        print("zrot");
         targetCube.transform.Rotate(-90, 0, 0, Space.World);
     }
     public void mzRotate()
@@ -129,7 +127,8 @@ public class RotateBigCube : MonoBehaviour
     }
     public void myRotate()
     {
-        targetCube.transform.Rotate(-180, 0, 0, Space.World);
+        print("yrot");
+        targetCube.transform.Rotate(-270, 0, 0, Space.World);
     }
 
 }

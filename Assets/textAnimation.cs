@@ -24,7 +24,7 @@ public class textAnimation : MonoBehaviour
         while(idx<separate_text.Length)
         {
             GetComponent<Text>().text += ' '+separate_text[idx];
-            print(GetComponent<Text>().text);
+            //print(GetComponent<Text>().text);
             idx++;
             if(idx==separate_text.Length)
             {

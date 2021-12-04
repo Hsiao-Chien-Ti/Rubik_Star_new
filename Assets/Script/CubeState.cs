@@ -17,14 +17,14 @@ public class CubeState : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //print(autoRotating);
         if (autoRotating)
         {
-            
             player.GetComponent<BoxCollider>().enabled = false;
         }
         else
         {
-            print("rotating");
+            //print("rotating");
             player.GetComponent<BoxCollider>().enabled = true;
         }
     }

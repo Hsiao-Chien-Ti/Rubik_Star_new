@@ -10,56 +10,31 @@ public class FaceUp : MonoBehaviour
     {
         cubeRotator = FindObjectOfType<RotateBigCube>();
     }
-    private void Update()
+    private void FixedUpdate()
     {
-        //print((transform.up - Vector3.right).magnitude);
-        if ((transform.up - Vector3.right).magnitude < 0.05 && !dragging)
-        {
-            cubeRotator.xRotate();
-            //transform.localRotation = new Quaternion(transform.localRotation.x, transform.localRotation.y, 0, transform.localRotation.w);
-            dragging = true;
-            //rotating = true;
-        }
-        //if ((transform.up - Vector3.left).magnitude < 0.05 && !dragging)
-        //{
-        //    cubeRotator.mxRotate();
-        //    //transform.localRotation = new Quaternion(transform.localRotation.x, transform.localRotation.y, 0, transform.localRotation.w);
-        //    dragging = true;
-        //    //rotating = true;
-        //}
-        if ((transform.up - Vector3.forward).magnitude < 0.05 && !dragging)
-        {
-            cubeRotator.zRotate();
-            //transform.localRotation = new Quaternion(transform.localRotation.x, transform.localRotation.y, 0, transform.localRotation.w);
-            dragging = true;
-            //rotating = true;
-        }
-        //if ((transform.up - Vector3.back).magnitude < 0.05 && !dragging)
-        //{
-        //    cubeRotator.mzRotate();
-        //    //transform.localRotation = new Quaternion(transform.localRotation.x, transform.localRotation.y, 0, transform.localRotation.w);
-        //    dragging = true;
-        //    //rotating = true;
-        //}
-        if ((transform.up - Vector3.down).magnitude < 0.05 && !dragging)
-        {
-            cubeRotator.myRotate();
-            //transform.localRotation = new Quaternion(transform.localRotation.x, transform.localRotation.y, 0, transform.localRotation.w);
-            dragging = true;
-            //rotating = true;
-        }
-        //print((transform.up - Vector3.up).magnitude);
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             dragging = true;
         }
-        else if(Input.GetMouseButtonUp(0))
+        else
         {
             dragging = false;
         }
+        if ((transform.up - Vector3.right).magnitude < 0.05 && !dragging)
+        {
+            dragging = true;
+            cubeRotator.xRotate();
+        }
+        if ((transform.up - Vector3.forward).magnitude < 0.05 && !dragging)
+        {
+            dragging = true;
+            cubeRotator.zRotate();
+        }
+        if ((transform.up - Vector3.down).magnitude < 0.05 && !dragging)
+        {
+            dragging = true;
+            cubeRotator.myRotate();
+        }
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        print(collision.gameObject.name);
-    }
+
 }

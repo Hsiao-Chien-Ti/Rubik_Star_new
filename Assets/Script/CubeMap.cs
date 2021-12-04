@@ -67,7 +67,7 @@ public class CubeMap : MonoBehaviour
     }
     public void NowPos(int idx)
     {
-        print(idx);
+        //print(idx);
         foreach(Transform map in up)
         {
             if(idx==0)
