@@ -10,13 +10,13 @@ public class FaceUp : MonoBehaviour
     {
         cubeRotator = FindObjectOfType<RotateBigCube>();
     }
-    private void FixedUpdate()
+    private void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             dragging = true;
         }
-        else
+        else if(Input.GetMouseButtonUp(0))
         {
             dragging = false;
         }
