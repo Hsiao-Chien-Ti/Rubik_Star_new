@@ -17,13 +17,11 @@ public class PivotRotation : MonoBehaviour
     private Quaternion targetQuaternion;
     private GameObject face;
     private bool dirfix = false;
-    public GameObject player;
     // Start is called before the first frame update
     void Start()
     {
         readCube = FindObjectOfType<ReadCube>();
         cubeState = FindObjectOfType<CubeState>();
-        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -33,11 +31,9 @@ public class PivotRotation : MonoBehaviour
         if(dragging&&!autoRotating)
         {
             CubeState.autoRotating = true;
-            player.GetComponent<BoxCollider>().enabled = false;
             SpinSide();
             if(Input.GetMouseButtonUp(0))//not dragging anymore
             {
-                player.GetComponent<BoxCollider>().enabled = true;
                 dragging = false;
                 dirfix=false;
                 RotateToRightAngle();//fix the rotation angle

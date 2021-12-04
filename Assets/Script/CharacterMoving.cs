@@ -78,7 +78,7 @@ public class CharacterMoving : MonoBehaviour
 
         float magnitude = Mathf.Clamp01(movement.magnitude) * speed;
         movement.Normalize();
-        if (CubeState.dragging)
+        if (CubeState.autoRotating)
         {
             movement = Vector3.zero;
         }

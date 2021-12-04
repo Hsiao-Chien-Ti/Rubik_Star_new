@@ -14,7 +14,19 @@ public class CubeState : MonoBehaviour
     public static bool started = false;
     public static bool dragging = false;
     public GameObject player;
-    
+
+    private void Update()
+    {
+        if (autoRotating)
+        {
+            player.GetComponent<BoxCollider>().enabled = false;
+        }
+        else
+        {
+            player.GetComponent<BoxCollider>().enabled = true;
+        }
+    }
+
     public void PickUp(List<GameObject> cubeSide)
     {
         foreach(GameObject face in cubeSide)
