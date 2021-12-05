@@ -91,6 +91,7 @@
     <Compile Include="Assets\Collect.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\UsingNet.cs" />
     <Compile Include="Assets\Factory.cs" />
     <Compile Include="Assets\Script\SelectFace.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
@@ -108,7 +109,7 @@
     <Compile Include="Assets\Script\RotateBigCube.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\UsingNet.cs" />
+    <Compile Include="Assets\HelmetDefend.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
