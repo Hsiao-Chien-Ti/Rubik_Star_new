@@ -5,11 +5,15 @@ using UnityEngine;
 public class AsteroidHit : MonoBehaviour
 {
     public GameObject timer;
+    public int level;
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.layer==11&&!GetComponent<HelmetDefend>().defending)
+        if(collision.gameObject.layer==11)
         {
-            timer.GetComponent<Timer>().remainingDuration -= 2;
+            if(level!=1||(level==1 && !GetComponent<HelmetDefend>().defending))
+            {
+               timer.GetComponent<Timer>().remainingDuration -= 2; 
+            }
         }
     }
 }

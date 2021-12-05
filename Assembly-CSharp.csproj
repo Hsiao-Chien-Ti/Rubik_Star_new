@@ -57,11 +57,11 @@
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
-    <Compile Include="Assets\textAnimation.cs" />
+    <Compile Include="Assets\Script\textAnimation.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
-    <Compile Include="Assets\Timer.cs" />
+    <Compile Include="Assets\Script\Timer.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
-    <Compile Include="Assets\HelmetDefend.cs" />
+    <Compile Include="Assets\Script\HelmetDefend.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
@@ -74,6 +74,7 @@
     <Compile Include="Assets\BreakableAsteroids\Scripts\Fracture.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
+    <Compile Include="Assets\Script\PlatformCombine.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\Script\Automate.cs" />
@@ -84,22 +85,23 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Script\ReadCube.cs" />
-    <Compile Include="Assets\ScaleTween.cs" />
+    <Compile Include="Assets\Script\ScaleTween.cs" />
     <Compile Include="Assets\Script\Wall.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
-    <Compile Include="Assets\Collect.cs" />
+    <Compile Include="Assets\Script\Collect.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
-    <Compile Include="Assets\UsingNet.cs" />
-    <Compile Include="Assets\Factory.cs" />
+    <Compile Include="Assets\Script\UsingNet.cs" />
+    <Compile Include="Assets\Script\Factory.cs" />
     <Compile Include="Assets\Script\SelectFace.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
-    <Compile Include="Assets\AsteroidHit.cs" />
-    <Compile Include="Assets\AsteroidDrop.cs" />
+    <Compile Include="Assets\Script\AsteroidHit.cs" />
+    <Compile Include="Assets\Script\AsteroidDrop.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\Player.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Script\NextLevel.cs" />
     <Compile Include="Assets\Script\CubeState.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
@@ -110,7 +112,7 @@
     <Compile Include="Assets\Script\RotateBigCube.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\PlatformCombine.cs" />
+    <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

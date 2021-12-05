@@ -8,7 +8,12 @@ public class Factory : MonoBehaviour
     public List<Slider> sliders;
     public List<float> sliderValue;
     public Text txt;
+    public GameObject levelController;
     bool combined = false;
+    private void Start()
+    {
+        levelController = GameObject.Find("LevelController");
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (sliderValue.Count > 1)
@@ -33,7 +38,7 @@ public class Factory : MonoBehaviour
                     }
                     if (i == sliderValue.Count - 1)
                     {
-                        print("level up");
+                        levelController.GetComponent<NextLevel>().hide();
                     }
                 }
             }
