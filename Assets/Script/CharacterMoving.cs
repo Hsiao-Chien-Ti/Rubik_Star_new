@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterMoving : MonoBehaviour
 {
     public Animator anim;
-    float speed = 5f;
+    float speed = 7f;
     float rotationSpeed = 700f;
     float gravity = 100;
     bool onGround = false;

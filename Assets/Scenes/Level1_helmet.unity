@@ -1233,7 +1233,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd4688ec737bdce4788864f0bb600c45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helmetSlider: {fileID: 456662390}
+  sliders:
+  - {fileID: 456662390}
+  sliderValue:
+  - 8
   txt: {fileID: 1853194028}
 --- !u!1001 &242076018
 PrefabInstance:

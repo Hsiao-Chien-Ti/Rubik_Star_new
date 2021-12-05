@@ -5,21 +5,40 @@ using UnityEngine.UI;
 
 public class Factory : MonoBehaviour
 {
-    public Slider helmetSlider;
+    public List<Slider> sliders;
+    public List<float> sliderValue;
     public Text txt;
+    bool combined = false;
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if (sliderValue.Count > 1)
         {
-            if(helmetSlider.value==8)
+            if (PlatformCombine.finish)
             {
-                print("level up");
-            }
-            else
-            {
-                showToast("Collect more!!!!!!!", 1);
+                combined = true;
             }
         }
+        if (sliderValue.Count == 1 || combined)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+
+                for (int i = 0; i < sliderValue.Count; i++)
+                {
+                    if (sliders[i].value != sliderValue[i])
+                    {
+                        print("collect more!");
+                        showToast("Collect more!!!!!!!", 1);
+                        break;
+                    }
+                    if (i == sliderValue.Count - 1)
+                    {
+                        print("level up");
+                    }
+                }
+            }
+        }
+
     }
     void showToast(string text,
     int duration)
