@@ -13,10 +13,10 @@ public class Automate : MonoBehaviour
     };
     private CubeState cubeState;
     private ReadCube readCube;
-    public GameObject player;
-    public GameObject timer;
+    public List<GameObject> showObjects;
     bool shuffled=false;
     public bool startShuffle = false;
+    bool showFlag=false;
     private void Start()
     {
         cubeState = FindObjectOfType<CubeState>();
@@ -30,10 +30,15 @@ public class Automate : MonoBehaviour
         {
             shuffled = true;
         }
-        if(shuffled&&!CubeState.autoRotating)
+        if(shuffled&&!CubeState.autoRotating&&!showFlag)
         {
-            player.SetActive(true);
-            timer.SetActive(true);
+            foreach(GameObject obj in showObjects)
+            {
+                obj.SetActive(true);
+            }
+            showFlag = true;
+            //player.SetActive(true);
+            //timer.SetActive(true);
         }
         if(moveList.Count>0&&!CubeState.autoRotating&&CubeState.started)
         {
