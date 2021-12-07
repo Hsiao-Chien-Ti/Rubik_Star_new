@@ -32,8 +32,7 @@ public class Factory : MonoBehaviour
                 {
                     if (sliders[i].value != sliderValue[i])
                     {
-                        print("collect more!");
-                        showToast("Collect more!!!!!!!", 1);
+                        showToast("Collect more!!!!!", 1);
                         break;
                     }
                     if (i == sliderValue.Count - 1)

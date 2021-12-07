@@ -9,7 +9,8 @@ public class Gameover : MonoBehaviour
     public GameObject buttonCanvas;
     public GameObject astronaut;
     public AudioSource source;
-    public AudioClip clip;
+    public AudioClip cryclip;
+    public AudioClip flatclip;
     public List<GameObject> invisible = new List<GameObject>();
     //public Animator anim;
     private void Update()
@@ -25,14 +26,16 @@ public class Gameover : MonoBehaviour
         {
             obj.SetActive(false);
         }
-        StartCoroutine(rotation());
+        StartCoroutine(anim());
     }
-    IEnumerator rotation()
+    IEnumerator anim()
     {
-        source.clip = clip;
+        source.clip = cryclip;
         source.Play();
         astronaut.SetActive(true);
         yield return new WaitForSeconds(3f);
+        source.clip = flatclip;
+        source.Play();
         buttonCanvas.SetActive(true);
     }
     public void restart()

@@ -16,6 +16,7 @@ public class ScaleTween : MonoBehaviour
     }
     public void close()
     {
+        transform.GetChild(1).GetComponent<AudioSource>().Pause();
         LeanTween.scale(gameObject, new Vector3(0,0,0), 0.5f).setOnComplete(DestoryMe);
         cube.startShuffle = true;
         cube.Shuffle();
@@ -27,3 +28,5 @@ public class ScaleTween : MonoBehaviour
     }
     
 }
+
+
