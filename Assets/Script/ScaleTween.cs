@@ -20,7 +20,6 @@ public class ScaleTween : MonoBehaviour
         LeanTween.scale(gameObject, new Vector3(0,0,0), 0.5f).setOnComplete(DestoryMe);
         cube.startShuffle = true;
         cube.Shuffle();
-        
     }
     void DestoryMe()
     {

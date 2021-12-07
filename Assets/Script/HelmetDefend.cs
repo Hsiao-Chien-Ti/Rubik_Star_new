@@ -21,8 +21,6 @@ public class HelmetDefend : MonoBehaviour
         anim.SetTrigger("HatOn");
         defending = true;
         yield return new WaitForSeconds(1f);
-        anim.SetTrigger("HatOff");
-        yield return new WaitForSeconds(0.1f);
         helmet.SetActive(false);
         defending = false;
     }
