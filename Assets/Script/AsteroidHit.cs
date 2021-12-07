@@ -10,7 +10,7 @@ public class AsteroidHit : MonoBehaviour
     {
         if(collision.gameObject.layer==11)
         {
-            if(level!=1||(level==1 && !GetComponent<HelmetDefend>().defending))
+            if(level==1||(level!=1 && !GetComponent<HelmetDefend>().defending))
             {
                timer.GetComponent<Timer>().remainingDuration -= 2; 
             }

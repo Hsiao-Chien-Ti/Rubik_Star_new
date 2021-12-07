@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterMoving : MonoBehaviour
 {
     public Animator anim;
-    float speed = 7f;
+    float speed = 3f;
     float rotationSpeed = 700f;
     float gravity = 100;
     bool onGround = false;
@@ -21,35 +21,8 @@ public class CharacterMoving : MonoBehaviour
         rb.freezeRotation = true;
         
     }
-    private void Update()
+    private void FixedUpdate()
     {
-        //float x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
-        //float z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
-        //transform.Translate(x,0,z);
-        //RaycastHit hit = new RaycastHit();
-        //if (Physics.Raycast(transform.position, -transform.up, out hit, 2f))
-        //{
-        //    distanceToGround = hit.distance;
-        //    Groundnormal = hit.normal;
-        //    if (distanceToGround <= 0.2f)
-        //    {
-        //        onGround = true;
-        //    }
-        //    else
-        //    {
-        //        onGround = false;
-        //    }
-        //}
-        //Vector3 gravDirection = (transform.position - planet.transform.position).normalized;
-
-        //if (onGround == false)
-        //{
-        //    rb.AddForce(gravDirection * -gravity);
-        //}
-        ////
-
-        //Quaternion toRotation = Quaternion.FromToRotation(transform.up, Groundnormal) * transform.rotation;
-        //transform.rotation = toRotation;
         Vector3 movement=Vector3.zero;
         if((transform.up-Vector3.up).magnitude<0.05)
         {
@@ -88,6 +61,7 @@ public class CharacterMoving : MonoBehaviour
         }
         else
         {
+            rb.velocity = Vector3.zero;
             anim.SetBool("IsRunning", false);
         }
         //charCon.SimpleMove(movement * magnitude);
@@ -105,5 +79,9 @@ public class CharacterMoving : MonoBehaviour
             Quaternion toRotation = Quaternion.LookRotation(movement, transform.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        print(collision.gameObject.name);
     }
 }

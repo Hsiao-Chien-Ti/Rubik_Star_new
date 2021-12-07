@@ -8,6 +8,8 @@ public class NextLevel : MonoBehaviour
 {
     public GameObject buttonCanvas;
     public GameObject finishObj;
+    public AudioSource source;
+    public AudioClip clip;
     public List<GameObject> invisible = new List<GameObject>();
     public string nextSceneName;
     //public Animator anim;
@@ -28,6 +30,8 @@ public class NextLevel : MonoBehaviour
     }
     IEnumerator rotation()
     {
+        source.clip = clip;
+        source.Play();
         finishObj.SetActive(true);
         yield return new WaitForSeconds(1f);
         buttonCanvas.SetActive(true);
