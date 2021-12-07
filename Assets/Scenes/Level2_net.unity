@@ -3700,7 +3700,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &582957425
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6439,7 +6439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 549.3, y: 354.3}
+  m_AnchoredPosition: {x: 732, y: 532}
   m_SizeDelta: {x: 153.47, y: 116.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888933991
@@ -8945,8 +8945,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -229.99687}
-  m_SizeDelta: {x: 933.653, y: 96.551}
+  m_AnchoredPosition: {x: 0, y: -370}
+  m_SizeDelta: {x: 1266.8, y: 184.3755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1293020732
 MonoBehaviour:
@@ -8987,7 +8987,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8974073e7a1c3d34d9b8a7e76aef2c93, type: 3}
-    m_FontSize: 31
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -10091,7 +10091,7 @@ RectTransform:
   m_GameObject: {fileID: 1368157075}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_Children:
   - {fileID: 888933990}
   - {fileID: 1293020731}
@@ -10101,7 +10101,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1200, y: 800}
+  m_SizeDelta: {x: 1600, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1368157077
 MonoBehaviour:
@@ -10118,6 +10118,9 @@ MonoBehaviour:
   x: {fileID: 888933989}
   text: {fileID: 1293020730}
   cube: {fileID: 0}
+  showObj:
+  - {fileID: 1774037260}
+  - {fileID: 582957424}
 --- !u!114 &1368157078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12313,6 +12316,7 @@ MonoBehaviour:
   - {fileID: 641293996}
   - {fileID: 1774037260}
   - {fileID: 560889374}
+  - {fileID: 1677271421}
 --- !u!114 &1666813532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12335,6 +12339,7 @@ MonoBehaviour:
   - {fileID: 641293996}
   - {fileID: 1774037260}
   - {fileID: 560889374}
+  - {fileID: 1677271421}
   nextSceneName: Level2_net
 --- !u!4 &1666813533
 Transform:
@@ -12368,9 +12373,8 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: e6d6b38270821e34da27b9b6f320a9ac, type: 3}
   invisible:
   - {fileID: 641293996}
-  - {fileID: 1774037260}
-  - {fileID: 560889374}
   - {fileID: 2002453928}
+  - {fileID: 560889374}
 --- !u!1 &1669217832
 GameObject:
   m_ObjectHideFlags: 0
