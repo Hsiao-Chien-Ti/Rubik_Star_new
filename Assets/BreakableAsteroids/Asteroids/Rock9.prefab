@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3291891354613854917}
   m_LocalRotation: {x: 0.0000000814605, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -56,6 +56,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,6 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &635422582205603307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,8 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b8c7d88eebb9940b3c4196017b84df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fractured: {fileID: 7139729654043156525, guid: c03bd4a9c21eff74a8771f8e0d70e711,
-    type: 3}
+  fractured: {fileID: 7139729654043156525, guid: c03bd4a9c21eff74a8771f8e0d70e711, type: 3}
 --- !u!64 &4039586575218629321
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -104,7 +106,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 6866498158435587154, guid: ba8ad55c52432c9458973a60328b3451, type: 3}

@@ -1,14 +1,14 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-4280901866442216075
+--- !u!1102 &-7932959352224358592
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HatOn_loop
-  m_Speed: 1
+  m_Name: CatchingStar_loop
+  m_Speed: 1.3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -20,7 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6e449186642a654449af90fa1916e288, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6322c688d31b0fe45a72af932635a00d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -36,8 +36,8 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -4280901866442216075}
-    m_Position: {x: 355, y: 95, z: 0}
+    m_State: {fileID: -7932959352224358592}
+    m_Position: {x: 440.1664, y: 271.6056, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -47,7 +47,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -4280901866442216075}
+  m_DefaultState: {fileID: -7932959352224358592}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
