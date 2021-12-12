@@ -15,9 +15,11 @@ public class AsteroidDrop : MonoBehaviour
     public int dropMax;
     float timeStamp;
     bool started = false;
+    bool fly = false;
     GameObject aim;
     public GameObject aimPrefab;
     Transform t;
+    int posidx;
     private void Start()
     {
         posList= new List<Vector3> { new Vector3(-1, 1.51f, 1), new Vector3(0, 1.51f, 1), new Vector3(1, 1.51f, 1), new Vector3(-1, 1.51f, 0), new Vector3(0, 1.51f, 0), new Vector3(1, 1.51f, 0), new Vector3(1, 1.51f, -1), new Vector3(0, 1.51f, -1), new Vector3(1, 1.51f, -1) };
@@ -33,23 +35,27 @@ public class AsteroidDrop : MonoBehaviour
         }
         if(Time.time>=timeStamp+dropTime&&dropFlag==false&&started)
         {
-            fly();
+            posidx = Random.Range(0, 9);
+            Vector3 initpos = posList[posidx] + new Vector3(0, 11, 0);
+            aim = GameObject.Instantiate(aimPrefab, posList[posidx], Quaternion.Euler(90, 0, 0));
+            rb.position = initpos;
+            Audio.volume = 1.0f;
+            Audio.clip = dropAudio;
+            Audio.Play();
+            fly = true;
             dropFlag = true;
-            rb.useGravity = true;
+            //rb.useGravity = true;
+        }
+        if(fly)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, posList[posidx], 0.5f);
+            if(transform.position==posList[posidx])
+            {
+                fly = false;
+            }
         }
     }
-    public void fly()
-    {
-        int posidx = Random.Range(0, 9);
-        Vector3 initpos = posList[posidx]+new Vector3(0, 11, 0);
-        rb.position = initpos;
-        transform.position=Vector3.MoveTowards(transform.position, posList[posidx],5);
-        aim = GameObject.Instantiate(aimPrefab, posList[posidx],Quaternion.Euler(90,0,0));
-        //rb.AddForce(Random.Range(-50, 50), 0, Random.Range(-50, 50));
-        Audio.volume = 1.0f;
-        Audio.clip = dropAudio;
-        Audio.Play();
-    }
+
     private void OnCollisionEnter(Collision collision)
     {
         //print(collision.gameObject.name);
