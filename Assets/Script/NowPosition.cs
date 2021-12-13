@@ -32,26 +32,6 @@ public class NowPosition : MonoBehaviour
         {
             nowFace = hit.collider.gameObject;
             transform.parent = nowFace.transform.parent;
-            //isGround = true;
-
-            //for(int i=0;i<9;i++)
-            //{
-            //    //print((nowFace.transform.position - upFace[i]).magnitude);
-            //    if((nowFace.transform.position-upFace[i]).magnitude<0.05)
-            //    {
-            //        //print(i);
-            //        cubeMap.NowPos(i);
-            //    }
-            //}
         }
-        //if(Physics.Raycast(feet.position,-transform.up,out hit,0.5f,wallLayer))
-        //{
-        //    nowWall = hit.collider.gameObject;
-        //    nowWall.SetActive(false);
-        //}
-        //else
-        //{
-        //    isGround = false;
-        //}
     }
 }
