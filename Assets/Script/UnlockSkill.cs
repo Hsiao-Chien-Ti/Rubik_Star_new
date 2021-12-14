@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class UnlockSkill : MonoBehaviour
 {
+    public Animator animator;
     public GameObject buttonCanvas;
     public GameObject animPlayer;
     public AudioSource source;
     public AudioClip clip;
     public List<GameObject> invisible = new List<GameObject>();
+    public int level;
     //public Animator anim;
     private void Start()
     {
+        animator.SetInteger("Level", level);
         source.clip = clip;
         source.Play();
     }

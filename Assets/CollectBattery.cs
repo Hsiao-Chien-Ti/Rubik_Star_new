@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CollectBattery : MonoBehaviour
 {
-    public Animation anim;
+    public Animator anim;
+    public GameObject pickedBattery;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,9 @@ public class CollectBattery : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        
+        Level3.battery = true;
+        pickedBattery.SetActive(true);
+        anim.SetTrigger("PickupBattery");
+        Destroy(gameObject);
     }
 }

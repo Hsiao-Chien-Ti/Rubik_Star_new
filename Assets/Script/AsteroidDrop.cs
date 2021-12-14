@@ -22,7 +22,7 @@ public class AsteroidDrop : MonoBehaviour
     int posidx;
     private void Start()
     {
-        posList= new List<Vector3> { new Vector3(-1, 1.51f, 1), new Vector3(0, 1.51f, 1), new Vector3(1, 1.51f, 1), new Vector3(-1, 1.51f, 0), new Vector3(0, 1.51f, 0), new Vector3(1, 1.51f, 0), new Vector3(1, 1.51f, -1), new Vector3(0, 1.51f, -1), new Vector3(1, 1.51f, -1) };
+        posList= new List<Vector3> { new Vector3(-1, 1.52f, 1), new Vector3(0, 1.52f, 1), new Vector3(1, 1.52f, 1), new Vector3(-1, 1.52f, 0), new Vector3(0, 1.52f, 0), new Vector3(1, 1.52f, 0), new Vector3(1, 1.52f, -1), new Vector3(0, 1.52f, -1), new Vector3(1, 1.52f, -1) };
         dropTime = Random.Range(dropMin, dropMax);
         
     }

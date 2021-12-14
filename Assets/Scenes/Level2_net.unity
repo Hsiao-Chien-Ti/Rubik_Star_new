@@ -863,7 +863,7 @@ MonoBehaviour:
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 0}
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &153480776
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 0}
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &232971044
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5625,7 +5625,7 @@ MonoBehaviour:
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 0}
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &789033522
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7409,6 +7409,7 @@ MonoBehaviour:
   - 3
   txt: {fileID: 1853194028}
   levelController: {fileID: 0}
+  pieces: 2
 --- !u!64 &1030537045
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7594,7 +7595,7 @@ MonoBehaviour:
   posList: []
   dropMin: 5
   dropMax: 10
-  aimPrefab: {fileID: 0}
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &1105123531
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9666,6 +9667,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1147752367711628, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_PrefabInstance: {fileID: 1878347469}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1332716183 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95340733316770424, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+  m_PrefabInstance: {fileID: 1878347469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1333495021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3291891354613854917, guid: 3054692602d6b2c418a430defcc5dca4, type: 3}
@@ -9695,7 +9701,7 @@ MonoBehaviour:
   posList: []
   dropMin: 45
   dropMax: 50
-  aimPrefab: {fileID: 0}
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &1333495024
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12350,7 +12356,7 @@ MonoBehaviour:
   - {fileID: 1774037260}
   - {fileID: 560889374}
   - {fileID: 1677271421}
-  nextSceneName: Level2_net
+  nextSceneName: Level3_rocket_base
 --- !u!4 &1666813533
 Transform:
   m_ObjectHideFlags: 0
@@ -12377,6 +12383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb18de3cb756944cae3569bf86e5fc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1332716183}
   buttonCanvas: {fileID: 1279886322}
   animPlayer: {fileID: 1332716182}
   source: {fileID: 1467299623}
@@ -12385,6 +12392,7 @@ MonoBehaviour:
   - {fileID: 641293996}
   - {fileID: 2002453928}
   - {fileID: 560889374}
+  level: 2
 --- !u!1 &1669217832
 GameObject:
   m_ObjectHideFlags: 0
@@ -12884,6 +12892,7 @@ MonoBehaviour:
   - 3
   txt: {fileID: 1853194028}
   levelController: {fileID: 0}
+  pieces: 2
 --- !u!64 &1722977386
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13407,7 +13416,7 @@ MonoBehaviour:
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 0}
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &1797424161
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14276,7 +14285,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1593083265, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+    - {fileID: 1593083266, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+    - {fileID: 1593083267, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+    - {fileID: 1593083272, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
 --- !u!1 &1881258519
 GameObject:

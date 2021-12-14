@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class Factory : MonoBehaviour
 {
@@ -10,20 +11,25 @@ public class Factory : MonoBehaviour
     public Text txt;
     public GameObject levelController;
     bool combined = false;
+    public int pieces;
     private void Start()
     {
         levelController = GameObject.Find("LevelController");
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (sliderValue.Count > 1)
+        if (pieces > 1)
         {
             if (PlatformCombine.finish)
             {
                 combined = true;
             }
+            else
+            {
+                combined = false;
+            }
         }
-        if (sliderValue.Count == 1 || combined)
+        if (pieces == 1 || combined)
         {
             if (other.gameObject.CompareTag("Player"))
             {
@@ -37,7 +43,7 @@ public class Factory : MonoBehaviour
                     }
                     if (i == sliderValue.Count - 1)
                     {
-                        levelController.GetComponent<NextLevel>().hide();
+                        levelController.GetComponent<NextLevel>().hide();                        
                     }
                 }
             }

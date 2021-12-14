@@ -1685,6 +1685,7 @@ MonoBehaviour:
   - 8
   txt: {fileID: 1853194028}
   levelController: {fileID: 0}
+  pieces: 1
 --- !u!1001 &242076018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3426,8 +3427,10 @@ MonoBehaviour:
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
+  posList: []
   dropMin: 55
   dropMax: 60
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &499991730
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6354,8 +6357,10 @@ MonoBehaviour:
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
+  posList: []
   dropMin: 15
   dropMax: 20
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!1001 &868014618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7890,8 +7895,10 @@ MonoBehaviour:
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
+  posList: []
   dropMin: 45
   dropMax: 50
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &1104214179
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8704,8 +8711,10 @@ MonoBehaviour:
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
+  posList: []
   dropMin: 5
   dropMax: 10
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!1 &1271386824
 GameObject:
   m_ObjectHideFlags: 0
@@ -9572,8 +9581,10 @@ MonoBehaviour:
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
+  posList: []
   dropMin: 35
   dropMax: 40
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &1333179301
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11549,8 +11560,10 @@ MonoBehaviour:
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
+  posList: []
   dropMin: 25
   dropMax: 30
+  aimPrefab: {fileID: 4227814818019854779, guid: 65e22452209b4474d97c31aeee055bae, type: 3}
 --- !u!135 &1647317552
 SphereCollider:
   m_ObjectHideFlags: 0
