@@ -12,11 +12,11 @@ public class FaceUp : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)||Input.GetMouseButtonDown(1))
         {
             dragging = true;
         }
-        else if(Input.GetMouseButtonUp(0))
+        else if(Input.GetMouseButtonUp(0)||Input.GetMouseButtonUp(1))
         {
             dragging = false;
         }

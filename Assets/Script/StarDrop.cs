@@ -48,7 +48,7 @@ public class StarDrop : MonoBehaviour
         }
         if (fly)
         {
-            transform.position = Vector3.MoveTowards(transform.position, posList[posidx], 0.02f);
+            transform.position = Vector3.MoveTowards(transform.position, posList[posidx], 0.04f);
             if (transform.position == posList[posidx])
             {
                 fly = false;
@@ -57,10 +57,10 @@ public class StarDrop : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        
         Destroy(gameObject);
         if(other.gameObject.CompareTag("netQuad"))
         {
+            print("catch");
             Audio.clip = catchAudio;
             Audio.volume = 0.1f;
             Audio.Play();

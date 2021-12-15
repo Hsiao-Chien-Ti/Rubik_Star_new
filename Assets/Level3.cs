@@ -43,7 +43,7 @@ public class Level3 : MonoBehaviour
                     {
                         if (sliders[i].value != sliderValue[i])
                         {
-                            showToast("Give me Battery!!!!!", 1);
+                            showToast("Collect more!!!!!", 1);
                             break;
                         }
                         if (i == sliderValue.Count - 1 )
@@ -52,6 +52,10 @@ public class Level3 : MonoBehaviour
                            StartCoroutine(step1());
                         }
                     }
+                }
+                else if(step==1&&!battery)
+                {
+                    showToast("Give me battery!!!", 1);
                 }
                 else if(step==1&&battery)
                 {
@@ -124,6 +128,7 @@ public class Level3 : MonoBehaviour
 
     IEnumerator step1()
     {
+        print("level");
         levelEventAnim.SetActive(true);
         yield return new WaitUntil(levelEventAnim.GetComponent<levelEventAnimation>().getClose);
         foreach (GameObject obj in extraObjects)
