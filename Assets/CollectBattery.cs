@@ -6,6 +6,8 @@ public class CollectBattery : MonoBehaviour
 {
     public Animator anim;
     public GameObject pickedBattery;
+    public GameObject player;
+    public GameObject net;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,8 @@ public class CollectBattery : MonoBehaviour
         Level3.battery = true;
         pickedBattery.SetActive(true);
         anim.SetTrigger("PickupBattery");
+        net.SetActive(false);
+        player.GetComponent<UsingNet>().enabled = false;
         Destroy(gameObject);
     }
 }
