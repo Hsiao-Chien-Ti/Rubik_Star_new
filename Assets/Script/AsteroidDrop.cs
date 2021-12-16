@@ -19,13 +19,19 @@ public class AsteroidDrop : MonoBehaviour
     bool fly = false;
     GameObject aim;
     public GameObject aimPrefab;
-    public Transform ray;
     Vector3 rotation;
+    Transform ray;
     int posidx;
     string face;
+    public Transform tUp;
+    public Transform tDown;
+    public Transform tLeft;
+    public Transform tRight;
+    public Transform tFront;
+    public Transform tBack;
     private void Start()
     {
-        gameObject.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
+        gameObject.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
         //posList= new List<Vector3> { new Vector3(-1, 1.52f, 1), new Vector3(0, 1.52f, 1), new Vector3(1, 1.52f, 1), new Vector3(-1, 1.52f, 0), new Vector3(0, 1.52f, 0), new Vector3(1, 1.52f, 0), new Vector3(1, 1.52f, -1), new Vector3(0, 1.52f, -1), new Vector3(1, 1.52f, -1) };
         cubeState = GameObject.FindObjectOfType<CubeState>();
         face = transform.parent.parent.name;
@@ -38,29 +44,34 @@ public class AsteroidDrop : MonoBehaviour
         {
             case "L":
                 posList = cubeState.left;
-                rotation = new Vector3(-90, 0, 0);
+                rotation = new Vector3(0, 0, 0);
+                ray = tLeft;
                 break;
             case "R":
                 posList = cubeState.right;
-                rotation = new Vector3(-90, 180, 0);
+                rotation = new Vector3(0, 180, 0);
+                ray = tRight;
                 break;
             case "U":
                 posList = cubeState.up;
-                rotation = new Vector3(0, 90, 0);
+                rotation = new Vector3(90, 90, 0);
+                ray = tUp;
                 break;
             case "D":
                 posList = cubeState.down;
-                rotation = new Vector3(180, 90, 0);
+                rotation = new Vector3(270, 90, 0);
+                ray = tDown;
                 break;
             case "F":
                 posList = cubeState.front;
-                rotation = new Vector3(-90, 270, 0);
+                rotation = new Vector3(0, 270, 0);
+                ray = tFront;
                 break;
             case "B":
                 posList = cubeState.back;
-                rotation = new Vector3(-90, 90, 0);
+                rotation = new Vector3(0, 90, 0);
+                ray = tBack;
                 break;
-
         }
         if (FindObjectOfType<CharacterMoving>() != null && !started)
         {
@@ -69,27 +80,30 @@ public class AsteroidDrop : MonoBehaviour
         }
         if(Time.time>=timeStamp+dropTime&&dropFlag==false&&started)
         {
+            dropFlag = true;
             posidx = Random.Range(0, 9);
-            Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 11, 0);
-            aim = GameObject.Instantiate(aimPrefab, posList[posidx].transform.position,Quaternion.Euler(rotation));
-            aim.transform.localPosition += transform.up.normalized*0.05f;
-            rb.position = initpos;
-            gameObject.transform.localScale = new Vector3(1, 1, 1);
+            Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
+            //aim = GameObject.Instantiate(aimPrefab, posList[posidx].transform.position,Quaternion.identity,ray);
+            //aim.transform.localPosition += ray.right.normalized*0.05f;
+            gameObject.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
             Audio.volume = 1.0f;
             Audio.clip = dropAudio;
             Audio.Play();
-            fly = true;
-            dropFlag = true;
+            //fly = true;
+
+            StartCoroutine(flyIE());
+            
             //rb.useGravity = true;
         }
-        if(fly)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, posList[posidx].transform.position, 0.1f);
-            if(transform.position==posList[posidx].transform.position)
-            {
-                fly = false;
-            }
-        }
+        //if(fly)
+        //{
+            
+        //    transform.position = Vector3.MoveTowards(transform.position, posList[posidx].transform.position, 0.4f);
+        //    if(transform.position==posList[posidx].transform.position)
+        //    {
+        //        fly = false;
+        //    }
+        //}
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -98,8 +112,17 @@ public class AsteroidDrop : MonoBehaviour
         Audio.clip = boomAudio;
         Audio.volume = 0.1f;
         Audio.Play();
-        Destroy(aim);
+        //Destroy(aim);
         Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
         GetComponent<Fracture>().FractureObject();
+    }
+    IEnumerator flyIE()
+    {
+       while(!(transform.position == posList[posidx].transform.position))
+        {
+           transform.position = Vector3.MoveTowards(transform.position, posList[posidx].transform.position, 13f*Time.deltaTime);
+           yield return null;
+        }
+      
     }
 }

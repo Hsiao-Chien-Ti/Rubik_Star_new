@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2104636773153371878}
   - component: {fileID: 1927420260181218802}
-  - component: {fileID: 1927420260181218803}
   m_Layer: 11
   m_Name: star v1
   m_TagString: Untagged
@@ -49,26 +48,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1927420260181218803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621009245903760476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1927420260181218802}
-  Audio: {fileID: 0}
-  dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
-  catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
-  posList: []
-  dropMin: 5
-  dropMax: 10
-  aimPrefab: {fileID: 0}
 --- !u!1 &3593260611307061587
 GameObject:
   m_ObjectHideFlags: 0

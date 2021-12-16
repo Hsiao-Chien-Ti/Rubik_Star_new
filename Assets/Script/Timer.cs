@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
             time.text = $"{remainingDuration / 60:00}:{remainingDuration % 60:00}";
             fill.fillAmount = Mathf.InverseLerp(0, duration, remainingDuration);
             remainingDuration--;
-            if(remainingDuration<=10)
+            if(remainingDuration<10)
             {
                 time.color = Color.red;
             }

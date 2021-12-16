@@ -39,9 +39,10 @@ public class StarDrop : MonoBehaviour
             Vector3 initpos = posList[posidx] + new Vector3(0, 11, 0);
             //aim = GameObject.Instantiate(aimPrefab, posList[posidx], Quaternion.Euler(90, 0, 0));
             rb.position = initpos;
-            Audio.volume = 1.0f;
-            Audio.clip = dropAudio;
-            Audio.Play();
+            //Audio.volume = 1.0f;
+            //Audio.clip = dropAudio;
+            //Audio.Play();
+            StartCoroutine(playAudio());
             fly = true;
             dropFlag = true;
             //rb.useGravity = true;
@@ -67,5 +68,12 @@ public class StarDrop : MonoBehaviour
             Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
         }
 
+    }
+    IEnumerator playAudio()
+    {
+        yield return new WaitForSeconds(2.7f);
+            Audio.volume = 1.0f;
+            Audio.clip = dropAudio;
+            Audio.Play();
     }
 }
