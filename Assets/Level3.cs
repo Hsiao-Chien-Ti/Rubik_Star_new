@@ -55,7 +55,7 @@ public class Level3 : MonoBehaviour
                 }
                 else if(step==1&&!battery)
                 {
-                    showToast("Give me battery!!!", 1);
+                    showToast("Install a battery first!!!", 1);
                 }
                 else if(step==1&&battery)
                 {
@@ -128,7 +128,6 @@ public class Level3 : MonoBehaviour
 
     IEnumerator step1()
     {
-        print("level");
         levelEventAnim.SetActive(true);
         yield return new WaitUntil(levelEventAnim.GetComponent<levelEventAnimation>().getClose);
         foreach (GameObject obj in extraObjects)

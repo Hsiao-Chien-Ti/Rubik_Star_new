@@ -22,8 +22,10 @@ public class CollectBattery : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Level3.battery = true;
-        pickedBattery.SetActive(true);
+        anim.SetBool("IsBattery", true);
         anim.SetTrigger("PickupBattery");
+        pickedBattery.SetActive(true);
+        
         net.SetActive(false);
         player.GetComponent<UsingNet>().enabled = false;
         Destroy(gameObject);
