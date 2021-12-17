@@ -58,7 +58,7 @@ public class StarDrop : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        
         if(other.gameObject.CompareTag("netQuad"))
         {
             print("catch");
@@ -67,6 +67,7 @@ public class StarDrop : MonoBehaviour
             Audio.Play();
             Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
         }
+        Destroy(gameObject.transform.parent.gameObject);
 
     }
     IEnumerator playAudio()
