@@ -33,7 +33,7 @@ public class StarDrop : MonoBehaviour
             timeStamp = Time.time;
             started = true;
         }
-        if (Time.time >= timeStamp + dropTime && dropFlag == false && started)
+        if (Time.time >= timeStamp + dropTime && Time.time <= timeStamp + dropTime + 1f && dropFlag == false && started)
         {
             posidx = Random.Range(0, 9);
             Vector3 initpos = posList[posidx] + new Vector3(0, 11, 0);

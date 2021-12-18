@@ -14,6 +14,8 @@ public class Level3_hammer_hit : MonoBehaviour
     public bool finish=false;
     public Animator playerAnim;
     public GameObject net;
+    public AudioSource Audio;
+    public AudioClip completeAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,7 @@ public class Level3_hammer_hit : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Return)&&height>=0.2f)
         {
             anim.SetTrigger("Hit");
+            Audio.Play();
             Vector3 scale = cube.transform.localScale;
             scale.y *= 0.8f;
             cube.transform.localScale =scale;
@@ -39,6 +42,8 @@ public class Level3_hammer_hit : MonoBehaviour
         {
             //cube.SetActive(false);
             //metalPlate.SetActive(true);
+            Audio.clip = completeAudio;
+            Audio.Play();
             finish = true;
             cube.GetComponent<Renderer>().material = newMaterial;
             cube.GetComponent<Animator>().enabled = true;

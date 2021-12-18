@@ -14,7 +14,7 @@ public class AsteroidHit : MonoBehaviour
             if(level==1||(level!=1 && !GetComponent<HelmetDefend>().defending))
             {
                 //timer.transform.GetChild(0).GetComponent<Image>().color = Color.red;
-                timer.GetComponent<Timer>().remainingDuration -= 2;
+                timer.GetComponent<Timer>().remainingDuration -= 10;
                 StartCoroutine(timeColor());
             }
         }

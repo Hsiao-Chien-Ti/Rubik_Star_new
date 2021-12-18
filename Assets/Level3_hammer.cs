@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Events;
+
 
 public class Level3_hammer : MonoBehaviour
 {
@@ -16,6 +16,8 @@ public class Level3_hammer : MonoBehaviour
     public GameObject cube;
     public GameObject factory;
     public GameObject hammerText;
+    public AudioSource enterAudio;
+    public GameObject hammerPanel;
     bool first=true;
     //public GameObject plate;
     private void Start()
@@ -36,29 +38,31 @@ public class Level3_hammer : MonoBehaviour
                 if (i == sliderValue.Count - 1&&first)
                 {
                     first = false;
-                    platform.SetActive(true);
-                    hammer.SetActive(true);
-                    cube.SetActive(true);
-                    hammerText.SetActive(true);
-                    GetComponent<BoxCollider>().isTrigger = false;
-                    factory.GetComponent<BoxCollider>().isTrigger = true;
-                    factory.GetComponent<Factory>().enabled = true;
-
-                    //foreach (GameObject obj in hideObj)
-                    //{
-                    //    obj.SetActive(false);
-                    //}
-                    //platform = null;
-                    //hammer = null;
-                    //cube = null;
-                    //cube.GetComponent<Animator>().enabled = true;
-                    
-                    //levelController.GetComponent<NextLevel>().hide();
+                    StartCoroutine(show());
+                    //platform.SetActive(true);
+                    //hammer.SetActive(true);
+                    //cube.SetActive(true);
+                    //hammerText.SetActive(true);
+                    //GetComponent<BoxCollider>().isTrigger = false;
+                    //factory.GetComponent<BoxCollider>().isTrigger = true;
+                    //factory.GetComponent<Factory>().enabled = true;
                 }
             }
         }
+    }
+    IEnumerator show()
+    {
+        enterAudio.Play();
+        hammerPanel.SetActive(true);
 
-
+        yield return new WaitForSecondsRealtime(1f);
+        hammer.SetActive(true);
+        platform.SetActive(true); 
+        cube.SetActive(true);
+        hammerText.SetActive(true);
+        GetComponent<BoxCollider>().isTrigger = false;
+        factory.GetComponent<BoxCollider>().isTrigger = true;
+        factory.GetComponent<Factory>().enabled = true;
     }
     void showToast(string text,
     int duration)

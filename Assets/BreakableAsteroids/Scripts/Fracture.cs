@@ -11,6 +11,6 @@ public class Fracture : MonoBehaviour
     {
         GameObject piece=Instantiate(fractured, transform.position, transform.rotation); //Spawn in the broken version
         Destroy(gameObject); //Destroy the object to stop it getting in the way
-        Destroy(piece, 1f);
+        Destroy(piece, 0.7f);
     }
 }

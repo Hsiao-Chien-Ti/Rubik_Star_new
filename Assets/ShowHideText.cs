@@ -9,9 +9,9 @@ public class ShowHideText : MonoBehaviour
     public Image extra;
     void Start()
     {
-        StartCoroutine(showText());
+        StartCoroutine(hideText());
     }
-    IEnumerator showText()
+    IEnumerator hideText()
     {
         yield return new WaitForSeconds(1f);
         yield return fadeInAndOut(GetComponent<Text>(), false, 0.5f);
