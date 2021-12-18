@@ -307,12 +307,6 @@ MonoBehaviour:
   dropMin: 35
   dropMax: 40
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &16950910
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3941,12 +3935,6 @@ MonoBehaviour:
   dropMin: 15
   dropMax: 20
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &449159841
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4080,12 +4068,6 @@ MonoBehaviour:
   dropMin: 115
   dropMax: 120
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &453299739
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4620,12 +4602,6 @@ MonoBehaviour:
   dropMin: 95
   dropMax: 100
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &513699907
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4759,12 +4735,6 @@ MonoBehaviour:
   dropMin: 35
   dropMax: 40
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &518245725
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5234,12 +5204,6 @@ MonoBehaviour:
   dropMin: 55
   dropMax: 60
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &576598692
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5410,12 +5374,6 @@ MonoBehaviour:
   dropMin: 65
   dropMax: 70
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &588798154
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7042,12 +7000,6 @@ MonoBehaviour:
   dropMin: 105
   dropMax: 120
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &728026814
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7364,7 +7316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1147752367711628, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1147752367711628, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_TagString
@@ -7484,15 +7436,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4175513801994356, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 88.539665
+      value: 88.55722
       objectReference: {fileID: 0}
     - target: {fileID: 4175513801994356, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.3140208
+      value: -1.3319261
       objectReference: {fileID: 0}
     - target: {fileID: 4175513801994356, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -1.4944274
+      value: -1.5123596
       objectReference: {fileID: 0}
     - target: {fileID: 4268597916284530, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_RootOrder
@@ -7544,7 +7496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4296329986988218, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -2.0985618
+      value: -2.0985615
       objectReference: {fileID: 0}
     - target: {fileID: 4296329986988218, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -7564,27 +7516,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4360993910136276, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.4321582
+      value: 1.9226251
       objectReference: {fileID: 0}
     - target: {fileID: 4360993910136276, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90.83298
+      value: 90.52023
       objectReference: {fileID: 0}
     - target: {fileID: 4360993910136276, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -18.542341
+      value: -25.118793
       objectReference: {fileID: 0}
     - target: {fileID: 4372031305716692, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 5.1273947
+      value: 14.048893
       objectReference: {fileID: 0}
     - target: {fileID: 4372031305716692, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.33308756
+      value: -5.210352
       objectReference: {fileID: 0}
     - target: {fileID: 4372031305716692, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.23463318
+      value: 1.2663702
       objectReference: {fileID: 0}
     - target: {fileID: 4547647637728662, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7632,51 +7584,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4618954258865014, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -9.193612
+      value: -12.072681
       objectReference: {fileID: 0}
     - target: {fileID: 4618954258865014, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 1.6074528
+      value: 2.0730278
       objectReference: {fileID: 0}
     - target: {fileID: 4618954258865014, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 171.71336
+      value: 171.6895
       objectReference: {fileID: 0}
     - target: {fileID: 4626026221698110, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -6.129774
+      value: -5.3471403
       objectReference: {fileID: 0}
     - target: {fileID: 4626026221698110, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 179.93729
+      value: 179.95819
       objectReference: {fileID: 0}
     - target: {fileID: 4626026221698110, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.14013875
+      value: 0.14009552
       objectReference: {fileID: 0}
     - target: {fileID: 4629698183253728, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 9.306818
+      value: 9.358968
       objectReference: {fileID: 0}
     - target: {fileID: 4629698183253728, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90.16744
+      value: -90.167656
       objectReference: {fileID: 0}
     - target: {fileID: 4629698183253728, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -164.87802
+      value: -162.16512
       objectReference: {fileID: 0}
     - target: {fileID: 4635433895067398, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 21.89392
+      value: 28.54827
       objectReference: {fileID: 0}
     - target: {fileID: 4635433895067398, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 87.24329
+      value: 87.20718
       objectReference: {fileID: 0}
     - target: {fileID: 4635433895067398, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.27316123
+      value: -0.43514162
       objectReference: {fileID: 0}
     - target: {fileID: 4666557721724214, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9861,12 +9813,6 @@ MonoBehaviour:
   dropMin: 5
   dropMax: 10
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &980416561
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10473,12 +10419,6 @@ MonoBehaviour:
   dropMin: 65
   dropMax: 70
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1066788417
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10950,12 +10890,6 @@ MonoBehaviour:
   dropMin: 85
   dropMax: 90
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1114147376
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11661,12 +11595,6 @@ MonoBehaviour:
   dropMin: 85
   dropMax: 90
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1199615241
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12145,12 +12073,6 @@ MonoBehaviour:
   dropMin: 25
   dropMax: 30
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1249510138
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12458,12 +12380,6 @@ MonoBehaviour:
   dropMin: 45
   dropMax: 50
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1251829148
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13576,12 +13492,6 @@ MonoBehaviour:
   dropMin: 5
   dropMax: 10
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1313591146
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13715,12 +13625,6 @@ MonoBehaviour:
   dropMin: 15
   dropMax: 20
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1316367085
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14118,12 +14022,6 @@ MonoBehaviour:
   dropMin: 95
   dropMax: 100
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1335915149
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15032,12 +14930,6 @@ MonoBehaviour:
   dropMin: 55
   dropMax: 60
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1376926129
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15402,12 +15294,6 @@ MonoBehaviour:
   dropMin: 45
   dropMax: 50
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1406949745
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16324,12 +16210,6 @@ MonoBehaviour:
   dropMin: 55
   dropMax: 60
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1510849063
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16880,12 +16760,6 @@ MonoBehaviour:
   dropMin: 75
   dropMax: 80
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1563771831
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19303,12 +19177,6 @@ MonoBehaviour:
   dropMin: 25
   dropMax: 30
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1805741884
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19884,12 +19752,6 @@ MonoBehaviour:
   dropMin: 25
   dropMax: 30
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1867910410
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -21738,12 +21600,6 @@ MonoBehaviour:
   dropMin: 15
   dropMax: 20
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &2007710124
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22309,12 +22165,6 @@ MonoBehaviour:
   dropMin: 35
   dropMax: 40
   aimPrefab: {fileID: 0}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &2107726851
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23030,15 +22880,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7787526857812009409, guid: 597daab28fb8b7d41baf12d3811c1279, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00121
+      value: -0.00037
       objectReference: {fileID: 0}
     - target: {fileID: 7787526857812009409, guid: 597daab28fb8b7d41baf12d3811c1279, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00127
+      value: -0.00078
       objectReference: {fileID: 0}
     - target: {fileID: 7787526857812009409, guid: 597daab28fb8b7d41baf12d3811c1279, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00077
+      value: -0.00006
       objectReference: {fileID: 0}
     - target: {fileID: 7787526857812009409, guid: 597daab28fb8b7d41baf12d3811c1279, type: 3}
       propertyPath: m_LocalRotation.w

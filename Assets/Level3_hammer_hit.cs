@@ -12,10 +12,16 @@ public class Level3_hammer_hit : MonoBehaviour
     float height;
     public Material newMaterial;
     public bool finish=false;
+    public Animator playerAnim;
+    public GameObject net;
     // Start is called before the first frame update
     void Start()
     {
-        height = cube.transform.localScale.y;   
+        height = cube.transform.localScale.y;
+        foreach (GameObject obj in hideObj)
+        {
+            obj.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -33,22 +39,30 @@ public class Level3_hammer_hit : MonoBehaviour
         {
             //cube.SetActive(false);
             //metalPlate.SetActive(true);
+            finish = true;
             cube.GetComponent<Renderer>().material = newMaterial;
             cube.GetComponent<Animator>().enabled = true;
-            finish = true;
+            
             StartCoroutine(close());
 
         }
     }
     IEnumerator close()
     {
+        print(Time.time);
         yield return new WaitForSeconds(1.1f);
+        print(Time.time);
+        platform.SetActive(false);
         cube.SetActive(false);
         foreach (GameObject obj in hideObj)
         {
             obj.SetActive(true);
         }
-        platform.SetActive(false);
+        playerAnim.SetBool("IsBattery", true);
+        playerAnim.SetTrigger("PickupBattery");
+        metalPlate.SetActive(true);
+        net.SetActive(false);
         gameObject.SetActive(false);
+        
     }
 }

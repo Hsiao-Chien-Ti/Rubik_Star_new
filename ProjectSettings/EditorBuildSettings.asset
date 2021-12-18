@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2_net.unity
     guid: b14979ca92341f3428a5f96a6747a91c
   - enabled: 1
+    path: Assets/Scenes/Level3_rocket_base.unity
+    guid: 5b5d557dc280f984d98a6c3f5068de99
+  - enabled: 1
     path: Assets/Scenes/Level4_rocket_fins.unity
     guid: 1adf50db7f914df4db94161cbfc35561
   m_configObjects:

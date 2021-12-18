@@ -14,6 +14,9 @@ public class Level3_hammer : MonoBehaviour
     public GameObject platform;
     public GameObject hammer;
     public GameObject cube;
+    public GameObject factory;
+    public GameObject hammerText;
+    bool first=true;
     //public GameObject plate;
     private void Start()
     {
@@ -30,17 +33,26 @@ public class Level3_hammer : MonoBehaviour
                     showToast("Collect more!!!!!", 1);
                     break;
                 }
-                if (i == sliderValue.Count - 1)
+                if (i == sliderValue.Count - 1&&first)
                 {
+                    first = false;
                     platform.SetActive(true);
                     hammer.SetActive(true);
                     cube.SetActive(true);
-                    foreach (GameObject obj in hideObj)
-                    {
-                        obj.SetActive(false);
-                    }
+                    hammerText.SetActive(true);
+                    GetComponent<BoxCollider>().isTrigger = false;
+                    factory.GetComponent<BoxCollider>().isTrigger = true;
+                    factory.GetComponent<Factory>().enabled = true;
+
+                    //foreach (GameObject obj in hideObj)
+                    //{
+                    //    obj.SetActive(false);
+                    //}
+                    //platform = null;
+                    //hammer = null;
+                    //cube = null;
                     //cube.GetComponent<Animator>().enabled = true;
-                    GetComponent<Level3_hammer>().enabled = false;
+                    
                     //levelController.GetComponent<NextLevel>().hide();
                 }
             }

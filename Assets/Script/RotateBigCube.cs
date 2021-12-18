@@ -22,8 +22,12 @@ public class RotateBigCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Swipe();
-        Drag();
+        if(Automate.finishAuto)
+        {
+            Swipe();
+            Drag();
+        }
+
     }
 
     //while the mouse button is held down, the cube can be moved around its central axis

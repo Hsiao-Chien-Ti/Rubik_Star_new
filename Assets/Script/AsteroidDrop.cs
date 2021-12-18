@@ -77,7 +77,7 @@ public class AsteroidDrop : MonoBehaviour
             timeStamp = Time.time;
             started = true;
         }
-        if(Time.time>=timeStamp+dropTime&&dropFlag==false&&started)
+        if(Time.time>=timeStamp+dropTime&& Time.time <= timeStamp + dropTime+1f && dropFlag==false&&started)
         {
             dropFlag = true;
             posidx = Random.Range(0, 9);

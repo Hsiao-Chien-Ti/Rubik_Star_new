@@ -17,6 +17,7 @@ public class Automate : MonoBehaviour
     bool shuffled=false;
     public bool startShuffle = false;
     bool showFlag=false;
+    public static bool finishAuto = false;
     private void Start()
     {
         cubeState = FindObjectOfType<CubeState>();
@@ -37,6 +38,7 @@ public class Automate : MonoBehaviour
                 obj.SetActive(true);
             }
             showFlag = true;
+            finishAuto = true;
             //player.SetActive(true);
             //timer.SetActive(true);
         }

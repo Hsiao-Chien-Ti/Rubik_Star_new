@@ -28,7 +28,7 @@ public class PivotRotation : MonoBehaviour
     void LateUpdate()
     {
         //print(dirfix);
-        if(dragging&&!autoRotating)
+        if(dragging&&!autoRotating&&Automate.finishAuto)
         {
             CubeState.autoRotating = true;
             SpinSide();
