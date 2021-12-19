@@ -95,11 +95,13 @@
     <Compile Include="Assets\Script\ReadCube.cs" />
     <Compile Include="Assets\Script\ScaleTween.cs" />
     <Compile Include="Assets\Script\Wall.cs" />
+    <Compile Include="Assets\ImageFadeIO.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Level3_hammer_hit.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\Script\CatchingStar.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\Helmet.cs" />
     <Compile Include="Assets\Script\Collect.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
@@ -124,8 +126,7 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Helmet.cs" />
-    <Compile Include="Assets\ImageFadeIO.cs" />
+    <Compile Include="Assets\RocketCompose.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
