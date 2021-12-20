@@ -31,7 +31,7 @@ public class AsteroidDrop : MonoBehaviour
     //public Transform tBack;
     private void Start()
     {
-        gameObject.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
+        //gameObject.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
         //posList= new List<Vector3> { new Vector3(-1, 1.52f, 1), new Vector3(0, 1.52f, 1), new Vector3(1, 1.52f, 1), new Vector3(-1, 1.52f, 0), new Vector3(0, 1.52f, 0), new Vector3(1, 1.52f, 0), new Vector3(1, 1.52f, -1), new Vector3(0, 1.52f, -1), new Vector3(1, 1.52f, -1) };
         cubeState = transform.parent.transform.parent.transform.parent.GetComponent<CubeState>();
         face = transform.parent.parent.name;
@@ -84,7 +84,7 @@ public class AsteroidDrop : MonoBehaviour
             Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
             //aim = GameObject.Instantiate(aimPrefab, posList[posidx].transform.position,Quaternion.identity,ray);
             //aim.transform.localPosition += ray.right.normalized*0.05f;
-            gameObject.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+            gameObject.transform.localScale*=300;
             gameObject.GetComponent<MeshCollider>().enabled = true;
             Audio.volume = 1.0f;
             Audio.clip = dropAudio;

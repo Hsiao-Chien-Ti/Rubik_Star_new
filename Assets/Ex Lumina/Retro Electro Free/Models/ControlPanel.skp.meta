@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: 37747a4cbbf81d04abdda146f260a44a
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f0000008000000081000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 2f6e25b85bf95069f06027924343f277
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 231.25, y: 524.37665, z: 150}
+      lookAt: {x: 231.25, y: 11.799268, z: 150}
+      up: {x: 0, y: 0, z: 1}
+      fov: 45
+      aspectRatio: 0
+      orthoSize: 12432.656
+      isPerspective: 0
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AmmeterBlack3inOff
+    100002: AmmeterBlack3inOff 1
+    100004: AmmeterBlack3inOn
+    100006: AmmeterNeedle
+    100008: AmmeterNeedle#1
+    100010: AmmeterNeedle#1 1
+    100012: //RootNode
+    100014: Knob19mm
+    100016: Knob19mm 1
+    100018: Knob31mmPointer
+    100020: Knob31mmPointer 1
+    100022: KnobBlue12mm
+    100024: KnobBlue12mm 1
+    100026: KnobBlue12mm 10
+    100028: KnobBlue12mm 11
+    100030: KnobBlue12mm 12
+    100032: KnobBlue12mm 13
+    100034: KnobBlue12mm 14
+    100036: KnobBlue12mm 2
+    100038: KnobBlue12mm 3
+    100040: KnobBlue12mm 4
+    100042: KnobBlue12mm 5
+    100044: KnobBlue12mm 6
+    100046: KnobBlue12mm 7
+    100048: KnobBlue12mm 8
+    100050: KnobBlue12mm 9
+    100052: KnobGreen12mm
+    100054: KnobGreen12mm 1
+    100056: KnobGreen12mm 2
+    100058: KnobGreen12mm 3
+    100060: KnobGreen12mm 4
+    100062: KnobRed12mm
+    100064: KnobRed12mm 1
+    100066: LightBlueOff
+    100068: LightBlueOn
+    100070: LightGreenOn
+    100072: LightRedOff
+    100074: LightRedOff 1
+    100076: LightRedOn
+    100078: LightWhiteOff
+    100080: LightWhiteOn
+    100082: LightYellowOff
+    100084: LightYellowOn
+    100086: RCAjackRed
+    100088: RCAjackRed 1
+    100090: RCAjackRed 2
+    100092: RCAjackRed 3
+    100094: RCAjackWht
+    100096: RCAjackWht 1
+    100098: RCAjackWht 2
+    100100: RCAjackWht 3
+    100102: RCAjackYlw
+    100104: RCAjackYlw 1
+    100106: RCAjackYlw 2
+    100108: RCAjackYlw 3
+    100110: ScopeOn
+    100112: ScopeScreen
+    100114: ToggleOff
+    100116: ToggleOff 1
+    100118: ToggleOff 2
+    100120: ToggleOff 3
+    100122: ToggleOn
+    100124: ToggleOn 1
+    100126: ToggleOn 2
+    100128: ToggleOn 3
+    400000: AmmeterBlack3inOff
+    400002: AmmeterBlack3inOff 1
+    400004: AmmeterBlack3inOn
+    400006: AmmeterNeedle
+    400008: AmmeterNeedle#1
+    400010: AmmeterNeedle#1 1
+    400012: //RootNode
+    400014: Knob19mm
+    400016: Knob19mm 1
+    400018: Knob31mmPointer
+    400020: Knob31mmPointer 1
+    400022: KnobBlue12mm
+    400024: KnobBlue12mm 1
+    400026: KnobBlue12mm 10
+    400028: KnobBlue12mm 11
+    400030: KnobBlue12mm 12
+    400032: KnobBlue12mm 13
+    400034: KnobBlue12mm 14
+    400036: KnobBlue12mm 2
+    400038: KnobBlue12mm 3
+    400040: KnobBlue12mm 4
+    400042: KnobBlue12mm 5
+    400044: KnobBlue12mm 6
+    400046: KnobBlue12mm 7
+    400048: KnobBlue12mm 8
+    400050: KnobBlue12mm 9
+    400052: KnobGreen12mm
+    400054: KnobGreen12mm 1
+    400056: KnobGreen12mm 2
+    400058: KnobGreen12mm 3
+    400060: KnobGreen12mm 4
+    400062: KnobRed12mm
+    400064: KnobRed12mm 1
+    400066: LightBlueOff
+    400068: LightBlueOn
+    400070: LightGreenOn
+    400072: LightRedOff
+    400074: LightRedOff 1
+    400076: LightRedOn
+    400078: LightWhiteOff
+    400080: LightWhiteOn
+    400082: LightYellowOff
+    400084: LightYellowOn
+    400086: RCAjackRed
+    400088: RCAjackRed 1
+    400090: RCAjackRed 2
+    400092: RCAjackRed 3
+    400094: RCAjackWht
+    400096: RCAjackWht 1
+    400098: RCAjackWht 2
+    400100: RCAjackWht 3
+    400102: RCAjackYlw
+    400104: RCAjackYlw 1
+    400106: RCAjackYlw 2
+    400108: RCAjackYlw 3
+    400110: ScopeOn
+    400112: ScopeScreen
+    400114: ToggleOff
+    400116: ToggleOff 1
+    400118: ToggleOff 2
+    400120: ToggleOff 3
+    400122: ToggleOn
+    400124: ToggleOn 1
+    400126: ToggleOn 2
+    400128: ToggleOn 3
+    2100000: _defaultMat
+    2100002: ScopeOff
+    2100004: ScopeOn
+    2100006: AmmeterOn
+    2100008: '[Translucent Glass Gray]'
+    2100010: Ammeter
+    2100012: KnobsPalette
+    2100014: Lights1
+    2100016: KnobsPalette1
+    2100018: RCAjack
+    2100020: RCA
+    2100022: Lights
+    2300000: AmmeterBlack3inOff
+    2300002: AmmeterBlack3inOff 1
+    2300004: AmmeterBlack3inOn
+    2300006: AmmeterNeedle
+    2300008: AmmeterNeedle#1
+    2300010: AmmeterNeedle#1 1
+    2300012: //RootNode
+    2300014: Knob19mm
+    2300016: Knob19mm 1
+    2300018: Knob31mmPointer
+    2300020: Knob31mmPointer 1
+    2300022: KnobBlue12mm
+    2300024: KnobBlue12mm 1
+    2300026: KnobBlue12mm 10
+    2300028: KnobBlue12mm 11
+    2300030: KnobBlue12mm 12
+    2300032: KnobBlue12mm 13
+    2300034: KnobBlue12mm 14
+    2300036: KnobBlue12mm 2
+    2300038: KnobBlue12mm 3
+    2300040: KnobBlue12mm 4
+    2300042: KnobBlue12mm 5
+    2300044: KnobBlue12mm 6
+    2300046: KnobBlue12mm 7
+    2300048: KnobBlue12mm 8
+    2300050: KnobBlue12mm 9
+    2300052: KnobGreen12mm
+    2300054: KnobGreen12mm 1
+    2300056: KnobGreen12mm 2
+    2300058: KnobGreen12mm 3
+    2300060: KnobGreen12mm 4
+    2300062: KnobRed12mm
+    2300064: KnobRed12mm 1
+    2300066: LightBlueOff
+    2300068: LightBlueOn
+    2300070: LightGreenOn
+    2300072: LightRedOff
+    2300074: LightRedOff 1
+    2300076: LightRedOn
+    2300078: LightWhiteOff
+    2300080: LightWhiteOn
+    2300082: LightYellowOff
+    2300084: LightYellowOn
+    2300086: RCAjackRed
+    2300088: RCAjackRed 1
+    2300090: RCAjackRed 2
+    2300092: RCAjackRed 3
+    2300094: RCAjackWht
+    2300096: RCAjackWht 1
+    2300098: RCAjackWht 2
+    2300100: RCAjackWht 3
+    2300102: RCAjackYlw
+    2300104: RCAjackYlw 1
+    2300106: RCAjackYlw 2
+    2300108: RCAjackYlw 3
+    2300110: ScopeOn
+    2300112: ScopeScreen
+    2300114: ToggleOff
+    2300116: ToggleOff 1
+    2300118: ToggleOff 2
+    2300120: ToggleOff 3
+    2300122: ToggleOn
+    2300124: ToggleOn 1
+    2300126: ToggleOn 2
+    2300128: ToggleOn 3
+    3300000: AmmeterBlack3inOff
+    3300002: AmmeterBlack3inOff 1
+    3300004: AmmeterBlack3inOn
+    3300006: AmmeterNeedle
+    3300008: AmmeterNeedle#1
+    3300010: AmmeterNeedle#1 1
+    3300012: //RootNode
+    3300014: Knob19mm
+    3300016: Knob19mm 1
+    3300018: Knob31mmPointer
+    3300020: Knob31mmPointer 1
+    3300022: KnobBlue12mm
+    3300024: KnobBlue12mm 1
+    3300026: KnobBlue12mm 10
+    3300028: KnobBlue12mm 11
+    3300030: KnobBlue12mm 12
+    3300032: KnobBlue12mm 13
+    3300034: KnobBlue12mm 14
+    3300036: KnobBlue12mm 2
+    3300038: KnobBlue12mm 3
+    3300040: KnobBlue12mm 4
+    3300042: KnobBlue12mm 5
+    3300044: KnobBlue12mm 6
+    3300046: KnobBlue12mm 7
+    3300048: KnobBlue12mm 8
+    3300050: KnobBlue12mm 9
+    3300052: KnobGreen12mm
+    3300054: KnobGreen12mm 1
+    3300056: KnobGreen12mm 2
+    3300058: KnobGreen12mm 3
+    3300060: KnobGreen12mm 4
+    3300062: KnobRed12mm
+    3300064: KnobRed12mm 1
+    3300066: LightBlueOff
+    3300068: LightBlueOn
+    3300070: LightGreenOn
+    3300072: LightRedOff
+    3300074: LightRedOff 1
+    3300076: LightRedOn
+    3300078: LightWhiteOff
+    3300080: LightWhiteOn
+    3300082: LightYellowOff
+    3300084: LightYellowOn
+    3300086: RCAjackRed
+    3300088: RCAjackRed 1
+    3300090: RCAjackRed 2
+    3300092: RCAjackRed 3
+    3300094: RCAjackWht
+    3300096: RCAjackWht 1
+    3300098: RCAjackWht 2
+    3300100: RCAjackWht 3
+    3300102: RCAjackYlw
+    3300104: RCAjackYlw 1
+    3300106: RCAjackYlw 2
+    3300108: RCAjackYlw 3
+    3300110: ScopeOn
+    3300112: ScopeScreen
+    3300114: ToggleOff
+    3300116: ToggleOff 1
+    3300118: ToggleOff 2
+    3300120: ToggleOff 3
+    3300122: ToggleOn
+    3300124: ToggleOn 1
+    3300126: ToggleOn 2
+    3300128: ToggleOn 3
+    4300000: Mesh ControlPanel
+    4300002: Mesh ScopeOn
+    4300004: Mesh ScopeScreen
+    4300006: Mesh ToggleOff
+    4300008: Mesh ToggleOn
+    4300010: Mesh AmmeterBlack3inOn
+    4300012: Mesh AmmeterNeedle
+    4300014: Mesh AmmeterBlack3inOff
+    4300016: Mesh AmmeterNeedle#1
+    4300018: Mesh KnobGreen12mm
+    4300020: Mesh KnobBlue12mm
+    4300022: Mesh Knob31mmPointer
+    4300024: Mesh LightRedOn
+    4300026: Mesh LightRedOff
+    4300028: Mesh LightGreenOn
+    4300030: Mesh Knob19mm
+    4300032: Mesh RCAjackRed
+    4300034: Mesh RCAjackWht
+    4300036: Mesh RCAjackYlw
+    4300038: Mesh LightBlueOn
+    4300040: Mesh LightBlueOff
+    4300042: Mesh KnobRed12mm
+    4300044: Mesh LightWhiteOn
+    4300046: Mesh LightYellowOn
+    4300048: Mesh LightWhiteOff
+    4300050: Mesh LightYellowOff
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0000254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
