@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
-    <Compile Include="Assets\Ex Lumina\Retro Electro Free\Editor\LoadPrefabs.cs" />
+    <Compile Include="Assets\LightningBolt\Editor\LightningBoltEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

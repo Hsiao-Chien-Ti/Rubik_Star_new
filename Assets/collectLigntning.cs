@@ -1,0 +1,38 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class collectLigntning : MonoBehaviour
+{
+    float hitTime=0;
+    float exitTime=0;
+    bool outTrigger=true;
+    int power=0;
+    private void Update()
+    {
+        if(exitTime-hitTime>1f&&outTrigger)
+        {
+            exitTime = 0;
+            hitTime = 0;
+            power++;
+            print(power);
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        print(other.gameObject.name);
+        if(other.gameObject.name=="L_Wall")
+        {
+            hitTime = Time.time;
+            outTrigger = false;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.name == "L_Wall")
+        {
+            exitTime = Time.time;
+            outTrigger = true;
+        }
+    }
+}

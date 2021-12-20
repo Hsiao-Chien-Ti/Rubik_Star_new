@@ -53,7 +53,6 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Ex Lumina\Retro Electro Free\Code\OnOff.cs" />
     <Compile Include="Assets\Script\NowPosition.cs" />
     <Compile Include="Assets\Script\levelEventAnimation.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
@@ -61,7 +60,6 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\Script\textAnimation.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
-    <Compile Include="Assets\Ex Lumina\Retro Electro Free\Demos\Code\On.cs" />
     <Compile Include="Assets\Script\Timer.cs" />
     <Compile Include="Assets\Script\Level4.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
@@ -77,7 +75,6 @@
     <Compile Include="Assets\Script\PivotRotation.cs" />
     <Compile Include="Assets\Script\FaceUp.cs" />
     <Compile Include="Assets\Script\CharacterMoving.cs" />
-    <Compile Include="Assets\Ex Lumina\Retro Electro Free\Code\TraceAnimator.cs" />
     <Compile Include="Assets\BreakableAsteroids\Scripts\Fracture.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\Script\Level3.cs" />
@@ -85,7 +82,6 @@
     <Compile Include="Assets\Script\PlatformCombine.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
-    <Compile Include="Assets\Ex Lumina\Retro Electro Free\Code\Needle.cs" />
     <Compile Include="Assets\ShowHideText.cs" />
     <Compile Include="Assets\Script\Automate.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
@@ -131,12 +127,15 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Ex Lumina\Retro Electro Free\Demos\Code\Off.cs" />
+    <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
+    <Compile Include="Assets\LightningCombine.cs" />
+    <Compile Include="Assets\collectLigntning.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\LeanTween\ReadMe.txt" />
+    <None Include="Assets\LightningBolt\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\city-kit-urban-1\License.txt" />
     <None Include="Assets\Resource\craftpix-net-307725-free-spaceship-3d-low-poly-models-pack\readme.txt" />
@@ -153,7 +152,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Resource\craftpix-net-307725-free-spaceship-3d-low-poly-models-pack\License.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Ex Lumina\Retro Electro Free\README.txt" />
     <None Include="Assets\Resource\animated-characters-2\License.txt" />
     <None Include="Assets\spacekit_2\License.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
