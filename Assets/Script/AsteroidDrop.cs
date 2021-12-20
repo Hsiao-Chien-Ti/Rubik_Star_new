@@ -33,7 +33,7 @@ public class AsteroidDrop : MonoBehaviour
     {
         gameObject.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
         //posList= new List<Vector3> { new Vector3(-1, 1.52f, 1), new Vector3(0, 1.52f, 1), new Vector3(1, 1.52f, 1), new Vector3(-1, 1.52f, 0), new Vector3(0, 1.52f, 0), new Vector3(1, 1.52f, 0), new Vector3(1, 1.52f, -1), new Vector3(0, 1.52f, -1), new Vector3(1, 1.52f, -1) };
-        cubeState = GameObject.FindObjectOfType<CubeState>();
+        cubeState = transform.parent.transform.parent.transform.parent.GetComponent<CubeState>();
         face = transform.parent.parent.name;
         dropTime = Random.Range(dropMin, dropMax);
     }

@@ -10,9 +10,9 @@ public class CubeState : MonoBehaviour
     public List<GameObject> down= new List<GameObject>();
     public List<GameObject> left = new List<GameObject>();
     public List<GameObject> right = new List<GameObject>();
-    public static bool autoRotating = false;
-    public static bool started = false;
-    public static bool dragging = false;
+    public bool autoRotating = false;
+    public bool started = false;
+    public bool dragging = false;
     public GameObject player;
 
     private void FixedUpdate()

@@ -154,12 +154,6 @@ MonoBehaviour:
   dropMin: 35
   dropMax: 40
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &2376688
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -378,12 +372,6 @@ MonoBehaviour:
   dropMin: 35
   dropMax: 40
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &29454420
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -703,12 +691,6 @@ MonoBehaviour:
   dropMin: 5
   dropMax: 10
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &143106874
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -939,12 +921,6 @@ MonoBehaviour:
   dropMin: 15
   dropMax: 20
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &162942043
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2282,12 +2258,6 @@ MonoBehaviour:
   dropMin: 35
   dropMax: 40
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &367238655
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3080,12 +3050,6 @@ MonoBehaviour:
   dropMin: 95
   dropMax: 100
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &437101985
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4710,12 +4674,6 @@ MonoBehaviour:
   dropMin: 85
   dropMax: 90
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &675943745
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5099,12 +5057,6 @@ MonoBehaviour:
   dropMin: 25
   dropMax: 30
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &724129046
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5397,12 +5349,6 @@ MonoBehaviour:
   dropMin: 55
   dropMax: 60
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &755507259
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5597,6 +5543,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1593083266, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: cube
+      value: 
+      objectReference: {fileID: 1876999967}
+    - target: {fileID: 1593083267, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: cubeRotator
+      value: 
+      objectReference: {fileID: 1876999969}
     - target: {fileID: 1593083272, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: timer
       value: 
@@ -6163,12 +6117,6 @@ MonoBehaviour:
   dropMin: 55
   dropMax: 60
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &787939392
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6452,12 +6400,6 @@ MonoBehaviour:
   dropMin: 75
   dropMax: 80
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &824772324
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6769,12 +6711,6 @@ MonoBehaviour:
   dropMin: 105
   dropMax: 120
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &847803910
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7998,12 +7934,6 @@ MonoBehaviour:
   dropMin: 15
   dropMax: 20
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &969310800
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8137,12 +8067,6 @@ MonoBehaviour:
   dropMin: 115
   dropMax: 120
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &982869121
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8476,12 +8400,6 @@ MonoBehaviour:
   dropMin: 45
   dropMax: 50
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1058073820
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9208,6 +9126,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132147569715137, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_PrefabInstance: {fileID: 779169566}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1210325662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210325660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d1a889b8632af46af763402f034a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1221141985
 GameObject:
   m_ObjectHideFlags: 0
@@ -10858,12 +10788,6 @@ MonoBehaviour:
   dropMin: 5
   dropMax: 10
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1340329897
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11157,7 +11081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: {fileID: 888933989}
   text: {fileID: 1293020730}
-  cube: {fileID: 0}
+  cube: {fileID: 1876999973}
   showObj:
   - {fileID: 1774037260}
   - {fileID: 582957424}
@@ -11610,12 +11534,6 @@ MonoBehaviour:
   dropMin: 65
   dropMax: 70
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1398869968
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11830,12 +11748,6 @@ MonoBehaviour:
   dropMin: 55
   dropMax: 60
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1436227416
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13270,12 +13182,6 @@ MonoBehaviour:
   dropMin: 25
   dropMax: 30
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1574322702
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13890,12 +13796,6 @@ MonoBehaviour:
   dropMin: 85
   dropMax: 90
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1661893361
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15493,12 +15393,6 @@ MonoBehaviour:
   dropMin: 25
   dropMax: 30
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1870673549
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15802,6 +15696,9 @@ MonoBehaviour:
   down: []
   left: []
   right: []
+  autoRotating: 0
+  started: 0
+  dragging: 0
   player: {fileID: 1593083264}
 --- !u!114 &1876999971
 MonoBehaviour:
@@ -15822,6 +15719,7 @@ MonoBehaviour:
   tFront: {fileID: 1271386825}
   tBack: {fileID: 1817142588}
   emptyGO: {fileID: 8130674819425276595, guid: e8e9f20bb96c15b42a67f8e297d871df, type: 3}
+  cubeState: {fileID: 0}
 --- !u!114 &1876999972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16293,12 +16191,6 @@ MonoBehaviour:
   dropMin: 95
   dropMax: 100
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1944466804
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16938,12 +16830,6 @@ MonoBehaviour:
   dropMin: 65
   dropMax: 70
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &1982067020
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17609,12 +17495,6 @@ MonoBehaviour:
   dropMin: 45
   dropMax: 50
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &2047835320
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17787,12 +17667,6 @@ MonoBehaviour:
   dropMin: 15
   dropMax: 20
   aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
-  tUp: {fileID: 553506510}
-  tDown: {fileID: 968117586}
-  tLeft: {fileID: 1968821612}
-  tRight: {fileID: 1792607724}
-  tFront: {fileID: 1271386825}
-  tBack: {fileID: 1817142588}
 --- !u!135 &2063552913
 SphereCollider:
   m_ObjectHideFlags: 0

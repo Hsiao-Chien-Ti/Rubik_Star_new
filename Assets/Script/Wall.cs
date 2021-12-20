@@ -10,9 +10,14 @@ public class Wall : MonoBehaviour
     public GameObject wall4;
     public GameObject wall5;
     public GameObject wall6;
+    CubeState cubeState;
+    private void Start()
+    {
+        cubeState = transform.parent.gameObject.GetComponent<CubeState>();
+    }
     private void FixedUpdate()
     {
-        if(CubeState.autoRotating)
+        if(cubeState.autoRotating)
         {
             wall1.SetActive(false);
             wall2.SetActive(false);

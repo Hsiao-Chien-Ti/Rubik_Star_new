@@ -11,7 +11,6 @@ public class ScaleTween : MonoBehaviour
     private void Start()
     {
         LeanTween.scale(gameObject, new Vector3(1, 1, 1), 1f);
-        cube = FindObjectOfType<Automate>();
         text.SetActive(true);
         
     }
@@ -23,7 +22,6 @@ public class ScaleTween : MonoBehaviour
             obj.SetActive(true);
         }
         LeanTween.scale(gameObject, new Vector3(0,0,0), 0.5f).setOnComplete(DestoryMe);
-        cube = FindObjectOfType<Automate>();
         cube.startShuffle = true;
         cube.Shuffle();
     }

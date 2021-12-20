@@ -8,7 +8,6 @@ public class FaceUp : MonoBehaviour
     bool dragging=false;
     private void Start()
     {
-        cubeRotator = FindObjectOfType<RotateBigCube>();
     }
     private void Update()
     {

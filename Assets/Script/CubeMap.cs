@@ -23,58 +23,46 @@ public class CubeMap : MonoBehaviour
     {
         
     }
-    public void Set()
-    {
-        cubeState = FindObjectOfType<CubeState>();
-        UpdateMap(cubeState.front,front);
-        UpdateMap(cubeState.back, back);
-        UpdateMap(cubeState.up, up);
-        UpdateMap(cubeState.down, down);
-        UpdateMap(cubeState.left, left);
-        UpdateMap(cubeState.right, right);
-    }
-    void UpdateMap(List<GameObject> face,Transform side)
-    {
-        int i = 0;
-        foreach(Transform map in side)
-        {
-            if(face[i].name[0]=='F')
-            {
-                map.GetComponent<Image>().color = new Color(1, 0.5f, 0, 1);//import Unity.UI
-            }
-            if(face[i].name[0]=='B')
-            {
-                map.GetComponent<Image>().color = Color.red;
-            }
-            if (face[i].name[0] == 'U')
-            {
-                map.GetComponent<Image>().color = Color.yellow;
-            }
-            if (face[i].name[0] == 'D')
-            {
-                map.GetComponent<Image>().color = Color.white;
-            }
-            if (face[i].name[0] == 'L')
-            {
-                map.GetComponent<Image>().color = Color.green;
-            }
-            if (face[i].name[0] == 'R')
-            {
-                map.GetComponent<Image>().color = Color.blue;
-            }
-            i++;
-        }
-    }
-    public void NowPos(int idx)
-    {
-        //print(idx);
-        foreach(Transform map in up)
-        {
-            if(idx==0)
-            {
-                nowPos.transform.position = map.position;
-            }
-            idx--;
-        }
-    }
+    //public void Set()
+    //{
+    //    cubeState = FindObjectOfType<CubeState>();
+    //    UpdateMap(cubeState.front,front);
+    //    UpdateMap(cubeState.back, back);
+    //    UpdateMap(cubeState.up, up);
+    //    UpdateMap(cubeState.down, down);
+    //    UpdateMap(cubeState.left, left);
+    //    UpdateMap(cubeState.right, right);
+    //}
+    //void UpdateMap(List<GameObject> face,Transform side)
+    //{
+    //    int i = 0;
+    //    foreach(Transform map in side)
+    //    {
+    //        if(face[i].name[0]=='F')
+    //        {
+    //            map.GetComponent<Image>().color = new Color(1, 0.5f, 0, 1);//import Unity.UI
+    //        }
+    //        if(face[i].name[0]=='B')
+    //        {
+    //            map.GetComponent<Image>().color = Color.red;
+    //        }
+    //        if (face[i].name[0] == 'U')
+    //        {
+    //            map.GetComponent<Image>().color = Color.yellow;
+    //        }
+    //        if (face[i].name[0] == 'D')
+    //        {
+    //            map.GetComponent<Image>().color = Color.white;
+    //        }
+    //        if (face[i].name[0] == 'L')
+    //        {
+    //            map.GetComponent<Image>().color = Color.green;
+    //        }
+    //        if (face[i].name[0] == 'R')
+    //        {
+    //            map.GetComponent<Image>().color = Color.blue;
+    //        }
+    //        i++;
+    //    }
+    //}
 }

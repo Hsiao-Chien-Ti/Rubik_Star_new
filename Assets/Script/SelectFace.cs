@@ -11,14 +11,14 @@ public class SelectFace : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        readCube = FindObjectOfType<ReadCube>();
-        cubeState = FindObjectOfType<CubeState>();
+        readCube = GetComponent<ReadCube>();
+        cubeState = GetComponent<CubeState>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)&&!CubeState.autoRotating)
+        if(Input.GetMouseButtonDown(0)&&!cubeState.autoRotating)
         {
             //read the current of the cube
             readCube.ReadState();
@@ -30,47 +30,6 @@ public class SelectFace : MonoBehaviour
                 GameObject face = hit.collider.gameObject;
                 //print(face.transform.parent.name);
                 face.transform.parent.GetComponent<PivotRotation>().Rotate(face);
-                //make a list of all sides
-                //side是單一一塊(GameObject)的list
-                //整個cube是sides的list
-                //List<List<GameObject>> cubeSides = new List<List<GameObject>>()
-                //{
-                //    cubeState.up,
-                //    cubeState.down,
-                //    cubeState.right,
-                //    cubeState.left,
-                //    cubeState.front,
-                //    cubeState.back
-                //};
-                //看剛剛點的那塊是屬於哪個面
-                //foreach(List<GameObject> cubeSide in cubeSides)
-                //{
-                //    if(cubeSide.Contains(face))
-                //    {
-                //        cubeState.PickUp(cubeSide);
-                //        cubeSide[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeSide);
-                //    }
-                //}
-                //if(cubeState.back.Contains(face))//click back side
-                //{
-                //    for(int i=0;i<9;i++)
-                //    {
-                //        if(face==cubeState.back[i])
-                //        {
-                //            if(i==5)
-                //            {
-                //                cubeState.PickUp(cubeState.left);
-                //                cubeState.left[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.left);
-                //            }
-                //            if (i == 3)
-                //            {
-                //                cubeState.PickUp(cubeState.right);
-                //                cubeState.right[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeState.right);
-                //            }
-                //        }
-                //    }
-                //}
-
             }
         }
     }

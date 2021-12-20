@@ -2983,85 +2983,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4296329986988218, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_PrefabInstance: {fileID: 779169566}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &375128681
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 375128682}
-  - component: {fileID: 375128684}
-  - component: {fileID: 375128683}
-  m_Layer: 5
-  m_Name: HammerText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &375128682
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375128681}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 560889378}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132.86, y: 470}
-  m_SizeDelta: {x: 1975.7354, y: 500.0091}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &375128683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375128681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.92941177, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 8974073e7a1c3d34d9b8a7e76aef2c93, type: 3}
-    m_FontSize: 120
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 120
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 3 more left!!!!!
---- !u!222 &375128684
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375128681}
-  m_CullTransparentMesh: 1
 --- !u!1001 &382482109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5235,7 +5156,6 @@ RectTransform:
   - {fileID: 1714364735}
   - {fileID: 219500161}
   - {fileID: 791582221}
-  - {fileID: 375128682}
   - {fileID: 1696075263}
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -7104,6 +7024,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1593083266, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: cube
+      value: 
+      objectReference: {fileID: 1876999967}
+    - target: {fileID: 1593083267, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: cubeRotator
+      value: 
+      objectReference: {fileID: 1876999969}
     - target: {fileID: 1593083268, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -7700,6 +7628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   extra: {fileID: 2137227928}
+  time: 2
 --- !u!114 &791582223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14348,7 +14277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: {fileID: 888933989}
   text: {fileID: 1293020730}
-  cube: {fileID: 0}
+  cube: {fileID: 1876999973}
   showObj:
   - {fileID: 1774037260}
   - {fileID: 582957424}
@@ -17409,7 +17338,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 560889378}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -19161,6 +19090,9 @@ MonoBehaviour:
   down: []
   left: []
   right: []
+  autoRotating: 0
+  started: 0
+  dragging: 0
   player: {fileID: 1593083264}
 --- !u!114 &1876999971
 MonoBehaviour:
@@ -19181,6 +19113,7 @@ MonoBehaviour:
   tFront: {fileID: 1271386825}
   tBack: {fileID: 1817142588}
   emptyGO: {fileID: 8130674819425276595, guid: e8e9f20bb96c15b42a67f8e297d871df, type: 3}
+  cubeState: {fileID: 0}
 --- !u!114 &1876999972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20164,6 +20097,7 @@ MonoBehaviour:
   hammerText: {fileID: 791582220}
   enterAudio: {fileID: 2113657046}
   hammerPanel: {fileID: 1696075262}
+  player: {fileID: 1593083264}
 --- !u!65 &1988603097
 BoxCollider:
   m_ObjectHideFlags: 0

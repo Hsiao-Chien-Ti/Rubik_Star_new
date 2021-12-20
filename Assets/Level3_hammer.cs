@@ -18,14 +18,24 @@ public class Level3_hammer : MonoBehaviour
     public GameObject hammerText;
     public AudioSource enterAudio;
     public GameObject hammerPanel;
+    public GameObject player;
     bool first=true;
     //public GameObject plate;
     private void Start()
     {
         levelController = GameObject.Find("LevelController");
     }
+    private void Update()
+    {
+        if(!first&& player.transform.parent != transform.parent.transform.parent&& GetComponent<BoxCollider>().isTrigger)
+        {
+            GetComponent<BoxCollider>().isTrigger = false;
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.gameObject.CompareTag("Player"))
         {
             for (int i = 0; i < sliderValue.Count; i++)
@@ -60,7 +70,6 @@ public class Level3_hammer : MonoBehaviour
         platform.SetActive(true); 
         cube.SetActive(true);
         hammerText.SetActive(true);
-        GetComponent<BoxCollider>().isTrigger = false;
         factory.GetComponent<BoxCollider>().isTrigger = true;
         factory.GetComponent<Factory>().enabled = true;
     }

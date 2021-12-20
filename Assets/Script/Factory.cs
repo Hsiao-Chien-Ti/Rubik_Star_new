@@ -18,6 +18,7 @@ public class Factory : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        print("trigger");
         if (pieces > 1)
         {
             if (PlatformCombine.finish)

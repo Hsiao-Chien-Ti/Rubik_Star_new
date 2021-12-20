@@ -20,8 +20,8 @@ public class PivotRotation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        readCube = FindObjectOfType<ReadCube>();
-        cubeState = FindObjectOfType<CubeState>();
+        readCube = transform.parent.gameObject.GetComponent<ReadCube>();
+        cubeState = transform.parent.gameObject.GetComponent<CubeState>();
     }
 
     // Update is called once per frame
@@ -30,7 +30,7 @@ public class PivotRotation : MonoBehaviour
         //print(dirfix);
         if(dragging&&!autoRotating&&Automate.finishAuto)
         {
-            CubeState.autoRotating = true;
+            cubeState.autoRotating = true;
             SpinSide();
             if(Input.GetMouseButtonUp(0))//not dragging anymore
             {
@@ -41,7 +41,7 @@ public class PivotRotation : MonoBehaviour
         }
         if(autoRotating)
         {
-            CubeState.autoRotating = true;
+            cubeState.autoRotating = true;
             AutoRotate();
         }
     }
@@ -416,7 +416,7 @@ public class PivotRotation : MonoBehaviour
             transform.parent.transform.localRotation = targetQuaternion;
             cubeState.PutDown(activeSide, cubeState.transform);
             readCube.ReadState();
-            CubeState.autoRotating = false;
+            cubeState.autoRotating = false;
             autoRotating = false;
             dragging = false;
         }

@@ -7,13 +7,14 @@ public class ShowHideText : MonoBehaviour
 {
     // Start is called before the first frame update
     public Image extra;
+    public float time;
     void Start()
     {
         StartCoroutine(hideText());
     }
     IEnumerator hideText()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(time);
         yield return fadeInAndOut(GetComponent<Text>(), false, 0.5f);
     }
     IEnumerator fadeInAndOut(Text targetText, bool fadeIn, float duration)

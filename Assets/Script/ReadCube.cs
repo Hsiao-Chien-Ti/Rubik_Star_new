@@ -22,17 +22,16 @@ public class ReadCube : MonoBehaviour
 
     private int layerMask = 1 << 8;//儲存layer的編號/可以想成是二進位的選單/屬於的layer就是1不屬於的就是0/第8層是faces所以是1<<8
 
-    CubeState cubeState;
-    CubeMap cubeMap;
+    public CubeState cubeState;
     
     // Start is called before the first frame update
     void Start()
     {
         SetRayTransforms();
-        cubeState = FindObjectOfType<CubeState>();//只會有一個CubeState物件->可以用FindObjectOfType找到唯一一個
-        cubeMap = FindObjectOfType<CubeMap>();
+        //cubeState = FindObjectOfType<CubeState>();//只會有一個CubeState物件->可以用FindObjectOfType找到唯一一個
+        cubeState = GetComponent<CubeState>();
         ReadState();
-        CubeState.started = true;
+        cubeState.started = true;
     }
 
     // Update is called once per frame
@@ -42,15 +41,13 @@ public class ReadCube : MonoBehaviour
     }
     public void ReadState()
     {
-        cubeState = FindObjectOfType<CubeState>();//只會有一個CubeState物件->可以用FindObjectOfType找到唯一一個
-        cubeMap = FindObjectOfType<CubeMap>();
+        //cubeState = FindObjectOfType<CubeState>();//只會有一個CubeState物件->可以用FindObjectOfType找到唯一一個
         cubeState.up = ReadFace(upRays, tUp);
         cubeState.down = ReadFace(downRays, tDown);
         cubeState.left = ReadFace(leftRays, tLeft);
         cubeState.right = ReadFace(rightRays, tRight);
         cubeState.front = ReadFace(frontRays, tFront);
         cubeState.back = ReadFace(backRays, tBack);
-        cubeMap.Set();
     }
     void SetRayTransforms()
     {
@@ -76,8 +73,9 @@ public class ReadCube : MonoBehaviour
         {
             for(int x=-1;x<2;x++)
             {
-                Vector3 startPos = new Vector3(rayTransform.localPosition.x + x, rayTransform.localPosition.y + y, rayTransform.localPosition.z);
+                Vector3 startPos = new Vector3(rayTransform.position.x + x, rayTransform.position.y + y, rayTransform.position.z);
                 GameObject rayStart = Instantiate(emptyGO, startPos, Quaternion.identity, rayTransform);//Quaternion.identity->生成的相對rotation都和parent(也就是rayTransform)一樣
+                print(rayStart.transform.localPosition);
                 rayStart.name = rayCount.ToString();
                 rays.Add(rayStart);
                 rayCount++;

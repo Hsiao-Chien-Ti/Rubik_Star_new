@@ -12,11 +12,13 @@ public class CharacterMoving : MonoBehaviour
     private Rigidbody rb;
     float distanceToGround;
     Vector3 Groundnormal;
-    public GameObject planet;
+    public GameObject cube;
+    CubeState cubeState;
 
     private void Start()
     {
         //charCon = GetComponent<CharacterController>();
+        cubeState = cube.GetComponent<CubeState>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         
@@ -51,7 +53,7 @@ public class CharacterMoving : MonoBehaviour
 
         float magnitude = Mathf.Clamp01(movement.magnitude) * speed;
         movement.Normalize();
-        if (CubeState.autoRotating)
+        if (cubeState.autoRotating)
         {
             movement = Vector3.zero;
         }

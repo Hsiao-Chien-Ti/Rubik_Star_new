@@ -20,8 +20,8 @@ public class Automate : MonoBehaviour
     public static bool finishAuto = false;
     private void Start()
     {
-        cubeState = FindObjectOfType<CubeState>();
-        readCube = FindObjectOfType<ReadCube>();
+        cubeState = GetComponent<CubeState>();
+        readCube = GetComponent<ReadCube>();
         //Shuffle();
     }
     private void Update()
@@ -31,7 +31,7 @@ public class Automate : MonoBehaviour
         {
             shuffled = true;
         }
-        if(shuffled&&!CubeState.autoRotating&&!showFlag)
+        if(shuffled&&!cubeState.autoRotating&&!showFlag)
         {
             foreach(GameObject obj in showObjects)
             {
@@ -42,7 +42,7 @@ public class Automate : MonoBehaviour
             //player.SetActive(true);
             //timer.SetActive(true);
         }
-        if(moveList.Count>0&&!CubeState.autoRotating&&CubeState.started)
+        if(moveList.Count>0&&!cubeState.autoRotating&&cubeState.started)
         {
             //print(moveList[0]);
             DoMove(moveList[0]);
@@ -56,7 +56,7 @@ public class Automate : MonoBehaviour
     void DoMove(string move)
     {
         readCube.ReadState();
-        CubeState.autoRotating = true;
+        cubeState.autoRotating = true;
         if(move=="U")
         {
             RotateSide(cubeState.up, -90);
