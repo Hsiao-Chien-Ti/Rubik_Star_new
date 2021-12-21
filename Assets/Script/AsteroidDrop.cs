@@ -17,61 +17,16 @@ public class AsteroidDrop : MonoBehaviour
     float timeStamp;
     bool started = false;
     bool fly = false;
-    GameObject aim;
-    public GameObject aimPrefab;
-    Vector3 rotation;
-    Transform ray;
     int posidx;
     string face;
-    //public Transform tUp;
-    //public Transform tDown;
-    //public Transform tLeft;
-    //public Transform tRight;
-    //public Transform tFront;
-    //public Transform tBack;
     private void Start()
     {
-        //gameObject.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
-        //posList= new List<Vector3> { new Vector3(-1, 1.52f, 1), new Vector3(0, 1.52f, 1), new Vector3(1, 1.52f, 1), new Vector3(-1, 1.52f, 0), new Vector3(0, 1.52f, 0), new Vector3(1, 1.52f, 0), new Vector3(1, 1.52f, -1), new Vector3(0, 1.52f, -1), new Vector3(1, 1.52f, -1) };
         cubeState = transform.parent.transform.parent.transform.parent.GetComponent<CubeState>();
         face = transform.parent.parent.name;
         dropTime = Random.Range(dropMin, dropMax);
     }
     private void FixedUpdate()
     {
-        switch (face)
-        {
-            case "L":
-                posList = cubeState.left.ToArray();
-                //rotation = new Vector3(0, 0, 0);
-                //ray = tLeft;
-                break;
-            case "R":
-                posList = cubeState.right.ToArray();
-                //rotation = new Vector3(0, 180, 0);
-                //ray = tRight;
-                break;
-            case "U":
-                posList = cubeState.up.ToArray();
-                //rotation = new Vector3(90, 90, 0);
-                //ray = tUp;
-                break;
-            case "D":
-                posList = cubeState.down.ToArray();
-                //rotation = new Vector3(270, 90, 0);
-                //ray = tDown;
-                break;
-            case "F":
-                posList = cubeState.front.ToArray();
-                //rotation = new Vector3(0, 270, 0);
-                //ray = tFront;
-                break;
-            case "B":
-                posList = cubeState.back.ToArray();
-                //rotation = new Vector3(0, 90, 0);
-                //ray = tBack;
-                break;
-        }
         if (FindObjectOfType<CharacterMoving>() != null && !started)
         {
             timeStamp = Time.time;
@@ -81,20 +36,34 @@ public class AsteroidDrop : MonoBehaviour
         {
             dropFlag = true;
             posidx = Random.Range(0, 9);
+            switch (face)
+            {
+                case "L":
+                    posList = cubeState.left.ToArray();
+                    break;
+                case "R":
+                    posList = cubeState.right.ToArray();
+                    break;
+                case "U":
+                    posList = cubeState.up.ToArray();
+                    break;
+                case "D":
+                    posList = cubeState.down.ToArray();
+                    break;
+                case "F":
+                    posList = cubeState.front.ToArray();
+                    break;
+                case "B":
+                    posList = cubeState.back.ToArray();
+                    break;
+            }
             Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
-            //aim = GameObject.Instantiate(aimPrefab, posList[posidx].transform.position,Quaternion.identity,ray);
-            //aim.transform.localPosition += ray.right.normalized*0.05f;
             gameObject.transform.localScale*=300;
             gameObject.GetComponent<MeshCollider>().enabled = true;
             Audio.volume = 1.0f;
             Audio.clip = dropAudio;
             Audio.Play();
             fly = true;
-
-            //StartCoroutine(flyIE());
-
-            
-            //rb.useGravity = true;
         }
         if (fly)
         {
@@ -109,13 +78,12 @@ public class AsteroidDrop : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //print(collision.gameObject.name);
+        GetComponent<Fracture>().FractureObject();
         Audio.clip = boomAudio;
         Audio.volume = 0.1f;
         Audio.Play();
-        //Destroy(aim);
-        Audio.SetScheduledEndTime(AudioSettings.dspTime + 0.8f);
-        GetComponent<Fracture>().FractureObject();
+        Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
+        
     }
     IEnumerator flyIE()
     {

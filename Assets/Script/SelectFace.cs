@@ -20,6 +20,7 @@ public class SelectFace : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0)&&!cubeState.autoRotating)
         {
+            cubeState.leftDragging = true;
             //read the current of the cube
             readCube.ReadState();
             //從滑鼠位置發送ray，看碰到哪個面就知道是要轉哪個面

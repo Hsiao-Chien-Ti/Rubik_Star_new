@@ -8,7 +8,8 @@ public class StarDrop : MonoBehaviour
     public AudioSource Audio;
     public AudioClip dropAudio;
     public AudioClip catchAudio;
-    public List<Vector3> posList;
+    public CubeState cubeState;
+    public GameObject[] posList;
     float dropTime;
     bool dropFlag = false;
     public int dropMin;
@@ -16,13 +17,12 @@ public class StarDrop : MonoBehaviour
     float timeStamp;
     bool started = false;
     bool fly = false;
-    GameObject aim;
-    public GameObject aimPrefab;
-    Transform t;
     int posidx;
+    string face;
     private void Start()
     {
-        posList = new List<Vector3> { new Vector3(-1, 1.51f, 1), new Vector3(0, 1.51f, 1), new Vector3(1, 1.51f, 1), new Vector3(-1, 1.51f, 0), new Vector3(0, 1.51f, 0), new Vector3(1, 1.51f, 0), new Vector3(1, 1.51f, -1), new Vector3(0, 1.51f, -1), new Vector3(1, 1.51f, -1) };
+        cubeState = transform.parent.transform.parent.transform.parent.transform.parent.GetComponent<CubeState>();
+        face = transform.parent.parent.parent.name;
         dropTime = Random.Range(dropMin, dropMax);
 
     }
@@ -35,22 +35,42 @@ public class StarDrop : MonoBehaviour
         }
         if (Time.time >= timeStamp + dropTime && Time.time <= timeStamp + dropTime + 1f && dropFlag == false && started)
         {
-            posidx = Random.Range(0, 9);
-            Vector3 initpos = posList[posidx] + new Vector3(0, 11, 0);
-            //aim = GameObject.Instantiate(aimPrefab, posList[posidx], Quaternion.Euler(90, 0, 0));
-            rb.position = initpos;
-            //Audio.volume = 1.0f;
-            //Audio.clip = dropAudio;
-            //Audio.Play();
-            StartCoroutine(playAudio());
-            fly = true;
             dropFlag = true;
-            //rb.useGravity = true;
+            posidx = Random.Range(0, 9);
+            switch (face)
+            {
+                case "L":
+                    posList = cubeState.left.ToArray();
+                    break;
+                case "R":
+                    posList = cubeState.right.ToArray();
+                    break;
+                case "U":
+                    posList = cubeState.up.ToArray();
+                    break;
+                case "D":
+                    posList = cubeState.down.ToArray();
+                    break;
+                case "F":
+                    posList = cubeState.front.ToArray();
+                    break;
+                case "B":
+                    posList = cubeState.back.ToArray();
+                    break;
+            }
+            Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
+            gameObject.transform.localScale *= 300;
+            gameObject.GetComponent<MeshCollider>().enabled = true;
+            Audio.volume = 1.0f;
+            Audio.clip = dropAudio;
+            Audio.Play();
+            fly = true;
         }
         if (fly)
         {
-            transform.position = Vector3.MoveTowards(transform.position, posList[posidx], 0.04f);
-            if (transform.position == posList[posidx])
+
+            transform.position = Vector3.MoveTowards(transform.position, posList[posidx].transform.position, 0.2f);
+            if (transform.position == posList[posidx].transform.position)
             {
                 fly = false;
             }

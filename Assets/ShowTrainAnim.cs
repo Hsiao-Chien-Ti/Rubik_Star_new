@@ -30,10 +30,15 @@ public class ShowTrainAnim : MonoBehaviour
                     {
                         obj.SetActive(false);
                     }
-                    cubeRotator.RotateToTrail();
-                    train.SetActive(true);
+                    StartCoroutine(show());
+                    
                 }
             }
         }
+    }
+    IEnumerator show()
+    {
+        yield return new WaitUntil(cubeRotator.RotateToTrail);
+        train.SetActive(true);
     }
 }

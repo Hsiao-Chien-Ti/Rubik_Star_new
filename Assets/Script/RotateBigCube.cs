@@ -13,10 +13,12 @@ public class RotateBigCube : MonoBehaviour
     public GameObject targetCube;
     float speed = 200f;
     ReadCube readCube;
+    CubeState cubeState;
     // Start is called before the first frame update
     void Start()
     {
-        readCube = FindObjectOfType<ReadCube>();
+        readCube = GetComponent<ReadCube>();
+        cubeState = GetComponent<CubeState>();
     }
 
     // Update is called once per frame
@@ -33,14 +35,16 @@ public class RotateBigCube : MonoBehaviour
     //while the mouse button is held down, the cube can be moved around its central axis
     void Drag()
     {
-        if(Input.GetMouseButton(1))//check whether the mouse button is held / while the mouse button is held down, the cube can be moved around its central axis
+        if(Input.GetMouseButton(1) && !cubeState.leftDragging)//check whether the mouse button is held / while the mouse button is held down, the cube can be moved around its central axis
         {
+            cubeState.rightDragging = true;
             mouseDelta = Input.mousePosition - previousMousePosition;
             mouseDelta *= 0.15f;//reduction of the rotstion speed
             transform.rotation = Quaternion.Euler(mouseDelta.y, -mouseDelta.x, 0) * transform.rotation;
         }
         else //automatically move to the target position
         {
+            cubeState.rightDragging = false;
             if (transform.rotation != targetCube.transform.rotation)
             {
                 //move to the target position by steps
@@ -131,10 +135,12 @@ public class RotateBigCube : MonoBehaviour
     {
         targetCube.transform.Rotate(-180, 0, 0, Space.World);
     }
-    public void RotateToTrail()
+    public bool RotateToTrail()
     {
         GameObject trailDir = GameObject.Find("TrailDirection");
-        targetCube.transform.rotation = Quaternion.RotateTowards(transform.rotation,trailDir.transform.rotation,0.1f);
+        targetCube.transform.rotation = Quaternion.RotateTowards(targetCube.transform.rotation,trailDir.transform.rotation,5f);
+        //print(Quaternion.Angle(targetCube.transform.rotation, trailDir.transform.rotation));
+        return Quaternion.Angle(targetCube.transform.rotation, trailDir.transform.rotation) <= 1;
     }
 
 }

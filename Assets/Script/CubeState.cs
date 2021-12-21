@@ -13,6 +13,8 @@ public class CubeState : MonoBehaviour
     public bool autoRotating = false;
     public bool started = false;
     public bool dragging = false;
+    public bool rightDragging = false;
+    public bool leftDragging = false;
     public GameObject player;
 
     private void FixedUpdate()

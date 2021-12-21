@@ -17,23 +17,26 @@ public class PivotRotation : MonoBehaviour
     private Quaternion targetQuaternion;
     private GameObject face;
     private bool dirfix = false;
+    private RotateBigCube cubeRotator;
     // Start is called before the first frame update
     void Start()
     {
         readCube = transform.parent.gameObject.GetComponent<ReadCube>();
         cubeState = transform.parent.gameObject.GetComponent<CubeState>();
+        cubeRotator = transform.parent.gameObject.GetComponent<RotateBigCube>();
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
         //print(dirfix);
-        if(dragging&&!autoRotating&&Automate.finishAuto)
+        if(dragging&&!autoRotating&&Automate.finishAuto&&!cubeState.rightDragging)
         {
             cubeState.autoRotating = true;
             SpinSide();
             if(Input.GetMouseButtonUp(0))//not dragging anymore
             {
+                cubeState.leftDragging = false;
                 dragging = false;
                 dirfix=false;
                 RotateToRightAngle();//fix the rotation angle
