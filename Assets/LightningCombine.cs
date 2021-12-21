@@ -6,10 +6,8 @@ using UnityEngine.UI;
 public class LightningCombine : MonoBehaviour
 {
     public List<Transform> edges;
-    bool finish = false;
-    public GameObject emptyLightning;
-    public GameObject fullLightning;
-    public Slider slider;
+    public static bool finish = false;
+    public GameObject lightningImg;
 
 
     // Update is called once per frame
@@ -27,21 +25,11 @@ public class LightningCombine : MonoBehaviour
         }
         if(finish)
         {
-            if(slider.value==5)
-            {
-                fullLightning.SetActive(true);
-                emptyLightning.SetActive(false);
-            }
-            else
-            {
-                emptyLightning.SetActive(true);
-                fullLightning.SetActive(false);
-            }
+            lightningImg.SetActive(true);
         }
         else
         {
-            emptyLightning.SetActive(false);
-            fullLightning.SetActive(false);
+            lightningImg.SetActive(false);
         }
 
     }
