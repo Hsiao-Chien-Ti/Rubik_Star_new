@@ -84,10 +84,12 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\ShowHideText.cs" />
     <Compile Include="Assets\Script\Automate.cs" />
+    <Compile Include="Assets\collectLigntning.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\Level3_hammer.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\Script\Gameover.cs" />
@@ -112,6 +114,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Script\AsteroidHit.cs" />
     <Compile Include="Assets\Script\UnlockSkill.cs" />
+    <Compile Include="Assets\LightningCombine.cs" />
     <Compile Include="Assets\Script\AsteroidDrop.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\Player.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\ThirdPersonCamera.cs" />
@@ -127,9 +130,7 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
-    <Compile Include="Assets\LightningCombine.cs" />
-    <Compile Include="Assets\collectLigntning.cs" />
+    <Compile Include="Assets\showLightning.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
