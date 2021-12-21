@@ -131,5 +131,10 @@ public class RotateBigCube : MonoBehaviour
     {
         targetCube.transform.Rotate(-180, 0, 0, Space.World);
     }
+    public void RotateToTrail()
+    {
+        GameObject trailDir = GameObject.Find("TrailDirection");
+        targetCube.transform.rotation = Quaternion.RotateTowards(transform.rotation,trailDir.transform.rotation,0.1f);
+    }
 
 }

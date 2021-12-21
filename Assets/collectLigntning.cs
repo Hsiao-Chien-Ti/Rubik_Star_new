@@ -16,12 +16,14 @@ public class collectLigntning : MonoBehaviour
     {
         if(Time.time-hitTime>1f&&!outTrigger&&!used&&LightningCombine.finish)
         {
-            exitTime = 0;
-            hitTime = 0;
-            power++;
-            used = true;
-            img.GetComponent<SpriteRenderer>().sprite = imgs[power];
-            print(power);
+            if(power<4)
+            {
+                exitTime = 0;
+                hitTime = 0;
+                power++;
+                used = true;
+                img.GetComponent<SpriteRenderer>().sprite = imgs[power];
+            }
         }
     }
     private void OnTriggerEnter(Collider other)
