@@ -12,6 +12,7 @@ public class ShowHideText : MonoBehaviour
     {
         StartCoroutine(hideText());
     }
+    
     IEnumerator hideText()
     {
         yield return new WaitForSeconds(time);

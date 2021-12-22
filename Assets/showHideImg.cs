@@ -16,6 +16,10 @@ public class showHideImg : MonoBehaviour
     {
         StartCoroutine(procedure());
     }
+    public void show()
+    {
+        StartCoroutine(fadeInAndOut(GetComponent<Image>(), true, 0.8f));
+    }
     IEnumerator procedure()
     {
         yield return fadeInAndOut(GetComponent<Image>(), true, 0.8f);
