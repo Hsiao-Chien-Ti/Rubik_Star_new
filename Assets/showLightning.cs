@@ -47,7 +47,7 @@ public class showLightning : MonoBehaviour
                 else if (Time.time-timeStamp>showTime[showIdx])
                 {
                     GetComponent<LineRenderer>().enabled = true;
-                    lightningEnd.GetComponent<collectLigntning>().enabled = true;
+                    //lightningEnd.GetComponent<collectLigntning>().enabled = true;
                     showIdx++;
                 }
             }
@@ -56,7 +56,7 @@ public class showLightning : MonoBehaviour
                 if(Time.time-timeStamp>hideTime[hideIdx])
                 {
                     GetComponent<LineRenderer>().enabled = false;
-                    lightningEnd.GetComponent<collectLigntning>().enabled = false;
+                    //lightningEnd.GetComponent<collectLigntning>().enabled = false;
                     hideIdx++;
                 }
             }

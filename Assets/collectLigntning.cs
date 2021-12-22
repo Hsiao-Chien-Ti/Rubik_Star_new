@@ -15,11 +15,19 @@ public class collectLigntning : MonoBehaviour
     public Text txt;
     private void Update()
     {
+        GetComponent<BoxCollider>().enabled = transform.parent.GetComponent<LineRenderer>().enabled;
+        if(!transform.parent.GetComponent<LineRenderer>().enabled)
+        {
+            hitTime = 0;
+            exitTime = 0;
+            outTrigger = true;
+            used = false;
+        }
         //if(Time.time-hitTime>15f&&used)
         //{
         //    showToast("沒有在這邊一直充電的歐，請轉走一下再來吧", 1);
         //}
-        if(Time.time-hitTime>1f&&!outTrigger&&!used&&LightningCombine.finish)
+        if (Time.time-hitTime>1f&&!outTrigger&&!used&&LightningCombine.finish)
         {
             if(power<4)
             {
@@ -33,8 +41,8 @@ public class collectLigntning : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //print(other.gameObject.name);
-        if (other.gameObject.name=="L_Wall"&&transform.parent.GetComponent<LineRenderer>().enabled)
+        print(other.gameObject.name);
+        if (other.gameObject.name=="L_Wall")
         {
             hitTime = Time.time;
             outTrigger = false;
@@ -42,7 +50,7 @@ public class collectLigntning : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "L_Wall" && transform.parent.GetComponent<LineRenderer>().enabled)
+        if (other.gameObject.name == "L_Wall")
         {
             exitTime = Time.time;
             outTrigger = true;
