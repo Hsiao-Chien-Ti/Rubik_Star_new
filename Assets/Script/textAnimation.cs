@@ -23,7 +23,7 @@ public class textAnimation : MonoBehaviour
         typingAudio.Play();
         while(idx<separate_text.Length)
         {
-            GetComponent<Text>().text += ' '+separate_text[idx];
+            GetComponent<Text>().text +=separate_text[idx];
             //print(GetComponent<Text>().text);
             idx++;
             if(idx==separate_text.Length)

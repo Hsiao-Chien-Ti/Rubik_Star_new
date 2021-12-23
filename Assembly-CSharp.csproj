@@ -87,6 +87,7 @@
     <Compile Include="Assets\MoveDish2D.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\CloseLightningTips.cs" />
     <Compile Include="Assets\ShowHideText.cs" />
     <Compile Include="Assets\Script\Automate.cs" />
     <Compile Include="Assets\collectLigntning.cs" />
@@ -96,11 +97,13 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\MinusPoint.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\Script\Gameover.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Script\ReadCube.cs" />
     <Compile Include="Assets\Script\ScaleTween.cs" />
+    <Compile Include="Assets\OpenFoodGame.cs" />
     <Compile Include="Assets\ShowTrainAnim.cs" />
     <Compile Include="Assets\FoodDrop2D.cs" />
     <Compile Include="Assets\Script\Wall.cs" />
@@ -136,16 +139,14 @@
     <Compile Include="Assets\showLightning.cs" />
     <Compile Include="Assets\BreakableAsteroids\Scripts\ExampleFracture.cs" />
     <Compile Include="Assets\LookAtSate.cs" />
+    <Compile Include="Assets\EndFoodGame.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <Compile Include="Assets\Script\RotateBigCube.cs" />
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\CloseLightningTips.cs" />
-    <Compile Include="Assets\MinusPoint.cs" />
-    <Compile Include="Assets\EndFoodGame.cs" />
-    <Compile Include="Assets\OpenFoodGame.cs" />
+    <Compile Include="Assets\CollectWithTrash.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
