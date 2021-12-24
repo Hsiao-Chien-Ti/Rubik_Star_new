@@ -25,7 +25,7 @@ public class OpenFoodGame : MonoBehaviour
         nowCam.SetActive(false);
         gameCam.SetActive(true);
         canvas.SetActive(true);
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(1f);
         rule.SetActive(false);
         score.SetActive(true);        
         hamburger.SetActive(true);

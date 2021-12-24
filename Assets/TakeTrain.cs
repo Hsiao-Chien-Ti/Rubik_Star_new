@@ -12,6 +12,7 @@ public class TakeTrain : MonoBehaviour
     public GameObject player;
     public Transform playerTrans;
     public RotateBigCube cubeRotator;
+    public GameObject sate;
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
@@ -32,6 +33,7 @@ public class TakeTrain : MonoBehaviour
         player.transform.localScale = new Vector3(10, 10, 10);
         trainCam.SetActive(false);
         sateCam.SetActive(true);
+        player.GetComponent<FaceUp>().cubeRotator = sate.GetComponent<RotateBigCube>();
         
     }
 }
