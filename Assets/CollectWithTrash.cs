@@ -8,6 +8,7 @@ public class CollectWithTrash : MonoBehaviour
     public Slider slider;
     public AudioSource source;
     public showHideImg warning;
+    public static int trash = 0;
     private void OnTriggerEnter(Collider other)
     {
         //print(other.gameObject.name);
@@ -17,6 +18,10 @@ public class CollectWithTrash : MonoBehaviour
             {
                 source.Play();
                 slider.value += 1;
+                if(gameObject.tag=="trash")
+                {
+                    trash++;
+                }
                 Destroy(gameObject);
             }
             else

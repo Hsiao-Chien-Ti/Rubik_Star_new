@@ -22,7 +22,7 @@ public class foodDrop : MonoBehaviour
     {
         if (!collided)
         {
-            rb.velocity = new Vector3(0, -10f, 0);
+            rb.velocity = new Vector3(0, -1000f, 0);
         }
         else
         {
