@@ -63,6 +63,7 @@
     <Compile Include="Assets\Script\Timer.cs" />
     <Compile Include="Assets\Script\Level4.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\CollectWithTrash.cs" />
     <Compile Include="Assets\Script\HelmetDefend.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
@@ -146,7 +147,9 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\CollectWithTrash.cs" />
+    <Compile Include="Assets\Ticket.cs" />
+    <Compile Include="Assets\ShowTicket.cs" />
+    <Compile Include="Assets\TakeTrain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
