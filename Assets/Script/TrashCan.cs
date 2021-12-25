@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TrashCan : MonoBehaviour
 {
     Animator anim;
-
+    public Slider slider;
     public GameObject msg;
-    bool active;
+    
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -28,6 +29,8 @@ public class TrashCan : MonoBehaviour
             if(CollectWithTrash.trash>0)
             {
                 anim.SetTrigger("Trash");
+                slider.value -= CollectWithTrash.trash;
+                CollectWithTrash.trash = 0;
             }
             else
             {

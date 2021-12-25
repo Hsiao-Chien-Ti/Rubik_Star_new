@@ -31,9 +31,9 @@ public class Ticket : MonoBehaviour
         {
             for(int i=0;i<=7;i++)
             {
-                print(Vector3.Distance(edges[2 * i].position, edges[2 * i + 1].position));
                 if(Vector3.Distance(edges[2*i].position,edges[2*i+1].position)>0.05)
                 {
+                    finish = false;
                     break;
                 }
                 if(i==7&& (center.up - edges[0].up).magnitude < 0.05)
@@ -44,7 +44,12 @@ public class Ticket : MonoBehaviour
         }
         if(finish)
         {
+            //station.transform.localScale = new Vector3(40, 40, 40);
             station.SetActive(true);
+        }
+        else
+        {
+            station.SetActive(false);
         }
     }
 }

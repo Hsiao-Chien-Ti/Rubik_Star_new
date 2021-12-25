@@ -5,6 +5,7 @@ using UnityEngine;
 public class CloseLightningTips : MonoBehaviour
 {
     public List<GameObject> showObj;
+    public GameObject cube;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class CloseLightningTips : MonoBehaviour
         {
             obj.SetActive(true);
         }
+        cube.GetComponent<SelectFace>().enabled=true;
         gameObject.SetActive(false);
     }
 }
