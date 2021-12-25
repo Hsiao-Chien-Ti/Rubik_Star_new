@@ -9,11 +9,11 @@ public class PivotRotation : MonoBehaviour
     private Vector3 mouseRef;
     private bool dragging=false;
     private ReadCube readCube;
-    private CubeState cubeState;
+    public CubeState cubeState;
     private float sensitivity = 0.4f;
     private float speed = 300f;
     private Vector3 rotation;
-    private bool autoRotating = false;
+    public bool autoRotating = false;
     private Quaternion targetQuaternion;
     private GameObject face;
     private bool dirfix = false;
@@ -36,7 +36,7 @@ public class PivotRotation : MonoBehaviour
             SpinSide();
             if(Input.GetMouseButtonUp(0))//not dragging anymore
             {
-                cubeState.leftDragging = false;
+                //cubeState.leftDragging = false;
                 dragging = false;
                 dirfix=false;
                 RotateToRightAngle();//fix the rotation angle

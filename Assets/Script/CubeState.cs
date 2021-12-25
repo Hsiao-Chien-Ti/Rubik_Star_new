@@ -22,11 +22,12 @@ public class CubeState : MonoBehaviour
         //print(autoRotating);
         if (autoRotating)
         {
+            leftDragging = true;
             player.GetComponent<BoxCollider>().enabled = false;
         }
         else
         {
-            //print("rotating");
+            leftDragging = false;
             player.GetComponent<BoxCollider>().enabled = true;
         }
     }

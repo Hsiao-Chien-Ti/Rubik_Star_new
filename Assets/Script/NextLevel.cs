@@ -15,10 +15,10 @@ public class NextLevel : MonoBehaviour
     //public Animator anim;
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            hide();
-        }
+        //if(Input.GetKeyDown(KeyCode.A))
+        //{
+        //    hide();
+        //}
     }
     public void hide()
     {

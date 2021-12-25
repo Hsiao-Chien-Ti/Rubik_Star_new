@@ -14,6 +14,7 @@ public class RotateBigCube : MonoBehaviour
     float speed = 200f;
     ReadCube readCube;
     CubeState cubeState;
+    public int rubik = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +41,7 @@ public class RotateBigCube : MonoBehaviour
             cubeState.rightDragging = true;
             mouseDelta = Input.mousePosition - previousMousePosition;
             mouseDelta *= 0.15f;//reduction of the rotstion speed
-            transform.rotation = Quaternion.Euler(mouseDelta.y, -mouseDelta.x, 0) * transform.rotation;
+            transform.rotation = Quaternion.Euler(mouseDelta.y*rubik, -mouseDelta.x , 0) * transform.rotation;
         }
         else //automatically move to the target position
         {
@@ -77,19 +78,19 @@ public class RotateBigCube : MonoBehaviour
             }
             else if(UpLeftSwipe(currentSwipe))
             {
-                targetCube.transform.Rotate(90, 0, 0, Space.World);
+                targetCube.transform.Rotate(90 * rubik, 0, 0, Space.World);
             }
             else if (UpRightSwipe(currentSwipe))
             {
-                targetCube.transform.Rotate(0, 0, -90, Space.World);
+                targetCube.transform.Rotate(0, 0, -90 * rubik, Space.World);
             }
             else if (DownLeftSwipe(currentSwipe))
             {
-                targetCube.transform.Rotate(0, 0, 90, Space.World);
+                targetCube.transform.Rotate(0, 0, 90 * rubik, Space.World);
             }
             else if (DownRightSwipe(currentSwipe))
             {
-                targetCube.transform.Rotate(-90, 0, 0, Space.World);
+                targetCube.transform.Rotate(-90 * rubik, 0, 0, Space.World);
             }
             readCube.ReadState();
         }
@@ -122,6 +123,10 @@ public class RotateBigCube : MonoBehaviour
     public void xRotate()
     {
         targetCube.transform.Rotate(0, 0, 90, Space.World);
+    }
+    public void mxRotate()
+    {
+        targetCube.transform.Rotate(0, 0, 270, Space.World);
     }
     public void zRotate()
     {

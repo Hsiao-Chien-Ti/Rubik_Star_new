@@ -700,7 +700,6 @@ MonoBehaviour:
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &105622475
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1883,7 +1882,6 @@ MonoBehaviour:
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &314156061
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3993,7 +3991,6 @@ MonoBehaviour:
   posList: []
   dropMin: 45
   dropMax: 50
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &620654748
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5713,7 +5710,6 @@ MonoBehaviour:
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &822117442
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6679,7 +6675,6 @@ MonoBehaviour:
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &928624260
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7300,7 +7295,6 @@ MonoBehaviour:
   posList: []
   dropMin: 5
   dropMax: 10
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1012996133
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7360,7 +7354,6 @@ MonoBehaviour:
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1021905985
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8035,7 +8028,6 @@ MonoBehaviour:
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1167104578
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9062,7 +9054,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1804174440935374244, guid: f57500d2bc6e82d4b826626b6f2a3192, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3540013775745998277, guid: f57500d2bc6e82d4b826626b6f2a3192, type: 3}
       propertyPath: m_RootOrder
@@ -9602,7 +9594,6 @@ MonoBehaviour:
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1354279986
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9778,7 +9769,6 @@ MonoBehaviour:
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1365910603
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9978,7 +9968,6 @@ MonoBehaviour:
   posList: []
   dropMin: 45
   dropMax: 50
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1381441683
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10038,7 +10027,6 @@ MonoBehaviour:
   posList: []
   dropMin: 5
   dropMax: 10
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1392257147
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -11068,7 +11056,6 @@ MonoBehaviour:
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1552739493
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12764,7 +12751,6 @@ MonoBehaviour:
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1790021426
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13031,7 +13017,6 @@ MonoBehaviour:
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1836968988
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13091,7 +13076,6 @@ MonoBehaviour:
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 4717630507103805918, guid: 0018e14093796c54da992b3fcd7bc078, type: 3}
 --- !u!135 &1840008318
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13181,7 +13165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.9302521, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.9302521, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13486,6 +13470,8 @@ MonoBehaviour:
   autoRotating: 0
   started: 0
   dragging: 0
+  rightDragging: 0
+  leftDragging: 0
   player: {fileID: 1593083264}
 --- !u!114 &1876999971
 MonoBehaviour:

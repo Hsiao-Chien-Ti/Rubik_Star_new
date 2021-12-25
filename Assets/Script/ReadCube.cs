@@ -75,7 +75,7 @@ public class ReadCube : MonoBehaviour
             {
                 Vector3 startPos = new Vector3(rayTransform.position.x + x, rayTransform.position.y + y, rayTransform.position.z);
                 GameObject rayStart = Instantiate(emptyGO, startPos, Quaternion.identity, rayTransform);//Quaternion.identity->生成的相對rotation都和parent(也就是rayTransform)一樣
-                print(rayStart.transform.localPosition);
+                //print(rayStart.transform.localPosition);
                 rayStart.name = rayCount.ToString();
                 rays.Add(rayStart);
                 rayCount++;

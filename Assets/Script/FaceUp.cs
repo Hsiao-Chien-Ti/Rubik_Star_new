@@ -5,6 +5,7 @@ using UnityEngine;
 public class FaceUp : MonoBehaviour
 {
     public RotateBigCube cubeRotator;
+    public bool rubik = true;
     bool dragging=false;
     private void Start()
     {
@@ -19,21 +20,43 @@ public class FaceUp : MonoBehaviour
         {
             dragging = false;
         }
-        if ((transform.up - Vector3.right).magnitude < 0.05 && !dragging)
+        if (rubik)
         {
-            dragging = true;
-            cubeRotator.xRotate();
+            if ((transform.up - Vector3.right).magnitude < 0.05 && !dragging)
+            {
+                dragging = true;
+                cubeRotator.xRotate();
+            }
+            if ((transform.up - Vector3.forward).magnitude < 0.05 && !dragging)
+            {
+                dragging = true;
+                cubeRotator.zRotate();
+            }
+            if ((transform.up - Vector3.down).magnitude < 0.05 && !dragging)
+            {
+                dragging = true;
+                cubeRotator.myRotate();
+            }
         }
-        if ((transform.up - Vector3.forward).magnitude < 0.05 && !dragging)
+        else
         {
-            dragging = true;
-            cubeRotator.zRotate();
+            if ((transform.up - Vector3.left).magnitude < 0.05 && !dragging)
+            {
+                dragging = true;
+                cubeRotator.mxRotate();
+            }
+            if ((transform.up - Vector3.back).magnitude < 0.05 && !dragging)
+            {
+                dragging = true;
+                cubeRotator.mzRotate();
+            }
+            if ((transform.up - Vector3.down).magnitude < 0.05 && !dragging)
+            {
+                dragging = true;
+                cubeRotator.myRotate();
+            }
         }
-        if ((transform.up - Vector3.down).magnitude < 0.05 && !dragging)
-        {
-            dragging = true;
-            cubeRotator.myRotate();
-        }
+
     }
 
 }

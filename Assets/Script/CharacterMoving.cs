@@ -12,13 +12,11 @@ public class CharacterMoving : MonoBehaviour
     private Rigidbody rb;
     float distanceToGround;
     Vector3 Groundnormal;
-    public GameObject cube;
-    CubeState cubeState;
+    public CubeState cubeState;
 
     private void Start()
     {
         //charCon = GetComponent<CharacterController>();
-        cubeState = cube.GetComponent<CubeState>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         
@@ -26,30 +24,39 @@ public class CharacterMoving : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 movement=Vector3.zero;
-        if((transform.up-Vector3.up).magnitude<0.05)
+        if(cubeState.gameObject.GetComponent<RotateBigCube>().rubik==1)
         {
-             movement= new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            if((transform.up-Vector3.up).magnitude<0.05)
+            {
+                 movement= new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            }
+
+            if ((transform.up- Vector3.left).magnitude < 0.05)
+            {
+                movement = new Vector3(0, Input.GetAxis("Vertical"), -Input.GetAxis("Horizontal"));
+            }
+            if ((transform.up- Vector3.back).magnitude < 0.05)
+            {
+                movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+            }
         }
-        if ((transform.up-Vector3.right).magnitude < 0.05)
+        else
         {
-            movement = new Vector3(0,Input.GetAxis("Horizontal"), -Input.GetAxis("Vertical"));
+            if ((transform.up - Vector3.right).magnitude < 0.05)
+            {
+                movement = new Vector3(0, Input.GetAxis("Vertical"),Input.GetAxis("Horizontal"));
+            }
+            if ((transform.up - Vector3.forward).magnitude < 0.05)
+            {
+                movement = new Vector3(-Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"),0);
+            }
+            if ((transform.up - Vector3.up).magnitude < 0.05)
+            {
+                movement = new Vector3(-Input.GetAxis("Horizontal"), 0, -Input.GetAxis("Vertical"));
+            }
         }
-        if ((transform.up-Vector3.forward).magnitude < 0.05)
-        {
-            movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"),0);
-        }
-        if ((transform.up - Vector3.down).magnitude < 0.05)
-        {
-            movement = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        }
-        if ((transform.up- Vector3.left).magnitude < 0.05)
-        {
-            movement = new Vector3(0, Input.GetAxis("Vertical"), -Input.GetAxis("Horizontal"));
-        }
-        if ((transform.up- Vector3.back).magnitude < 0.05)
-        {
-            movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-        }
+
+
 
         float magnitude = Mathf.Clamp01(movement.magnitude) * speed;
         movement.Normalize();

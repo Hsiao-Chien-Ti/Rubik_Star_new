@@ -18,4 +18,4 @@ EditorBuildSettings:
     path: Assets/Scenes/Level4_rocket_fins.unity
     guid: 1adf50db7f914df4db94161cbfc35561
   m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: d5688fef4112d3b4eb387199ed486b77, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 72aedf3c2cfad934e822e8a3dd3b3485, type: 2}

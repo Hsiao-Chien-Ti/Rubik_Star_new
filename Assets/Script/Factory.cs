@@ -39,7 +39,11 @@ public class Factory : MonoBehaviour
                 {
                     if (sliders[i].value != sliderValue[i])
                     {
+                        txt.text = "Collect more!!!!!";
                         showToast("Collect more!!!!!", 1);
+
+                        //LeanTween.alpha(txt.gameObject, 255, 0.5f);
+                        //LeanTween.alpha(txt.gameObject, 0, 0.5f).setDelay(0.5f);
                         break;
                     }
                     if (i == sliderValue.Count - 1)

@@ -16,15 +16,15 @@ public class NowPosition : MonoBehaviour
     public bool isGround; 
     private void Start()
     {
-        cubeMap = FindObjectOfType<CubeMap>();
-        for(int i=0;i<=2;i++)
-        {
-            for(int j=0;j<=2;j++)
-            {
-                upFace.Add(new Vector3(-1 + j, 1.5f, 1 - i));
-                //print(new Vector3(-1 + i, 1.5f, 1 - j));
-            }
-        }
+        //cubeMap = FindObjectOfType<CubeMap>();
+        //for(int i=0;i<=2;i++)
+        //{
+        //    for(int j=0;j<=2;j++)
+        //    {
+        //        upFace.Add(new Vector3(-1 + j, 1.5f, 1 - i));
+        //        //print(new Vector3(-1 + i, 1.5f, 1 - j));
+        //    }
+        //}
     }
     private void Update()
     {

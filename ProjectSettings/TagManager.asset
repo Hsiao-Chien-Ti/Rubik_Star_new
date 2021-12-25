@@ -10,6 +10,7 @@ TagManager:
   - Platform
   - plate
   - Food
+  - trash
   layers:
   - Default
   - TransparentFX
