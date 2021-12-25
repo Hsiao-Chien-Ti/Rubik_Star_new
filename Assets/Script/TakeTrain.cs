@@ -11,12 +11,27 @@ public class TakeTrain : MonoBehaviour
     public GameObject sateCam;
     public GameObject player;
     public Transform playerTrans;
+    public Transform target;
     public GameObject cube;
     public GameObject sate;
+    public GameObject msg;
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(takeTrain());
+        msg.SetActive(true);
+        msg.transform.forward = Vector3.back;
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        msg.SetActive(false);
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if(Input.GetKeyDown(KeyCode.T))
+        {
+            msg.SetActive(false);
+            StartCoroutine(takeTrain());
+        }
     }
     IEnumerator takeTrain()
     {

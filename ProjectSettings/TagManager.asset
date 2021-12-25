@@ -48,3 +48,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: trash
+    uniqueID: 979661585
+    locked: 0

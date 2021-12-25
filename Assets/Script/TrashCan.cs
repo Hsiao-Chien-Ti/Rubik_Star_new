@@ -14,6 +14,7 @@ public class TrashCan : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        msg.transform.forward = Vector3.forward;
         msg.SetActive(true);
     }
     private void OnTriggerExit(Collider other)
