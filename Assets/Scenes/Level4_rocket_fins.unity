@@ -231,7 +231,6 @@ MonoBehaviour:
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 0}
 --- !u!135 &16950910
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -351,10 +350,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 10
   dropMax: 15
-  aimPrefab: {fileID: 0}
 --- !u!4 &73755596 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4739627520026318, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
@@ -936,7 +935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &219500161
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1032,10 +1031,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 110
   dropMax: 115
-  aimPrefab: {fileID: 0}
 --- !u!1 &247063875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,10 +1282,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 0}
 --- !u!1 &302765006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,10 +1729,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 85
   dropMax: 90
-  aimPrefab: {fileID: 0}
 --- !u!1 &344757649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d98291add9bf7bb4db96e33a3b9a1c02, type: 3}
@@ -1833,10 +1832,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 0}
 --- !u!1 &355641646
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,6 +2154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1001 &363854708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3033,7 +3034,6 @@ MonoBehaviour:
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 0}
 --- !u!135 &449159841
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3166,7 +3166,6 @@ MonoBehaviour:
   posList: []
   dropMin: 115
   dropMax: 120
-  aimPrefab: {fileID: 0}
 --- !u!135 &453299739
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3481,10 +3480,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 0}
 --- !u!4 &471415661 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4360993910136276, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
@@ -3700,7 +3699,6 @@ MonoBehaviour:
   posList: []
   dropMin: 95
   dropMax: 100
-  aimPrefab: {fileID: 0}
 --- !u!135 &513699907
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3833,7 +3831,6 @@ MonoBehaviour:
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 0}
 --- !u!135 &518245725
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4193,6 +4190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1001 &576598688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4296,7 +4295,6 @@ MonoBehaviour:
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 0}
 --- !u!135 &576598692
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4466,7 +4464,6 @@ MonoBehaviour:
   posList: []
   dropMin: 65
   dropMax: 70
-  aimPrefab: {fileID: 0}
 --- !u!135 &588798154
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4804,6 +4801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1 &641293996 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8130674819425276595, guid: e8e9f20bb96c15b42a67f8e297d871df, type: 3}
@@ -5523,7 +5522,6 @@ MonoBehaviour:
   posList: []
   dropMin: 105
   dropMax: 120
-  aimPrefab: {fileID: 0}
 --- !u!135 &728026814
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5731,6 +5729,10 @@ PrefabInstance:
       propertyPath: cube
       value: 
       objectReference: {fileID: 1876999967}
+    - target: {fileID: 1593083266, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: cubeState
+      value: 
+      objectReference: {fileID: 1876999970}
     - target: {fileID: 1593083267, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: cubeRotator
       value: 
@@ -12684,7 +12686,6 @@ MonoBehaviour:
   posList: []
   dropMin: 5
   dropMax: 10
-  aimPrefab: {fileID: 0}
 --- !u!135 &980416561
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12970,10 +12971,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 105
   dropMax: 110
-  aimPrefab: {fileID: 0}
 --- !u!4 &1001581483 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3540013774387304284, guid: f57500d2bc6e82d4b826626b6f2a3192, type: 3}
@@ -13000,10 +13001,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 20
   dropMax: 25
-  aimPrefab: {fileID: 0}
 --- !u!1001 &1008359483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13119,10 +13120,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 75
   dropMax: 80
-  aimPrefab: {fileID: 0}
 --- !u!1 &1052562278
 GameObject:
   m_ObjectHideFlags: 0
@@ -13290,7 +13291,6 @@ MonoBehaviour:
   posList: []
   dropMin: 65
   dropMax: 70
-  aimPrefab: {fileID: 0}
 --- !u!135 &1066788417
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13341,10 +13341,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 5
   dropMax: 10
-  aimPrefab: {fileID: 0}
 --- !u!1 &1089713030 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -13510,10 +13510,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 65
   dropMax: 70
-  aimPrefab: {fileID: 0}
 --- !u!1 &1101549445
 GameObject:
   m_ObjectHideFlags: 0
@@ -13685,7 +13685,6 @@ MonoBehaviour:
   posList: []
   dropMin: 85
   dropMax: 90
-  aimPrefab: {fileID: 0}
 --- !u!135 &1114147376
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14133,10 +14132,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 100
   dropMax: 105
-  aimPrefab: {fileID: 0}
 --- !u!1001 &1199615237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14240,7 +14239,6 @@ MonoBehaviour:
   posList: []
   dropMin: 85
   dropMax: 90
-  aimPrefab: {fileID: 0}
 --- !u!135 &1199615241
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14499,7 +14497,6 @@ MonoBehaviour:
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 0}
 --- !u!135 &1249510138
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14810,7 +14807,6 @@ MonoBehaviour:
   posList: []
   dropMin: 45
   dropMax: 50
-  aimPrefab: {fileID: 0}
 --- !u!135 &1251829148
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14857,6 +14853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1 &1268070734
 GameObject:
   m_ObjectHideFlags: 0
@@ -15044,10 +15042,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 95
   dropMax: 100
-  aimPrefab: {fileID: 0}
 --- !u!1 &1293020730
 GameObject:
   m_ObjectHideFlags: 0
@@ -15742,7 +15740,6 @@ MonoBehaviour:
   posList: []
   dropMin: 5
   dropMax: 10
-  aimPrefab: {fileID: 0}
 --- !u!135 &1313591146
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15875,7 +15872,6 @@ MonoBehaviour:
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 0}
 --- !u!135 &1316367085
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16012,7 +16008,6 @@ MonoBehaviour:
   posList: []
   dropMin: 95
   dropMax: 100
-  aimPrefab: {fileID: 0}
 --- !u!135 &1335915149
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16610,7 +16605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1368157076
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16791,7 +16786,6 @@ MonoBehaviour:
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 0}
 --- !u!135 &1376926129
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17155,7 +17149,6 @@ MonoBehaviour:
   posList: []
   dropMin: 45
   dropMax: 50
-  aimPrefab: {fileID: 0}
 --- !u!135 &1406949745
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17638,7 +17631,6 @@ MonoBehaviour:
   posList: []
   dropMin: 55
   dropMax: 60
-  aimPrefab: {fileID: 0}
 --- !u!135 &1510849063
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -18317,7 +18309,6 @@ MonoBehaviour:
   posList: []
   dropMin: 75
   dropMax: 80
-  aimPrefab: {fileID: 0}
 --- !u!135 &1563771831
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -19041,6 +19032,9 @@ MonoBehaviour:
   - {fileID: 1677271421}
   - {fileID: 1268070734}
   - {fileID: 856859268}
+  resetCam: 0
+  mainCam: {fileID: 0}
+  sateCam: {fileID: 0}
 --- !u!114 &1666813532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19460,10 +19454,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 0}
 --- !u!1 &1707234367 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3540013775745998297, guid: f57500d2bc6e82d4b826626b6f2a3192, type: 3}
@@ -19481,6 +19475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1 &1714364734
 GameObject:
   m_ObjectHideFlags: 0
@@ -20173,7 +20169,6 @@ MonoBehaviour:
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 0}
 --- !u!135 &1805741884
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -20829,7 +20824,6 @@ MonoBehaviour:
   posList: []
   dropMin: 25
   dropMax: 30
-  aimPrefab: {fileID: 0}
 --- !u!135 &1867910410
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -21111,6 +21105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCube: {fileID: 2001395413}
+  rubik: 1
 --- !u!114 &1876999970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21132,6 +21127,8 @@ MonoBehaviour:
   autoRotating: 0
   started: 0
   dragging: 0
+  rightDragging: 0
+  leftDragging: 0
   player: {fileID: 1593083264}
 --- !u!114 &1876999971
 MonoBehaviour:
@@ -21907,7 +21904,6 @@ MonoBehaviour:
   posList: []
   dropMin: 15
   dropMax: 20
-  aimPrefab: {fileID: 0}
 --- !u!135 &2007710124
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -22030,10 +22026,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 45
   dropMax: 50
-  aimPrefab: {fileID: 0}
 --- !u!4 &2079907464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3540013773959622786, guid: f57500d2bc6e82d4b826626b6f2a3192, type: 3}
@@ -22065,10 +22061,10 @@ MonoBehaviour:
   Audio: {fileID: 856859269}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 9f6545a070adaff498a4ce6860bf3081, type: 3}
+  cubeState: {fileID: 0}
   posList: []
   dropMin: 80
   dropMax: 85
-  aimPrefab: {fileID: 0}
 --- !u!1 &2092632365
 GameObject:
   m_ObjectHideFlags: 0
@@ -22298,7 +22294,6 @@ MonoBehaviour:
   posList: []
   dropMin: 35
   dropMax: 40
-  aimPrefab: {fileID: 0}
 --- !u!135 &2107726851
 SphereCollider:
   m_ObjectHideFlags: 0

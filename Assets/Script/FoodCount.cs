@@ -9,6 +9,10 @@ public class FoodCount : MonoBehaviour
     RaycastHit[] hits;
     public LayerMask foodLayer;
     public static int score = 0;
+    private void Start()
+    {
+        score = 0;
+    }
     private void Update()
     {
         //score = 0;

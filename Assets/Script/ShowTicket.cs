@@ -8,7 +8,7 @@ public class ShowTicket : MonoBehaviour
     public Ticket levelController;
     void Update()
     {
-        if(GetComponent<Slider>().value==GetComponent<Slider>().maxValue)
+        if(GetComponent<Slider>().value==GetComponent<Slider>().maxValue&&CollectWithTrash.trash==0)
         {
             levelController.show();
         }

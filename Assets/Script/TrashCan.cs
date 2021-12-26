@@ -22,20 +22,24 @@ public class TrashCan : MonoBehaviour
     {
         msg.SetActive(false);
     }
-    private void OnTriggerStay(Collider other)
+    private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R))
+        if(msg.activeSelf)
         {
-            if(CollectWithTrash.trash>0)
+            if(Input.GetKeyDown(KeyCode.R))
             {
-                anim.SetTrigger("Trash");
-                slider.value -= CollectWithTrash.trash;
-                CollectWithTrash.trash = 0;
-            }
-            else
-            {
-                anim.SetTrigger("noTrash");
+                if(CollectWithTrash.trash>0)
+                {
+                    anim.SetTrigger("Trash");
+                    slider.value -= CollectWithTrash.trash;
+                    CollectWithTrash.trash = 0;
+                }
+                else
+                {
+                    anim.SetTrigger("noTrash");
+                }
             }
         }
     }
+
 }

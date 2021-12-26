@@ -35,7 +35,8 @@ public class EndFoodGame : MonoBehaviour
     {
         plate.GetComponent<MoveDish>().enabled = false;
         score.SetActive(false);
-        timer.GetComponent<Timer>().remainingDuration = FoodCount.score;
+        nowCam.transform.GetChild(0).GetChild(0).gameObject.SetActive(false);
+        timer.GetComponent<Timer>().duration = FoodCount.score;
         time.text = $"{FoodCount.score / 60:00}:{FoodCount.score % 60:00}";        
         text.SetActive(true);
         next.SetActive(true);

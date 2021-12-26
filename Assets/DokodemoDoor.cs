@@ -10,6 +10,7 @@ public class DokodemoDoor : MonoBehaviour
     public GameObject mainCam;
     public GameObject sateCam;
     public Transform playerRubikTrans;
+    public GameObject msg;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +20,28 @@ public class DokodemoDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(msg.activeSelf)
+        {
+            if(Input.GetKeyDown(KeyCode.D))
+            {
+                back();
+            }
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
-
+        //StartCoroutine(back());
+        msg.SetActive(true);
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        msg.SetActive(false);
+    }
+    //IEnumerator back()
+    public void back()
+    {
+        
+        sate.transform.rotation = Quaternion.Euler(0, 0, 0);
         cube.transform.parent.transform.parent = null;
         cube.GetComponent<CubeState>().enabled = true;
         cube.GetComponent<ReadCube>().enabled = true;
@@ -43,6 +61,7 @@ public class DokodemoDoor : MonoBehaviour
         }
 
         sate.transform.parent.transform.parent = cube.transform;
+        //yield return new WaitUntil(cube.GetComponent<RotateBigCube>().RotateToTrail);
         player.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
         player.transform.position = playerRubikTrans.position;
         player.transform.rotation = playerRubikTrans.rotation;

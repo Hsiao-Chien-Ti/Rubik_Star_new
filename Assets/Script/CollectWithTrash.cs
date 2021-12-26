@@ -10,6 +10,11 @@ public class CollectWithTrash : MonoBehaviour
     public GameObject warning;
     public static int trash = 0;
     public Material trashMat;
+    public Ticket levelController;
+    private void Start()
+    {
+        trash = 0;
+    }
     private void OnTriggerEnter(Collider other)
     {
         //print(other.gameObject.name);
@@ -27,7 +32,7 @@ public class CollectWithTrash : MonoBehaviour
             }
             else if(trash!=0)
             {
-                
+                levelController.show();
                 warning.SetActive(true);
                 LeanTween.alphaCanvas(warning.GetComponent<CanvasGroup>(), 1, 1f);
                 LeanTween.alphaCanvas(warning.GetComponent<CanvasGroup>(), 0, 1f).setDelay(2f);

@@ -18,9 +18,9 @@ public class OpenFoodGame : MonoBehaviour
     }
     IEnumerator startGame()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(5f);
         hungryText.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2.25f);
         hungryText.SetActive(false);
         nowCam.SetActive(false);
         gameCam.SetActive(true);

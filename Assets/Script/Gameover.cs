@@ -12,6 +12,9 @@ public class Gameover : MonoBehaviour
     public AudioClip cryclip;
     public AudioClip flatclip;
     public List<GameObject> invisible = new List<GameObject>();
+    public bool resetCam=false;
+    public GameObject mainCam;
+    public GameObject sateCam;
     //public Animator anim;
     private void Update()
     {
@@ -22,6 +25,11 @@ public class Gameover : MonoBehaviour
     }
     public void hide()
     {
+        if(resetCam)
+        {
+            sateCam.SetActive(false);
+            mainCam.SetActive(true);
+        }
         foreach (GameObject obj in invisible)
         {
             obj.SetActive(false);
