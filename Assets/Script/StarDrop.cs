@@ -69,7 +69,7 @@ public class StarDrop : MonoBehaviour
         if (fly)
         {
 
-            transform.position = Vector3.MoveTowards(transform.position, posList[posidx].transform.position, 0.2f);
+            transform.position = Vector3.MoveTowards(transform.position, posList[posidx].transform.position, 0.1f);
             if (transform.position == posList[posidx].transform.position)
             {
                 fly = false;

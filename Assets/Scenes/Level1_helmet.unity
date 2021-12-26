@@ -874,6 +874,7 @@ GameObject:
   - component: {fileID: 132100861}
   - component: {fileID: 132100863}
   - component: {fileID: 132100862}
+  - component: {fileID: 132100864}
   m_Layer: 5
   m_Name: home
   m_TagString: Untagged
@@ -935,6 +936,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132100860}
   m_CullTransparentMesh: 1
+--- !u!114 &132100864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132100860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 132100862}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 909759200}
+        m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
+        m_MethodName: loadHome
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &144909996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2423,6 +2480,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!4 &372913236 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4296329986988218, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
@@ -3699,6 +3758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1 &591636987
 GameObject:
   m_ObjectHideFlags: 0
@@ -4042,6 +4103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1001 &642238761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4999,6 +5062,10 @@ PrefabInstance:
       propertyPath: cube
       value: 
       objectReference: {fileID: 1876999967}
+    - target: {fileID: 1593083266, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: cubeState
+      value: 
+      objectReference: {fileID: 1876999970}
     - target: {fileID: 1593083267, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: cubeRotator
       value: 
@@ -6576,6 +6643,9 @@ MonoBehaviour:
   - {fileID: 1774037260}
   - {fileID: 560889374}
   - {fileID: 1677271421}
+  resetCam: 0
+  mainCam: {fileID: 0}
+  sateCam: {fileID: 0}
 --- !u!1001 &928399848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8530,6 +8600,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1 &1271386824
 GameObject:
   m_ObjectHideFlags: 0
@@ -8676,8 +8748,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -370}
-  m_SizeDelta: {x: 1266.8, y: 184.3755}
+  m_AnchoredPosition: {x: 0, y: -375}
+  m_SizeDelta: {x: 1114.637, y: 184.3755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1293020732
 MonoBehaviour:
@@ -8691,8 +8763,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5781a2f2f42edf488053c4a0b79ffce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: Please collect all the <color=#F7CB45ff>yellow</color> mushrooms and send
-    them to the <color=#F7CB45ff>factory</color> to help Adi repair his safety helmet...
+  text: "\u5B89 \u5168 \u7B2C \u4E00 \uFF01 \u6536 \u96C6  <color=#F7CB45ff>\u9EC3\u8272\u8611\u83C7</color>
+    \u4E26 \u62FF \u53BB  <color=#F7CB45ff>\u5DE5\u5EE0</color>  \u5E6B Adi \u88FD
+    \u4F5C \u4E00 \u9802 \u5B89 \u5168 \u5E3D \u5427\uFF01"
   separate_text: []
   typingAudio: {fileID: 1293020735}
 --- !u!114 &1293020733
@@ -11202,11 +11275,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
---- !u!95 &1593083270 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95340733316770424, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
-  m_PrefabInstance: {fileID: 779169566}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1593083271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4268597916284530, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
@@ -11267,19 +11335,6 @@ MonoBehaviour:
   - m_Rig: {fileID: 527088245}
     m_Active: 1
   m_Effectors: []
---- !u!114 &1593083280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593083264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccb7af92b3be80c46ab41816912fb82e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  catchingStar: {fileID: 1593083270}
 --- !u!1001 &1597370673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12155,6 +12210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc220f835c276948abe94de666509e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubeState: {fileID: 0}
+  autoRotating: 0
 --- !u!1 &1714364734
 GameObject:
   m_ObjectHideFlags: 0
@@ -13449,6 +13506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetCube: {fileID: 2001395413}
+  rubik: 1
 --- !u!114 &1876999970
 MonoBehaviour:
   m_ObjectHideFlags: 0

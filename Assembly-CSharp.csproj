@@ -101,7 +101,9 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
+    <Compile Include="Assets\Black Hole\Script\FreeCamera.cs" />
     <Compile Include="Assets\Script\TrashCan.cs" />
+    <Compile Include="Assets\HomeMenu.cs" />
     <Compile Include="Assets\Script\MinusPoint.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\Script\Gameover.cs" />
@@ -110,6 +112,7 @@
     <Compile Include="Assets\Script\ScaleTween.cs" />
     <Compile Include="Assets\Script\OpenFoodGame.cs" />
     <Compile Include="Assets\Script\ShowTrainAnim.cs" />
+    <Compile Include="Assets\HomeQuit.cs" />
     <Compile Include="Assets\Script\FoodDrop2D.cs" />
     <Compile Include="Assets\Script\Wall.cs" />
     <Compile Include="Assets\Script\ImageFadeIO.cs" />
@@ -130,6 +133,7 @@
     <Compile Include="Assets\Script\Factory.cs" />
     <Compile Include="Assets\Script\SelectFace.cs" />
     <Compile Include="Assets\Script\foodDrop.cs" />
+    <Compile Include="Assets\Black Hole\Script\Demo.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Script\AsteroidHit.cs" />
     <Compile Include="Assets\Script\UnlockSkill.cs" />
@@ -137,8 +141,10 @@
     <Compile Include="Assets\Script\AsteroidDrop.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\Player.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\DokodemoDoor.cs" />
     <Compile Include="Assets\Script\NextLevel.cs" />
     <Compile Include="Assets\Script\CubeState.cs" />
+    <Compile Include="Assets\Level6Machine.cs" />
     <Compile Include="Assets\Script\PivotRotationSate.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
@@ -153,10 +159,7 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Black Hole\Script\FreeCamera.cs" />
-    <Compile Include="Assets\Black Hole\Script\Demo.cs" />
-    <Compile Include="Assets\DokodemoDoor.cs" />
-    <Compile Include="Assets\Level6Machine.cs" />
+    <Compile Include="Assets\ChangeColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

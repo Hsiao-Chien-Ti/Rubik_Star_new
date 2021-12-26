@@ -40,4 +40,8 @@ public class NextLevel : MonoBehaviour
     {
         SceneManager.LoadScene(nextSceneName);
     }
+    public void loadHome()
+    {
+        SceneManager.LoadScene("HomeMenu");
+    }
 }
