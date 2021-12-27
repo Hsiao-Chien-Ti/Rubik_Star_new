@@ -25,6 +25,8 @@ public class DokodemoDoor : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.D))
             {
+                msg.SetActive(false);
+                msgNPC.SetActive(false);
                 back();
             }
         }

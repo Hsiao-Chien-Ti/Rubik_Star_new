@@ -39,6 +39,7 @@ public class TakeTrain : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.T))
             {
                 msg.SetActive(false);
+                msgNPC.SetActive(false);
                 StartCoroutine(takeTrain());
             }
         }
@@ -51,7 +52,7 @@ public class TakeTrain : MonoBehaviour
         train.SetActive(true);
         initpos = trainAnim.transform.position;
         initrot = trainAnim.transform.rotation;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
 
         trainAnim.GetComponent<Animator>().enabled = true;
         mainCam.SetActive(false);
