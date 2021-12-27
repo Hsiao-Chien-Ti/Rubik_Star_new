@@ -8,6 +8,7 @@ public class TrashCan : MonoBehaviour
     Animator anim;
     public Slider slider;
     public GameObject msg;
+    public GameObject msgNPC;
     
     private void Start()
     {
@@ -15,12 +16,14 @@ public class TrashCan : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        msg.transform.forward = Vector3.forward;
+        //msg.transform.forward = Vector3.forward;
         msg.SetActive(true);
+        msgNPC.SetActive(true);
     }
     private void OnTriggerExit(Collider other)
     {
         msg.SetActive(false);
+        msgNPC.SetActive(false);
     }
     private void Update()
     {

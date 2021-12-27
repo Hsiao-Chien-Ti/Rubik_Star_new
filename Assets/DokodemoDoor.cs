@@ -11,6 +11,7 @@ public class DokodemoDoor : MonoBehaviour
     public GameObject sateCam;
     public Transform playerRubikTrans;
     public GameObject msg;
+    public GameObject msgNPC;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,10 +33,12 @@ public class DokodemoDoor : MonoBehaviour
     {
         //StartCoroutine(back());
         msg.SetActive(true);
+        msgNPC.SetActive(true);
     }
     private void OnTriggerExit(Collider other)
     {
         msg.SetActive(false);
+        msgNPC.SetActive(false);
     }
     //IEnumerator back()
     public void back()

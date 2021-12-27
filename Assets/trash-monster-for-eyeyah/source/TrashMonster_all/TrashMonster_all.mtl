@@ -1,0 +1,486 @@
+newmtl can
+Ka 0 0 0
+Kd 0.647059 0.72549 0.803922
+Ks 0.41 0.41 0.41
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl craw
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl dots
+Ka 0 0 0
+Kd 0.980392 0.286275 0.87451
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_BL_a
+Ka 0 0 0
+Kd 0 0 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_BL_b
+Ka 0 0 0
+Kd 0 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_BL_c
+Ka 0 0 0
+Kd 0 0 0.25098
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_white
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl foot
+Ka 0 0 0
+Kd 0.501961 1 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl gum
+Ka 0 0 0
+Kd 0.576471 0 0
+Ks 0.335 0.335 0.335
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl logo
+Ka 0 0 0
+Kd 0.980392 0.286275 0.87451
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle
+Ka 0 0 0
+Kd 0.352941 0.227451 0.152941
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle_label
+Ka 0 0 0
+Kd 1 0.501961 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle_label_B
+Ka 0 0 0
+Kd 0 0.501961 0.752941
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle_plastic
+Ka 0 0 0
+Kd 0.85098 0.996078 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_can
+Ka 0 0 0
+Kd 1 0 0
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_can_B
+Ka 0 0 0
+Kd 0 0.501961 1
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_chicken
+Ka 0 0 0
+Kd 0.968627 0.423529 0.0235294
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_chicken_bones
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_dark
+Ka 0 0 0
+Kd 0.12549 0.12549 0.12549
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_metal
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_papercup
+Ka 0 0 0
+Kd 0.870588 0.870588 0.870588
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_papercup_lid
+Ka 0 0 0
+Kd 0.227451 0.196078 0.152941
+Ks 0.185 0.185 0.185
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_papercup_sleeve
+Ka 0 0 0
+Kd 0.65098 0.545098 0.368627
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_trashPaper
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl tail
+Ka 0 0 0
+Kd 0.501961 1 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl tongue
+Ka 0 0 0
+Kd 0.501961 1 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl tooth
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl can
+Ka 0 0 0
+Kd 0.647059 0.72549 0.803922
+Ks 0.41 0.41 0.41
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl craw
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl dots
+Ka 0 0 0
+Kd 0.980392 0.286275 0.87451
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_BL_a
+Ka 0 0 0
+Kd 0 0 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_BL_b
+Ka 0 0 0
+Kd 0 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_BL_c
+Ka 0 0 0
+Kd 0 0 0.25098
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl eye_white
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl foot
+Ka 0 0 0
+Kd 0.501961 1 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl gum
+Ka 0 0 0
+Kd 0.576471 0 0
+Ks 0.335 0.335 0.335
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl logo
+Ka 0 0 0
+Kd 0.980392 0.286275 0.87451
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle
+Ka 0 0 0
+Kd 0.352941 0.227451 0.152941
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle_label
+Ka 0 0 0
+Kd 1 0.501961 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle_label_B
+Ka 0 0 0
+Kd 0 0.501961 0.752941
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_bottle_plastic
+Ka 0 0 0
+Kd 0.85098 0.996078 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_can
+Ka 0 0 0
+Kd 1 0 0
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_can_B
+Ka 0 0 0
+Kd 0 0.501961 1
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_chicken
+Ka 0 0 0
+Kd 0.968627 0.423529 0.0235294
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_chicken_bones
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_dark
+Ka 0 0 0
+Kd 0.12549 0.12549 0.12549
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_metal
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0.415 0.415 0.415
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_papercup
+Ka 0 0 0
+Kd 0.870588 0.870588 0.870588
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_papercup_lid
+Ka 0 0 0
+Kd 0.227451 0.196078 0.152941
+Ks 0.185 0.185 0.185
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_papercup_sleeve
+Ka 0 0 0
+Kd 0.65098 0.545098 0.368627
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl parts_trashPaper
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl tail
+Ka 0 0 0
+Kd 0.501961 1 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl tongue
+Ka 0 0 0
+Kd 0.501961 1 0
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl tooth
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+

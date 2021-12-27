@@ -50,4 +50,8 @@ public class Gameover : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void loadHome()
+    {
+        SceneManager.LoadScene("HomeMenu");
+    }
 }

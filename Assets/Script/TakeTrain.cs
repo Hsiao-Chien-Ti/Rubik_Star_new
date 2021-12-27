@@ -15,23 +15,22 @@ public class TakeTrain : MonoBehaviour
     public GameObject cube;
     public GameObject sate;
     public GameObject msg;
+    public GameObject msgNPC;
     Vector3 initpos = new Vector3();
     Quaternion initrot = new Quaternion();
-    bool first = true;
     private void Start()
     {
-        //trainInit.position = trainAnim.transform.position;
-        //trainInit.rotation = trainAnim.transform.rotation;
     }
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
         msg.SetActive(true);
-        //msg.transform.forward = Vector3.back;
+        msgNPC.SetActive(true);
     }
     private void OnTriggerExit(Collider other)
     {
         msg.SetActive(false);
+        msgNPC.SetActive(false);
     }
     private void Update()
     {
@@ -52,12 +51,6 @@ public class TakeTrain : MonoBehaviour
         train.SetActive(true);
         initpos = trainAnim.transform.position;
         initrot = trainAnim.transform.rotation;
-        if (!first)
-        {
-            StartCoroutine(train.GetComponent<TrainAnimation>().showObj());
-        }        
-
-        first = false;
         yield return new WaitForSeconds(5f);
 
         trainAnim.GetComponent<Animator>().enabled = true;
@@ -95,15 +88,13 @@ public class TakeTrain : MonoBehaviour
         sate.GetComponent<RotateBigCube>().rubik = -1;
        
         trainCam.SetActive(false);
-        StartCoroutine(train.GetComponent<TrainAnimation>().revert());
         trainAnim.GetComponent<Animator>().enabled = false;
+        train.SetActive(false);
         trainAnim.transform.position = initpos;
         trainAnim.transform.rotation = initrot;
         
-        train.SetActive(false);
-        sateCam.SetActive(true);
-        transform.localScale = new Vector3(40, 40, 40);
-        //gameObject.SetActive(false);
         
+        sateCam.SetActive(true);
+        transform.localScale = new Vector3(40, 40, 40);        
     }
 }

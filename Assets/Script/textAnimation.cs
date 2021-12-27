@@ -11,7 +11,7 @@ public class textAnimation : MonoBehaviour
     
     private void Start()
     {
-        separate_text = text.Split(' ');
+        separate_text = text.Split(',');
         //typingAudio.Play();
         StartCoroutine(Animate());
     }
