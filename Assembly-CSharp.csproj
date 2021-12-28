@@ -62,6 +62,7 @@
     <Compile Include="Assets\Script\textAnimation.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\Script\Timer.cs" />
+    <Compile Include="Assets\NPCFlyout.cs" />
     <Compile Include="Assets\Script\ShowTicket.cs" />
     <Compile Include="Assets\Script\Ticket.cs" />
     <Compile Include="Assets\Script\Level4.cs" />
@@ -160,16 +161,19 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\NPCFlyout.cs" />
+    <Compile Include="Assets\showStair.cs" />
+    <Compile Include="Assets\PickupLadder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Black Hole\ReadMe.txt" />
+    <None Include="Assets\Jiggly Bubble Free\Shaders\Particle Alpha Blended Cubemap.shader" />
     <None Include="Assets\Black Hole\Shader\Black Hole.shader" />
     <None Include="Assets\LeanTween\ReadMe.txt" />
     <None Include="Assets\LightningBolt\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Jiggly Bubble Free\Shaders\Particle Alpha Blended Cubemap Skybox.shader" />
     <None Include="Assets\city-kit-urban-1\License.txt" />
     <None Include="Assets\Resource\craftpix-net-307725-free-spaceship-3d-low-poly-models-pack\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -191,6 +195,7 @@
     <None Include="Assets\Trashcans\README_Import_to_2018-HDRP.txt" />
     <None Include="Assets\Workplace Tools\README.txt" />
     <None Include="Assets\LeanTween\Examples\Archived\2dUnlitWithFade.shader" />
+    <None Include="Assets\Jiggly Bubble Free\readme_Jiggly_Bubble_Free.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\BreakableAsteroids\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

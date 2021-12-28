@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class levelEventAnimation : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class levelEventAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        RenderTexture.active = GetComponent<VideoPlayer>().targetTexture;
+        GL.Clear(true, true, Color.clear);
+        RenderTexture.active = null;
         player.SetActive(false);
         foreach(GameObject obj in hideObj)
         {
@@ -21,14 +25,18 @@ public class levelEventAnimation : MonoBehaviour
         //close();
     }
     public void close()
-    {
+        {
+            //gameObject.GetComponent<VideoPlayer>().targetTexture.Release();
+        print("close");
         foreach (GameObject obj in hideObj)
         {
             obj.transform.localScale = new Vector3(1, 1, 1);
         }
         player.SetActive(true);
         Time.timeScale = 1;
+        //GL.Clear(true, true, Color.clear);
         LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.5f);
+        
         closed=true;
         //DestoryMe();
     }

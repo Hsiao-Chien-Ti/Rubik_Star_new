@@ -9,6 +9,8 @@ public class TrashCan : MonoBehaviour
     public Slider slider;
     public GameObject msg;
     public GameObject msgNPC;
+    public ParticleSystem bubble;
+    public bool isLevel7=false;
     
     private void Start()
     {
@@ -33,9 +35,18 @@ public class TrashCan : MonoBehaviour
             {
                 if(CollectWithTrash.trash>0)
                 {
-                    anim.SetTrigger("Trash");
-                    slider.value -= CollectWithTrash.trash;
-                    CollectWithTrash.trash = 0;
+
+                    if(isLevel7)
+                    {
+                        anim.SetTrigger("Bubble");
+                    }                    
+                    else
+                    {
+                        anim.SetTrigger("Trash");
+                        slider.value -= CollectWithTrash.trash;
+                        CollectWithTrash.trash = 0;
+                    }
+
                 }
                 else
                 {
@@ -43,6 +54,10 @@ public class TrashCan : MonoBehaviour
                 }
             }
         }
+    }
+    public void playBubble()
+    {
+        bubble.Play();
     }
 
 }
