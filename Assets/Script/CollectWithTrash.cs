@@ -32,7 +32,8 @@ public class CollectWithTrash : MonoBehaviour
             }
             else if(trash!=0)
             {
-                levelController.show();
+                StartCoroutine(levelController.show(0));
+                //levelController.show();
                 warning.SetActive(true);
                 LeanTween.alphaCanvas(warning.GetComponent<CanvasGroup>(), 1, 1f);
                 LeanTween.alphaCanvas(warning.GetComponent<CanvasGroup>(), 0, 1f).setDelay(2f);

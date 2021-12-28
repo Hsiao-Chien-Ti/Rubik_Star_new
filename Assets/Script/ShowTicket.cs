@@ -10,7 +10,7 @@ public class ShowTicket : MonoBehaviour
     {
         if(GetComponent<Slider>().value==GetComponent<Slider>().maxValue&&CollectWithTrash.trash==0)
         {
-            levelController.show();
+            StartCoroutine(levelController.show(0));
         }
     }
 }
