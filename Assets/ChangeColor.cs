@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeColor : MonoBehaviour
 {
@@ -11,6 +12,15 @@ public class ChangeColor : MonoBehaviour
     public List<GameObject> down;
     public List<GameObject> left;
     public List<GameObject> right;
+    public Image f;
+    public Image b;
+    public Image u;
+    public Image d;
+    public Image l;
+    public Image r;
+    bool init = true;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +30,192 @@ public class ChangeColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.K))
+        if(!init)
         {
-            for(int i=0;i<26;i++)
+        //Material m = GetComponent<CubeState>().front[0].transform.GetChild(0).GetComponent<Renderer>().material;
+        Vector3 y = front[0].transform.right;
+            //print(y);
+        for(int i=0;i<front.Count;i++)
+        {
+            print(front[i].transform.right);
+            if(Vector3.Distance(front[i].transform.right,y)>0.005)
+            {
+                f.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                break;
+
+            }
+            if (i == 8)
+            {
+                f.color = Color.white;
+            }
+        }
+        y = down[0].transform.right;
+        for (int i = 0; i < down.Count; i++)
+        {
+            if (Vector3.Distance(down[i].transform.right, y) > 0.005)
+            {
+                d.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                break;
+
+            }
+            if (i == 8)
+            {
+                d.color = Color.white;
+            }
+        }
+        y = up[0].transform.right;
+        for (int i = 0; i < up.Count; i++)
+        {
+            if (Vector3.Distance(up[i].transform.right, y) > 0.005)
+            {
+                u.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                break;
+
+            }
+            if (i == 8)
+            {
+                u.color = Color.white;
+            }
+        }
+        y = back[0].transform.right;
+        for (int i = 0; i < back.Count; i++)
+        {
+            if (Vector3.Distance(back[i].transform.right, y) > 0.005)
+            {
+                b.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                break;
+
+            }
+            if (i == 8)
+            {
+                b.color = Color.white;
+            }
+        }
+        y = left[0].transform.right;
+        for (int i = 0; i < front.Count; i++)
+        {
+            if (Vector3.Distance(left[i].transform.right, y) > 0.005)
+            {
+                l.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                break;
+
+            }
+            if (i == 8)
+            {
+                l.color = Color.white;
+            }
+        }
+        y = right[0].transform.right;
+        for (int i = 0; i < right.Count; i++)
+        {
+            if (Vector3.Distance(right[i].transform.right, y) > 0.005)
+            {
+                r.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                break;
+            }
+            if (i == 8)
+            {
+                r.color = Color.white;
+            }
+        }
+        //for (int i = 0; i < 9; i++)
+        //{
+        //    if(GetComponent<CubeState>().front[i].name!="front")
+        //    {
+        //        f.color = new Color(166f / 255, 166f / 255, 166f / 255);
+        //        break;
+
+        //    }
+        //    if (i==8)
+        //    {
+        //        f.color = Color.white;
+        //    }
+        //}
+        //for (int i = 0; i < 9; i++)
+        //{
+        //    if (GetComponent<CubeState>().back[i].name != "back")
+        //    {
+        //        b.color = new Color(166f / 255, 166f / 255, 166f / 255);
+        //        break;
+
+        //    }
+        //    if (i == 8)
+        //    {
+        //        b.color = Color.white;
+        //    }
+        //}
+        ////m = GetComponent<CubeState>().back[0].transform.GetChild(0).GetComponent<Renderer>().material;
+        //for (int i = 0; i < 9; i++)
+        //{
+        //    if (GetComponent<CubeState>().back[i].transform.GetChild(0).GetComponent<Renderer>().material != m)
+        //    {
+        //        b.color = new Color(166f / 255, 166f / 255, 166f / 255);
+        //        break;
+        //    }
+        //    if (i == 8)
+        //    {
+        //        b.color = Color.white;
+        //    }
+        //}
+        ////m = GetComponent<CubeState>().up[0].transform.GetChild(0).GetComponent<Renderer>().material;
+        //for (int i = 0; i < 9; i++)
+        //{
+        //    if (GetComponent<CubeState>().up[i].transform.GetChild(0).GetComponent<Renderer>().material != m)
+        //    {
+        //        u.color = new Color(166f / 255, 166f / 255, 166f / 255);
+        //        break;
+        //    }
+        //    if (i == 8)
+        //    {
+        //        u.color = Color.white;
+        //    }
+        //}
+        ////m = GetComponent<CubeState>().down[0].transform.GetChild(0).GetComponent<Renderer>().material;
+        //for (int i = 0; i < 9; i++)
+        //{
+        //    if (GetComponent<CubeState>().down[i].transform.GetChild(0).GetComponent<Renderer>().material != m)
+        //    {
+        //        d.color = new Color(166f / 255, 166f / 255, 166f / 255);
+        //        break;
+        //    }
+        //    if (i == 8)
+        //    {
+        //        d.color = Color.white;
+        //    }
+        //}
+        ////m = GetComponent<CubeState>().left[0].transform.GetChild(0).GetComponent<Renderer>().material;
+        //for (int i = 0; i < 9; i++)
+        //{
+        //    if (GetComponent<CubeState>().left[i].transform.GetChild(0).GetComponent<Renderer>().material != m)
+        //    {
+        //        l.color = new Color(166f / 255, 166f / 255, 166f / 255);
+        //        break;
+        //    }
+        //    if (i == 8)
+        //    {
+        //        l.color = Color.white;
+        //    }
+        //}
+        ////m = GetComponent<CubeState>().right[0].transform.GetChild(0).GetComponent<Renderer>().material;
+        //for (int i = 0; i < 9; i++)
+        //{
+        //    if (GetComponent<CubeState>().right[i].transform.GetChild(0).GetComponent<Renderer>().material != m)
+        //    {
+        //        r.color = new Color(166f / 255, 166f / 255, 166f / 255);
+        //        break;
+        //    }
+        //    if (i == 8)
+        //    {
+        //        r.color = Color.white;
+        //    }
+        //}
+
+        }
+
+    }
+    public void change()
+    {
+            for(int i=0;i<9;i++)
             {
                 front[i].transform.GetChild(0).GetComponent <Renderer>().material= mats[0];
                 back[i].transform.GetChild(0).GetComponent<Renderer>().material = mats[1];
@@ -31,6 +224,6 @@ public class ChangeColor : MonoBehaviour
                 left[i].transform.GetChild(0).GetComponent<Renderer>().material = mats[4];
                 right[i].transform.GetChild(0).GetComponent<Renderer>().material = mats[5];
             }
-        }
+        init = false;
     }
 }

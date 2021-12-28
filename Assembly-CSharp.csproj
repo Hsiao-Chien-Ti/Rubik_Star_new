@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\Ticket.cs" />
     <Compile Include="Assets\Script\Level4.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\Advanced Object Pooling\Scripts\FixedObjectPool.cs" />
     <Compile Include="Assets\Script\CollectWithTrash.cs" />
     <Compile Include="Assets\Script\HelmetDefend.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Script\TrainAnimation.cs" />
     <Compile Include="Assets\Script\showHideImg.cs" />
     <Compile Include="Assets\Script\StarDrop.cs" />
+    <Compile Include="Assets\Particle System Color Changer\Scripts\PS_ColorChangerEditor.cs" />
     <Compile Include="Assets\Script\CubeMap.cs" />
     <Compile Include="Assets\Script\CollectBattery.cs" />
     <Compile Include="Assets\Script\MoveDish.cs" />
@@ -85,16 +87,20 @@
     <Compile Include="Assets\Script\FaceUp.cs" />
     <Compile Include="Assets\ChangeColor.cs" />
     <Compile Include="Assets\Script\CharacterMoving.cs" />
+    <Compile Include="Assets\LadderToColor.cs" />
     <Compile Include="Assets\BreakableAsteroids\Scripts\Fracture.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\Script\Level3.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
     <Compile Include="Assets\Script\PlatformCombine.cs" />
+    <Compile Include="Assets\Particle System Color Changer\Scripts\PS_ColorChanger.cs" />
     <Compile Include="Assets\Script\MoveDish2D.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_Obj.cs" />
     <Compile Include="Assets\Script\CloseLightningTips.cs" />
     <Compile Include="Assets\Script\ShowHideText.cs" />
+    <Compile Include="Assets\Advanced Object Pooling\Scripts\ObjectPool.cs" />
     <Compile Include="Assets\Script\Automate.cs" />
     <Compile Include="Assets\Script\collectLigntning.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
@@ -112,6 +118,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Script\ReadCube.cs" />
     <Compile Include="Assets\Script\ScaleTween.cs" />
+    <Compile Include="Assets\RocketGlow.cs" />
     <Compile Include="Assets\Script\OpenFoodGame.cs" />
     <Compile Include="Assets\Script\ShowTrainAnim.cs" />
     <Compile Include="Assets\HomeQuit.cs" />
@@ -124,6 +131,7 @@
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Script\Level3_hammer_hit.cs" />
     <Compile Include="Assets\Script\RocketCompose.cs" />
+    <Compile Include="Assets\Advanced Object Pooling\Scripts\DynamicObjectPool.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\Script\CatchingStar.cs" />
     <Compile Include="Assets\Script\showDrawing.cs" />
@@ -133,6 +141,8 @@
     <Compile Include="Assets\Script\Collect.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\Particle System Color Changer\Example\Scripts\PS_ExampleRandomColorChange.cs" />
+    <Compile Include="Assets\ColorBallMoving.cs" />
     <Compile Include="Assets\Script\UsingNet.cs" />
     <Compile Include="Assets\Script\Factory.cs" />
     <Compile Include="Assets\Script\SelectFace.cs" />
@@ -140,6 +150,7 @@
     <Compile Include="Assets\Black Hole\Script\Demo.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Script\AsteroidHit.cs" />
+    <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_ObjSpawner.cs" />
     <Compile Include="Assets\Script\UnlockSkill.cs" />
     <Compile Include="Assets\Script\LightningCombine.cs" />
     <Compile Include="Assets\Script\AsteroidDrop.cs" />
@@ -164,16 +175,12 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\RocketGlow.cs" />
-    <Compile Include="Assets\Particle System Color Changer\Example\Scripts\PS_ExampleRandomColorChange.cs" />
-    <Compile Include="Assets\Particle System Color Changer\Scripts\PS_ColorChanger.cs" />
-    <Compile Include="Assets\Particle System Color Changer\Scripts\PS_ColorChangerEditor.cs" />
-    <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_Obj.cs" />
-    <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_ObjSpawner.cs" />
-    <Compile Include="Assets\Advanced Object Pooling\Scripts\ObjectPool.cs" />
-    <Compile Include="Assets\Advanced Object Pooling\Scripts\DynamicObjectPool.cs" />
-    <Compile Include="Assets\Advanced Object Pooling\Scripts\FixedObjectPool.cs" />
-    <Compile Include="Assets\ColorBallMoving.cs" />
+    <Compile Include="Assets\ColorToCube.cs" />
+    <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\RotateItem.cs" />
+    <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\RepositionObject.cs" />
+    <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\AspectRatioScreen.cs" />
+    <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\DisplayObjects.cs" />
+    <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\ItemInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

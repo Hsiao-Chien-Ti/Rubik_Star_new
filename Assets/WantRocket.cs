@@ -9,7 +9,11 @@ public class WantRocket : MonoBehaviour
     public Text collectTxt;
     public Text highTxt;
     public Ticket levelController;
-    
+    public GameObject player;
+    public GameObject playerNew;
+    public GameObject ladder;
+    public GameObject ladderNew;
+    bool first = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,15 +39,20 @@ public class WantRocket : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            if (slider.value == slider.maxValue && CollectWithTrash.trash == 0)
+            player = collision.gameObject;
+            if(PickupLadder.picked&first)
             {
-                collision.gameObject.GetComponent<Animator>().SetTrigger("WantRocket");
+                StartCoroutine(putDown());
+                first = false;
+            }
+            else if (slider.value == slider.maxValue && CollectWithTrash.trash == 0&&first)
+            {
+                player.GetComponent<Animator>().SetTrigger("WantRocket");
                 FadeIn(highTxt,2.5f);
                 StartCoroutine(levelController.show(3.5f));
                 //levelController.show();
             }
-                
-            else
+            else if(!first)
             {
                 collectTxt.text = "Collect More!!!!!";
                 FadeIn(collectTxt,0);
@@ -57,5 +66,23 @@ public class WantRocket : MonoBehaviour
     void FadeOut(Text txt)
     {
         LeanTween.alphaCanvas(txt.GetComponent<CanvasGroup>(), 0, 0.5f).setDelay(1f);
+    }
+    //IEnumerator hidePlayer()
+    //{
+    //    yield return new WaitForSeconds(1.5f);
+    //    player.SetActive(false);
+    //    ladder.SetActive(true);
+    //}
+    IEnumerator putDown()
+    {
+        player.SetActive(false);
+        playerNew.SetActive(true);
+        ladder.SetActive(true);
+        playerNew.GetComponent<Animator>().Play("PutDownLadder");
+        yield return new WaitForSeconds(2f);
+        ladder.SetActive(false);
+        ladderNew.SetActive(true);
+        playerNew.GetComponent<Animator>().Play("UpLadder");
+        StartCoroutine(GetComponent<LadderToColor>().climb());
     }
 }
