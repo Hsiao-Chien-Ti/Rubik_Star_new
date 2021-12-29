@@ -39,6 +39,8 @@ public class TrashCan : MonoBehaviour
                     if(isLevel7)
                     {
                         anim.SetTrigger("Bubble");
+                        slider.value -= CollectWithTrash.trash;
+                        CollectWithTrash.trash = 0;
                     }                    
                     else
                     {

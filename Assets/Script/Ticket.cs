@@ -30,19 +30,19 @@ public class Ticket : MonoBehaviour
     {
         if(active)
         {
-            //for (int i = 0; i <= 7; i++)
-            //{
-            //    if (Vector3.Distance(edges[2 * i].position, edges[2 * i + 1].position) > 0.05)
-            //    {
-            //        finish = false;
-            //        break;
-            //    }
-            //    if (i == 7 && (center.up - edges[0].up).magnitude < 0.05)
-            //    {
-            //        finish = true;
-            //    }
-            //}
-            finish = true;
+            for (int i = 0; i <= 7; i++)
+            {
+                if (Vector3.Distance(edges[2 * i].position, edges[2 * i + 1].position) > 0.05)
+                {
+                    finish = false;
+                    break;
+                }
+                if (i == 7 && (center.up - edges[0].up).magnitude < 0.05)
+                {
+                    finish = true;
+                }
+            }
+            //finish = true;
         }
         if(finish)
         {

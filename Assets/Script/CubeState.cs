@@ -50,9 +50,10 @@ public class CubeState : MonoBehaviour
         //Start rotating
         //cubeSide[4].transform.parent.GetComponent<PivotRotation>().Rotate(cubeSide);
     }
-    public void PutDown(List<GameObject> littleCubes,Transform pivot)
+    public IEnumerator PutDown(List<GameObject> littleCubes,Transform pivot)
     {
         //player.transform.parent = null;
+        yield return new WaitUntil(() => littleCubes.Count == 9);
         foreach(GameObject littleCube in littleCubes)
         {
             if(littleCube!=littleCubes[4])

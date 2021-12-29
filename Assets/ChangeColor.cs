@@ -41,82 +41,95 @@ public class ChangeColor : MonoBehaviour
             if(Vector3.Distance(front[i].transform.right,y)>0.005)
             {
                 f.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                    ColorToFinish.finish[0] = 0 ;
                 break;
 
             }
             if (i == 8)
             {
                 f.color = Color.white;
-            }
-        }
-        y = down[0].transform.right;
-        for (int i = 0; i < down.Count; i++)
-        {
-            if (Vector3.Distance(down[i].transform.right, y) > 0.005)
-            {
-                d.color = new Color(166f / 255, 166f / 255, 166f / 255);
-                break;
-
-            }
-            if (i == 8)
-            {
-                d.color = Color.white;
-            }
-        }
-        y = up[0].transform.right;
-        for (int i = 0; i < up.Count; i++)
-        {
-            if (Vector3.Distance(up[i].transform.right, y) > 0.005)
-            {
-                u.color = new Color(166f / 255, 166f / 255, 166f / 255);
-                break;
-
-            }
-            if (i == 8)
-            {
-                u.color = Color.white;
-            }
-        }
+                    ColorToFinish.finish[0] = 1;
+                }
+        }       
         y = back[0].transform.right;
         for (int i = 0; i < back.Count; i++)
         {
             if (Vector3.Distance(back[i].transform.right, y) > 0.005)
             {
                 b.color = new Color(166f / 255, 166f / 255, 166f / 255);
-                break;
+                    ColorToFinish.finish[3] = 0;
+                    break;
 
             }
             if (i == 8)
             {
                 b.color = Color.white;
+                    ColorToFinish.finish[3] = 1;
+                }
+        }
+        y = down[0].transform.up;
+        for (int i = 0; i < down.Count; i++)
+        {
+            if (Vector3.Distance(down[i].transform.up, y) > 0.005)
+            {
+                d.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                    ColorToFinish.finish[1] = 0;
+                    break;
+
+            }
+            if (i == 8)
+            {
+                d.color = Color.white;
+                ColorToFinish.finish[1] = 1;
             }
         }
-        y = left[0].transform.right;
+        y = up[0].transform.up;
+        for (int i = 0; i < up.Count; i++)
+        {
+            if (Vector3.Distance(up[i].transform.up, y) > 0.005)
+            {
+                u.color = new Color(166f / 255, 166f / 255, 166f / 255);
+                    ColorToFinish.finish[2] = 0;
+                    break;
+
+            }
+            if (i == 8)
+            {
+                u.color = Color.white;
+                    ColorToFinish.finish[2] = 1;
+                }
+        }
+ 
+        y = left[0].transform.forward;
         for (int i = 0; i < front.Count; i++)
         {
-            if (Vector3.Distance(left[i].transform.right, y) > 0.005)
+            if (Vector3.Distance(left[i].transform.forward, y) > 0.005)
             {
                 l.color = new Color(166f / 255, 166f / 255, 166f / 255);
-                break;
+                    ColorToFinish.finish[4] = 0;
+                    break;
 
             }
             if (i == 8)
             {
                 l.color = Color.white;
-            }
+                    ColorToFinish.finish[4] = 1;
+                }
         }
-        y = right[0].transform.right;
+        y = right[0].transform.forward;
         for (int i = 0; i < right.Count; i++)
         {
-            if (Vector3.Distance(right[i].transform.right, y) > 0.005)
+            if (Vector3.Distance(right[i].transform.forward, y) > 0.005)
             {
                 r.color = new Color(166f / 255, 166f / 255, 166f / 255);
-                break;
+                    ColorToFinish.finish[5] = 0;
+                    break;
             }
             if (i == 8)
             {
                 r.color = Color.white;
-            }
+                    ColorToFinish.finish[5] = 1;
+                }
         }
         //for (int i = 0; i < 9; i++)
         //{

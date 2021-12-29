@@ -46,6 +46,7 @@ public class TakeTrain : MonoBehaviour
     }
     IEnumerator takeTrain()
     {
+        cube.GetComponent<RotateBigCube>().isTrain = true;
         player.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
         gameObject.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
         yield return new WaitUntil(cube.GetComponent<RotateBigCube>().RotateToTrail);
@@ -58,6 +59,7 @@ public class TakeTrain : MonoBehaviour
         mainCam.SetActive(false);
         trainCam.SetActive(true);
         yield return new WaitForSeconds(4f);
+        cube.GetComponent<RotateBigCube>().isTrain = false;
         player.transform.position = playerTrans.position;
         player.transform.localScale = new Vector3(10, 10, 10);
 
@@ -96,6 +98,7 @@ public class TakeTrain : MonoBehaviour
         
         
         sateCam.SetActive(true);
-        transform.localScale = new Vector3(40, 40, 40);        
+        transform.localScale = new Vector3(40, 40, 40);
+
     }
 }

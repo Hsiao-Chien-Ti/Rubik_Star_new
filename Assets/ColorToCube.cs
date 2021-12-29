@@ -7,6 +7,8 @@ public class ColorToCube : MonoBehaviour
     public List<GameObject> showObj;
     public List<GameObject> hideObj;
     public GameObject cube;
+    public GameObject player;
+    public GameObject rocket;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,8 @@ public class ColorToCube : MonoBehaviour
     }
     IEnumerator back()
     {
+        player.GetComponent<FaceUp>().enabled = false;
+        rocket.GetComponent<WantRocket>().enabled = false;
         yield return new WaitForSeconds(6f);
         foreach (GameObject obj in showObj)
         {
@@ -30,6 +34,8 @@ public class ColorToCube : MonoBehaviour
         {
             obj.SetActive(false);
         }
+
+
         
     }
 }

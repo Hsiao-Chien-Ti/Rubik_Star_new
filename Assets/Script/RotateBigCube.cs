@@ -15,6 +15,7 @@ public class RotateBigCube : MonoBehaviour
     ReadCube readCube;
     CubeState cubeState;
     public int rubik = 1;
+    public bool isTrain = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +37,7 @@ public class RotateBigCube : MonoBehaviour
     //while the mouse button is held down, the cube can be moved around its central axis
     void Drag()
     {
-        if(Input.GetMouseButton(1) && !cubeState.leftDragging)//check whether the mouse button is held / while the mouse button is held down, the cube can be moved around its central axis
+        if(Input.GetMouseButton(1) && !cubeState.leftDragging&&!isTrain)//check whether the mouse button is held / while the mouse button is held down, the cube can be moved around its central axis
         {
             cubeState.rightDragging = true;
             mouseDelta = Input.mousePosition - previousMousePosition;
@@ -58,12 +59,12 @@ public class RotateBigCube : MonoBehaviour
     }
     void Swipe()
     {
-        if(Input.GetMouseButtonDown(1))//right click on the mouse
+        if(Input.GetMouseButtonDown(1)&&!cubeState.leftDragging && !isTrain)//right click on the mouse
         {
             //get the position of the first mouse click
             firstPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         }
-        if(Input.GetMouseButtonUp(1))
+        if(Input.GetMouseButtonUp(1) && !cubeState.leftDragging && !isTrain)
         {
             secondPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             currentSwipe = new Vector2(secondPressPos.x - firstPressPos.x, secondPressPos.y - firstPressPos.y);

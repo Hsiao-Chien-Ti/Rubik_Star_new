@@ -140,7 +140,7 @@ public class Automate : MonoBehaviour
     {
         List<string> moves = new List<string>();
         //int shuffleLength = Random.Range(10, 30);
-        int shuffleLength = 1;
+        int shuffleLength = 15;
         for (int i=0;i<shuffleLength;i++)
         {
             int randomMove = Random.Range(0, allMove.Count);

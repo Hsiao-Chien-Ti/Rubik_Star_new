@@ -89,8 +89,8 @@ public class CharacterMoving : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
     }
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    print(collision.gameObject.name);
-    //}
+    private void OnCollisionEnter(Collision collision)
+    {
+        print(collision.gameObject.name);
+    }
 }
