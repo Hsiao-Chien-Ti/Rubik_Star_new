@@ -149,6 +149,7 @@
     <Compile Include="Assets\Particle System Color Changer\Example\Scripts\PS_ExampleRandomColorChange.cs" />
     <Compile Include="Assets\ColorBallMoving.cs" />
     <Compile Include="Assets\Script\UsingNet.cs" />
+    <Compile Include="Assets\ColorToFinish.cs" />
     <Compile Include="Assets\Script\Factory.cs" />
     <Compile Include="Assets\Script\SelectFace.cs" />
     <Compile Include="Assets\Script\foodDrop.cs" />
@@ -181,7 +182,6 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\ColorToFinish.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
