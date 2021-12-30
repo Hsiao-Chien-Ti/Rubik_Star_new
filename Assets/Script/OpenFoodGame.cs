@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,6 +12,7 @@ public class OpenFoodGame : MonoBehaviour
     public GameObject rule;
     public GameObject score;
     public GameObject hungryText;
+    public AudioSource HungryAudio;
     void Start()
     {
         StartCoroutine(startGame());
@@ -21,11 +22,12 @@ public class OpenFoodGame : MonoBehaviour
         yield return new WaitForSeconds(5f);
         hungryText.SetActive(true);
         yield return new WaitForSeconds(2.25f);
+        HungryAudio.Stop();
         hungryText.SetActive(false);
         nowCam.SetActive(false);
         gameCam.SetActive(true);
         canvas.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         rule.SetActive(false);
         score.SetActive(true);        
         hamburger.SetActive(true);

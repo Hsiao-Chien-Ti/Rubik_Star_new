@@ -1,9 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Level5_train.unity
+- path: Assets/Scenes/Level7_rocket_top.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Scenes/Level1_helmet.unity
-  isLoaded: 0
-  isActive: 0
   isSubScene: 0
