@@ -8,6 +8,7 @@ public class levelEventAnimation : MonoBehaviour
     public bool closed = false;
     public GameObject player;
     public List<GameObject> hideObj;
+    public AudioSource backgroundAudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,9 @@ public class levelEventAnimation : MonoBehaviour
         player.SetActive(false);
         foreach(GameObject obj in hideObj)
         {
-            obj.transform.localScale = new Vector3(0, 0, 0);
+            obj.SetActive(false);
         }
+        backgroundAudio.Pause();
         LeanTween.scale(gameObject, new Vector3(1, 1, 1), 1f).setIgnoreTimeScale(true);
         Time.timeScale = 0;
         
@@ -30,11 +32,12 @@ public class levelEventAnimation : MonoBehaviour
         print("close");
         foreach (GameObject obj in hideObj)
         {
-            obj.transform.localScale = new Vector3(1, 1, 1);
+            obj.SetActive(true);
         }
         player.SetActive(true);
         Time.timeScale = 1;
         //GL.Clear(true, true, Color.clear);
+        backgroundAudio.Play();
         LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.5f);
         
         closed=true;

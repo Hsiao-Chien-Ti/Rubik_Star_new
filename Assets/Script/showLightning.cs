@@ -15,6 +15,7 @@ public class showLightning : MonoBehaviour
     public List<int> warnTime;
     public GameObject lightningEnd;
     public showHideImg warning;
+    public AudioSource lightningAudio;
     private void Start()
     {
         for(int i=0;i<showTime.Count;i++)
@@ -47,6 +48,7 @@ public class showLightning : MonoBehaviour
                 else if (Time.time-timeStamp>showTime[showIdx])
                 {
                     GetComponent<LineRenderer>().enabled = true;
+                    lightningAudio.Play();
                     //lightningEnd.GetComponent<collectLigntning>().enabled = true;
                     showIdx++;
                 }
@@ -56,6 +58,7 @@ public class showLightning : MonoBehaviour
                 if(Time.time-timeStamp>hideTime[hideIdx])
                 {
                     GetComponent<LineRenderer>().enabled = false;
+                    lightningAudio.Stop();
                     //lightningEnd.GetComponent<collectLigntning>().enabled = false;
                     hideIdx++;
                 }

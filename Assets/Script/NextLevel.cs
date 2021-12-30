@@ -22,6 +22,8 @@ public class NextLevel : MonoBehaviour
     }
     public void hide()
     {
+        int idx = SceneManager.GetActiveScene().buildIndex;
+        LevelMemory.memory[idx]=true;
         foreach(GameObject obj in invisible)
         {
             obj.SetActive(false);
@@ -38,6 +40,7 @@ public class NextLevel : MonoBehaviour
     }
     public void loadNext()
     {
+
         SceneManager.LoadScene(nextSceneName);
     }
     public void loadHome()

@@ -56,129 +56,132 @@
     <Compile Include="Assets\Script\NowPosition.cs" />
     <Compile Include="Assets\Script\levelEventAnimation.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
-    <Compile Include="Assets\Script\TakeTrain.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\Script\textAnimation.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
-    <Compile Include="Assets\Script\Timer.cs" />
-    <Compile Include="Assets\NPCFlyout.cs" />
     <Compile Include="Assets\Script\ShowTicket.cs" />
-    <Compile Include="Assets\Script\Ticket.cs" />
-    <Compile Include="Assets\Script\Level4.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\DisplayObjects.cs" />
     <Compile Include="Assets\Advanced Object Pooling\Scripts\FixedObjectPool.cs" />
-    <Compile Include="Assets\Script\CollectWithTrash.cs" />
-    <Compile Include="Assets\Script\HelmetDefend.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
-    <Compile Include="Assets\Script\TrainAnimation.cs" />
     <Compile Include="Assets\ColorToCube.cs" />
     <Compile Include="Assets\Script\showHideImg.cs" />
-    <Compile Include="Assets\Script\StarDrop.cs" />
-    <Compile Include="Assets\Script\CubeMap.cs" />
-    <Compile Include="Assets\Script\CollectBattery.cs" />
     <Compile Include="Assets\Script\MoveDish.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\AspectRatioScreen.cs" />
-    <Compile Include="Assets\Script\Level5Opengame.cs" />
     <Compile Include="Assets\Script\PivotRotation.cs" />
     <Compile Include="Assets\Script\FaceUp.cs" />
     <Compile Include="Assets\ChangeColor.cs" />
     <Compile Include="Assets\Script\CharacterMoving.cs" />
     <Compile Include="Assets\LadderToColor.cs" />
-    <Compile Include="Assets\BreakableAsteroids\Scripts\Fracture.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
-    <Compile Include="Assets\Script\Level3.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
     <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\RotateItem.cs" />
     <Compile Include="Assets\Script\PlatformCombine.cs" />
     <Compile Include="Assets\Script\MoveDish2D.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
     <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_Obj.cs" />
     <Compile Include="Assets\Script\CloseLightningTips.cs" />
-    <Compile Include="Assets\Script\ShowHideText.cs" />
-    <Compile Include="Assets\Advanced Object Pooling\Scripts\ObjectPool.cs" />
-    <Compile Include="Assets\Script\Automate.cs" />
     <Compile Include="Assets\Script\collectLigntning.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
-    <Compile Include="Assets\Script\Level3_hammer.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\Black Hole\Script\FreeCamera.cs" />
     <Compile Include="Assets\Script\TrashCan.cs" />
-    <Compile Include="Assets\HomeMenu.cs" />
-    <Compile Include="Assets\Script\MinusPoint.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\Script\Gameover.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
-    <Compile Include="Assets\Script\ReadCube.cs" />
     <Compile Include="Assets\Script\ScaleTween.cs" />
     <Compile Include="Assets\RocketGlow.cs" />
-    <Compile Include="Assets\Script\OpenFoodGame.cs" />
-    <Compile Include="Assets\Script\ShowTrainAnim.cs" />
     <Compile Include="Assets\HomeQuit.cs" />
     <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\ItemInfo.cs" />
-    <Compile Include="Assets\Script\FoodDrop2D.cs" />
     <Compile Include="Assets\WantRocket.cs" />
-    <Compile Include="Assets\Script\Wall.cs" />
-    <Compile Include="Assets\Script\ImageFadeIO.cs" />
     <Compile Include="Assets\Script\SelectFaceSate.cs" />
     <Compile Include="Assets\Script\FoodCount.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Script\Level3_hammer_hit.cs" />
-    <Compile Include="Assets\Script\RocketCompose.cs" />
-    <Compile Include="Assets\Advanced Object Pooling\Scripts\DynamicObjectPool.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacy.cs" />
     <Compile Include="Assets\Script\CatchingStar.cs" />
     <Compile Include="Assets\Script\showDrawing.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
-    <Compile Include="Assets\PickupLadder.cs" />
-    <Compile Include="Assets\Script\Helmet.cs" />
     <Compile Include="Assets\Script\Collect.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
     <Compile Include="Assets\ColorBallMoving.cs" />
     <Compile Include="Assets\Script\UsingNet.cs" />
-    <Compile Include="Assets\ColorToFinish.cs" />
-    <Compile Include="Assets\Script\Factory.cs" />
-    <Compile Include="Assets\Script\SelectFace.cs" />
     <Compile Include="Assets\Script\foodDrop.cs" />
     <Compile Include="Assets\Black Hole\Script\Demo.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Script\AsteroidHit.cs" />
+    <Compile Include="Assets\Script\AsteroidDrop.cs" />
+    <Compile Include="Assets\Script\NextLevel.cs" />
+    <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\RepositionObject.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
+    <Compile Include="Assets\BreakableAsteroids\Scripts\ExampleFracture.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\Script\TakeTrain.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\Script\Timer.cs" />
+    <Compile Include="Assets\NPCFlyout.cs" />
+    <Compile Include="Assets\Script\Ticket.cs" />
+    <Compile Include="Assets\Script\Level4.cs" />
+    <Compile Include="Assets\Script\CollectWithTrash.cs" />
+    <Compile Include="Assets\Script\HelmetDefend.cs" />
+    <Compile Include="Assets\Script\TrainAnimation.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
+    <Compile Include="Assets\Script\StarDrop.cs" />
+    <Compile Include="Assets\Script\CubeMap.cs" />
+    <Compile Include="Assets\Script\CollectBattery.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
+    <Compile Include="Assets\Script\Level5Opengame.cs" />
+    <Compile Include="Assets\BreakableAsteroids\Scripts\Fracture.cs" />
+    <Compile Include="Assets\Script\Level3.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
+    <Compile Include="Assets\Script\ShowHideText.cs" />
+    <Compile Include="Assets\Advanced Object Pooling\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\Script\Automate.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+    <Compile Include="Assets\Script\Level3_hammer.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\HomeMenu.cs" />
+    <Compile Include="Assets\Script\MinusPoint.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+    <Compile Include="Assets\Script\ReadCube.cs" />
+    <Compile Include="Assets\Script\OpenFoodGame.cs" />
+    <Compile Include="Assets\Script\ShowTrainAnim.cs" />
+    <Compile Include="Assets\Script\FoodDrop2D.cs" />
+    <Compile Include="Assets\Script\Wall.cs" />
+    <Compile Include="Assets\Script\ImageFadeIO.cs" />
+    <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
+    <Compile Include="Assets\Script\RocketCompose.cs" />
+    <Compile Include="Assets\Advanced Object Pooling\Scripts\DynamicObjectPool.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
+    <Compile Include="Assets\PickupLadder.cs" />
+    <Compile Include="Assets\Script\Helmet.cs" />
+    <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
+    <Compile Include="Assets\ColorToFinish.cs" />
+    <Compile Include="Assets\Script\Factory.cs" />
+    <Compile Include="Assets\Script\SelectFace.cs" />
     <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_ObjSpawner.cs" />
     <Compile Include="Assets\Script\UnlockSkill.cs" />
     <Compile Include="Assets\Script\LightningCombine.cs" />
-    <Compile Include="Assets\Script\AsteroidDrop.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\Player.cs" />
     <Compile Include="Assets\showStair.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\ThirdPersonCamera.cs" />
     <Compile Include="Assets\DokodemoDoor.cs" />
-    <Compile Include="Assets\Script\NextLevel.cs" />
     <Compile Include="Assets\Script\CubeState.cs" />
-    <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\RepositionObject.cs" />
     <Compile Include="Assets\Level6Machine.cs" />
     <Compile Include="Assets\Script\PivotRotationSate.cs" />
-    <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEasingTypes.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\Script\showLightning.cs" />
-    <Compile Include="Assets\BreakableAsteroids\Scripts\ExampleFracture.cs" />
     <Compile Include="Assets\Script\LookAtSate.cs" />
     <Compile Include="Assets\Script\EndFoodGame.cs" />
-    <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <Compile Include="Assets\Script\RotateBigCube.cs" />
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\StartLevel.cs" />
+    <Compile Include="Assets\LevelMemory.cs" />
+    <Compile Include="Assets\LevelMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -809,6 +812,12 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Autodesk.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -830,14 +839,17 @@
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Animation.Rigging">
       <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
@@ -857,6 +869,9 @@
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -868,18 +883,6 @@
     </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
-    </Reference>
-    <Reference Include="Autodesk.Fbx.Editor">
-      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Formats.Fbx.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Autodesk.Fbx">
-      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Formats.Fbx.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

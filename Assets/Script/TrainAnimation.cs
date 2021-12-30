@@ -8,7 +8,9 @@ public class TrainAnimation : MonoBehaviour
     public float liftSpeed;
     public List<GameObject> tracks;
     public GameObject train;
+    public int level;
     Vector3 initPos;
+    public NextLevel levelController;
     // Start is called before the first frame update
 
     void Start()
@@ -33,6 +35,13 @@ public class TrainAnimation : MonoBehaviour
         }
         yield return new WaitForSeconds(0.4f);
         train.SetActive(true);
+        if (level==5)
+        {
+            yield return new WaitForSeconds(2f);
+            levelController.gameObject.GetComponent<ShowTrainAnim>().enabled = false;
+            levelController.hide();
+            Destroy(gameObject);
+        }
     }
     public void OnDisable()
     {

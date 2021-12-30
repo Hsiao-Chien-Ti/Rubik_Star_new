@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level4_rocket_fins.unity
     guid: 1adf50db7f914df4db94161cbfc35561
   - enabled: 1
+    path: Assets/Scenes/Level5_train.unity
+    guid: a83446f2f91f6cc4f927aa361875c784
+  - enabled: 1
     path: Assets/Scenes/Level6_rocket_side.unity
     guid: b32c837d8f4747c43ab72c277a940b2d
   m_configObjects:
