@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class LevelMap : MonoBehaviour
 {
+    public int lm=0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //PlayerPrefs.DeleteAll();
     }
 
     // Update is called once per frame
@@ -17,12 +18,10 @@ public class LevelMap : MonoBehaviour
     }
     private void OnEnable()
     {
-        for(int i=0;i<7;i++)
+        lm=PlayerPrefs.GetInt("LevelMap");
+        for (int i = 0; i <= lm; i++)
         {
-            if(LevelMemory.memory[i])
-            {
-                transform.GetChild(i).gameObject.SetActive(true);
-            }
+            transform.GetChild(i).gameObject.SetActive(true);
         }
     }
 }

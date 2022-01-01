@@ -14596,7 +14596,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: fb5afd4626d8d604c8099299d44c6e21, type: 2}
   m_audioClip: {fileID: 8300000, guid: 3386179df473c3341b2859c386dd57ea, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.03
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -19275,7 +19275,6 @@ GameObject:
   - component: {fileID: 1666813533}
   - component: {fileID: 1666813532}
   - component: {fileID: 1666813531}
-  - component: {fileID: 1666813534}
   - component: {fileID: 1666813535}
   m_Layer: 0
   m_Name: LevelController
@@ -19307,8 +19306,6 @@ MonoBehaviour:
   - {fileID: 1774037260}
   - {fileID: 560889374}
   - {fileID: 1677271421}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 1242743109}
   resetCam: 0
   mainCam: {fileID: 0}
@@ -19352,29 +19349,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1666813534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666813530}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb18de3cb756944cae3569bf86e5fc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  buttonCanvas: {fileID: 0}
-  animPlayer: {fileID: 0}
-  source: {fileID: 1467299623}
-  clip: {fileID: 8300000, guid: e6d6b38270821e34da27b9b6f320a9ac, type: 3}
-  invisible:
-  - {fileID: 641293996}
-  - {fileID: 560889374}
-  - {fileID: 1677271421}
-  - {fileID: 1041053949}
-  level: 3
 --- !u!114 &1666813535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19397,6 +19371,8 @@ MonoBehaviour:
   - {fileID: 260967471}
   - {fileID: 987126282}
   nextSceneName: Level5_train
+  ending: {fileID: 0}
+  nextBtn: {fileID: 0}
 --- !u!1 &1677271421
 GameObject:
   m_ObjectHideFlags: 0
@@ -19423,7 +19399,7 @@ AudioSource:
   m_GameObject: {fileID: 1677271421}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 780c7eac642106148b16cf1877314d9b, type: 2}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 21760b8edfd29c244a2a4055b5dd735b, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1

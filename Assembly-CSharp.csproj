@@ -82,6 +82,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_Obj.cs" />
     <Compile Include="Assets\Script\CloseLightningTips.cs" />
+    <Compile Include="Assets\LevelMap.cs" />
     <Compile Include="Assets\Script\collectLigntning.cs" />
     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
@@ -116,6 +117,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\BreakableAsteroids\Scripts\ExampleFracture.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\LevelMemory.cs" />
     <Compile Include="Assets\Script\TakeTrain.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
@@ -144,6 +146,7 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\HomeMenu.cs" />
     <Compile Include="Assets\Script\MinusPoint.cs" />
+    <Compile Include="Assets\StartLevel.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Script\ReadCube.cs" />
     <Compile Include="Assets\Script\OpenFoodGame.cs" />
@@ -179,9 +182,8 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\StartLevel.cs" />
-    <Compile Include="Assets\LevelMemory.cs" />
-    <Compile Include="Assets\LevelMap.cs" />
+    <Compile Include="Assets\IntroVideo.cs" />
+    <Compile Include="Assets\EndingVideo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

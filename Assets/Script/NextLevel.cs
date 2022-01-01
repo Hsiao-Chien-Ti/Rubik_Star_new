@@ -23,7 +23,11 @@ public class NextLevel : MonoBehaviour
     public void hide()
     {
         int idx = SceneManager.GetActiveScene().buildIndex;
-        LevelMemory.memory[idx]=true;
+        if(idx>PlayerPrefs.GetInt("LevelMap"))
+        {
+            PlayerPrefs.SetInt("LevelMap", idx);
+        }
+        //LevelMap.lm=Mathf.Max(LevelMap.lm,idx);
         foreach(GameObject obj in invisible)
         {
             obj.SetActive(false);

@@ -38,7 +38,7 @@ public class ChangeColor : MonoBehaviour
         for(int i=0;i<front.Count;i++)
         {
             print(front[i].transform.right);
-            if(Vector3.Distance(front[i].transform.right,y)>0.005)
+            if(Vector3.Distance(front[i].transform.right,y)>0.005&& ColorToFinish.finish[0] == 0)
             {
                 f.color = new Color(166f / 255, 166f / 255, 166f / 255);
                     ColorToFinish.finish[0] = 0 ;
@@ -54,7 +54,7 @@ public class ChangeColor : MonoBehaviour
         y = back[0].transform.right;
         for (int i = 0; i < back.Count; i++)
         {
-            if (Vector3.Distance(back[i].transform.right, y) > 0.005)
+            if (Vector3.Distance(back[i].transform.right, y) > 0.005 && ColorToFinish.finish[3] == 0)
             {
                 b.color = new Color(166f / 255, 166f / 255, 166f / 255);
                     ColorToFinish.finish[3] = 0;
@@ -70,7 +70,7 @@ public class ChangeColor : MonoBehaviour
         y = down[0].transform.up;
         for (int i = 0; i < down.Count; i++)
         {
-            if (Vector3.Distance(down[i].transform.up, y) > 0.005)
+            if (Vector3.Distance(down[i].transform.up, y) > 0.005 && ColorToFinish.finish[1] == 0)
             {
                 d.color = new Color(166f / 255, 166f / 255, 166f / 255);
                     ColorToFinish.finish[1] = 0;
@@ -86,7 +86,7 @@ public class ChangeColor : MonoBehaviour
         y = up[0].transform.up;
         for (int i = 0; i < up.Count; i++)
         {
-            if (Vector3.Distance(up[i].transform.up, y) > 0.005)
+            if (Vector3.Distance(up[i].transform.up, y) > 0.005 && ColorToFinish.finish[2] == 0)
             {
                 u.color = new Color(166f / 255, 166f / 255, 166f / 255);
                     ColorToFinish.finish[2] = 0;
@@ -103,7 +103,7 @@ public class ChangeColor : MonoBehaviour
         y = left[0].transform.forward;
         for (int i = 0; i < front.Count; i++)
         {
-            if (Vector3.Distance(left[i].transform.forward, y) > 0.005)
+            if (Vector3.Distance(left[i].transform.forward, y) > 0.005 && ColorToFinish.finish[4] == 0)
             {
                 l.color = new Color(166f / 255, 166f / 255, 166f / 255);
                     ColorToFinish.finish[4] = 0;
@@ -119,16 +119,16 @@ public class ChangeColor : MonoBehaviour
         y = right[0].transform.forward;
         for (int i = 0; i < right.Count; i++)
         {
-            if (Vector3.Distance(right[i].transform.forward, y) > 0.005)
+            if (Vector3.Distance(right[i].transform.forward, y) > 0.005 && ColorToFinish.finish[5] == 0)
             {
                 r.color = new Color(166f / 255, 166f / 255, 166f / 255);
-                    ColorToFinish.finish[5] = 0;
+                ColorToFinish.finish[5] = 0;
                     break;
             }
             if (i == 8)
             {
                 r.color = Color.white;
-                    ColorToFinish.finish[5] = 1;
+                ColorToFinish.finish[5] = 1;
                 }
         }
         //for (int i = 0; i < 9; i++)

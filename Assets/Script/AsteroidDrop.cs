@@ -80,7 +80,7 @@ public class AsteroidDrop : MonoBehaviour
     {
         GetComponent<Fracture>().FractureObject();
         Audio.clip = boomAudio;
-        Audio.volume = 0.1f;
+        Audio.volume = 0.5f;
         Audio.Play();
         Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
         

@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level6_rocket_side.unity
     guid: b32c837d8f4747c43ab72c277a940b2d
+  - enabled: 1
+    path: Assets/Scenes/Level7_rocket_top.unity
+    guid: 6faa58ed24ec9d546bad16eabce3fe65
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 72aedf3c2cfad934e822e8a3dd3b3485, type: 2}

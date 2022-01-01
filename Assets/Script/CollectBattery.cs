@@ -28,6 +28,6 @@ public class CollectBattery : MonoBehaviour
         
         net.SetActive(false);
         player.GetComponent<UsingNet>().enabled = false;
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

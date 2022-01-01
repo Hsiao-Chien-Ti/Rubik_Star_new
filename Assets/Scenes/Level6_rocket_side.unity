@@ -30084,8 +30084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: "\u706B,\u7BAD,\u5FEB,\u8981,\u5B8C,\u6210,\u4E86,\uFF01,\u53EF,\u662F,\u6C92,\u6709,\u5100,\u8868,\u677F,\u6C92,\u8FA6,\u6CD5,\u63A7,\u5236,Q,Q,                                    
-    ,\u5E6B,A,d,i,\u6536,\u96C6,<color=#636161>\u96FB\u5B50\u96F6\u4EF6</color>,\u62FF,\u53BB,
-    <color=#7EB6D6>\u885B\u661F</color>,\u88DD,\u5230,\u7834,\u640D,\u7684,\u5100,\u8868,\u677F,\u4E0A,\u5427,\uFF01 "
+    ,\u5E6B,A,d,i,\u6536,\u96C6,<color=#636161>\u96FB\u5B50\u96F6\u4EF6</color>,\u62FF,\u53BB,<color=#7EB6D6>\u885B\u661F</color>,\u88DD,\u5230,\u7834,\u640D,\u7684,\u5100,\u8868,\u677F,\u4E0A,\u5427,\uFF01 "
   separate_text: []
   typingAudio: {fileID: 1293020735}
 --- !u!114 &1293020733
@@ -30109,7 +30108,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 8974073e7a1c3d34d9b8a7e76aef2c93, type: 3}
+    m_Font: {fileID: 12800000, guid: 416ca02970136804b8859fa608d98d11, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -35270,7 +35269,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1666813537}
         m_TargetAssemblyTypeName: RocketCompose, Assembly-CSharp
         m_MethodName: loadNext
         m_Mode: 1
@@ -37553,7 +37552,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -38306,6 +38305,8 @@ MonoBehaviour:
   - {fileID: 260967471}
   - {fileID: 2122334113}
   nextSceneName: Level7_rocket_top
+  ending: {fileID: 0}
+  nextBtn: {fileID: 0}
 --- !u!1001 &1667407054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38602,7 +38603,7 @@ AudioSource:
   m_GameObject: {fileID: 1677271421}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 780c7eac642106148b16cf1877314d9b, type: 2}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 21760b8edfd29c244a2a4055b5dd735b, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1

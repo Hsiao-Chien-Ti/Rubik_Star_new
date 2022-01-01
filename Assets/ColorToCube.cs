@@ -9,6 +9,7 @@ public class ColorToCube : MonoBehaviour
     public GameObject cube;
     public GameObject player;
     public GameObject rocket;
+    public AudioSource background;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,12 +25,14 @@ public class ColorToCube : MonoBehaviour
     {
         player.GetComponent<FaceUp>().enabled = false;
         rocket.GetComponent<WantRocket>().enabled = false;
+        background.Pause();
         yield return new WaitForSeconds(6f);
         foreach (GameObject obj in showObj)
         {
             obj.SetActive(true);
         }
         cube.GetComponent<ChangeColor>().change();
+        background.Play();
         foreach (GameObject obj in hideObj)
         {
             obj.SetActive(false);

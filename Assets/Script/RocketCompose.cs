@@ -9,6 +9,8 @@ public class RocketCompose : MonoBehaviour
     public List<GameObject> showObj;
     public List<GameObject> lateShowObj;
     public string nextSceneName;
+    public GameObject ending;
+    public GameObject nextBtn;
     // Start is called before the first frame update
     public void show()
     {
@@ -33,6 +35,11 @@ public class RocketCompose : MonoBehaviour
     public void loadNext()
     {
         SceneManager.LoadScene(nextSceneName);
+    }
+    public void showEnding()
+    {
+        nextBtn.SetActive(false);
+        ending.SetActive(true);
     }
 
 }
