@@ -75,6 +75,7 @@
     <Compile Include="Assets\Script\CharacterMoving.cs" />
     <Compile Include="Assets\LadderToColor.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
+    <Compile Include="Assets\EndingVideo.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
     <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\RotateItem.cs" />
     <Compile Include="Assets\Script\PlatformCombine.cs" />
@@ -141,6 +142,7 @@
     <Compile Include="Assets\Advanced Object Pooling\Scripts\ObjectPool.cs" />
     <Compile Include="Assets\Script\Automate.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+    <Compile Include="Assets\IntroVideo.cs" />
     <Compile Include="Assets\Script\Level3_hammer.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
@@ -182,8 +184,7 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\IntroVideo.cs" />
-    <Compile Include="Assets\EndingVideo.cs" />
+    <Compile Include="Assets\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
