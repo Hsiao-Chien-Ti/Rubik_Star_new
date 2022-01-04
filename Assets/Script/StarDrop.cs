@@ -35,36 +35,37 @@ public class StarDrop : MonoBehaviour
         }
         if (Time.time >= timeStamp + dropTime && Time.time <= timeStamp + dropTime + 1f && dropFlag == false && started)
         {
-            dropFlag = true;
-            posidx = Random.Range(0, 9);
-            switch (face)
-            {
-                case "L":
-                    posList = cubeState.left.ToArray();
-                    break;
-                case "R":
-                    posList = cubeState.right.ToArray();
-                    break;
-                case "U":
-                    posList = cubeState.up.ToArray();
-                    break;
-                case "D":
-                    posList = cubeState.down.ToArray();
-                    break;
-                case "F":
-                    posList = cubeState.front.ToArray();
-                    break;
-                case "B":
-                    posList = cubeState.back.ToArray();
-                    break;
-            }
-            Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
-            gameObject.transform.localScale *= 300;
-            gameObject.GetComponent<MeshCollider>().enabled = true;
-            Audio.volume = 1.0f;
-            Audio.clip = dropAudio;
-            Audio.Play();
-            fly = true;
+            //dropFlag = true;
+            //posidx = Random.Range(0, 9);
+            //switch (face)
+            //{
+            //    case "L":
+            //        posList = cubeState.left.ToArray();
+            //        break;
+            //    case "R":
+            //        posList = cubeState.right.ToArray();
+            //        break;
+            //    case "U":
+            //        posList = cubeState.up.ToArray();
+            //        break;
+            //    case "D":
+            //        posList = cubeState.down.ToArray();
+            //        break;
+            //    case "F":
+            //        posList = cubeState.front.ToArray();
+            //        break;
+            //    case "B":
+            //        posList = cubeState.back.ToArray();
+            //        break;
+            //}
+            //Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
+            //gameObject.transform.localScale *= 300;
+            //gameObject.GetComponent<MeshCollider>().enabled = true;
+            //Audio.volume = 1.0f;
+            //Audio.clip = dropAudio;
+            //Audio.Play();
+            //fly = true;
+            StartCoroutine(calculate());
         }
         if (fly)
         {
@@ -75,6 +76,40 @@ public class StarDrop : MonoBehaviour
                 fly = false;
             }
         }
+    }
+    IEnumerator calculate()
+    {
+        dropFlag = true;
+        posidx = Random.Range(0, 9);
+        switch (face)
+        {
+            case "L":
+                posList = cubeState.left.ToArray();
+                break;
+            case "R":
+                posList = cubeState.right.ToArray();
+                break;
+            case "U":
+                posList = cubeState.up.ToArray();
+                break;
+            case "D":
+                posList = cubeState.down.ToArray();
+                break;
+            case "F":
+                posList = cubeState.front.ToArray();
+                break;
+            case "B":
+                posList = cubeState.back.ToArray();
+                break;
+        }
+        Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
+        gameObject.transform.localScale *= 300;
+        gameObject.GetComponent<MeshCollider>().enabled = true;
+        Audio.volume = 1.0f;
+        Audio.clip = dropAudio;
+        Audio.Play();
+        fly = true;
+        yield return null;
     }
     private void OnTriggerEnter(Collider other)
     {

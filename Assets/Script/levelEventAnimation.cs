@@ -15,6 +15,7 @@ public class levelEventAnimation : MonoBehaviour
         RenderTexture.active = GetComponent<VideoPlayer>().targetTexture;
         GL.Clear(true, true, Color.clear);
         RenderTexture.active = null;
+        gameObject.GetComponent<VideoPlayer>().SetDirectAudioMute(0, false);
         player.SetActive(false);
         foreach(GameObject obj in hideObj)
         {
@@ -37,6 +38,7 @@ public class levelEventAnimation : MonoBehaviour
         player.SetActive(true);
         Time.timeScale = 1;
         //GL.Clear(true, true, Color.clear);
+        gameObject.GetComponent<VideoPlayer>().SetDirectAudioMute(0, true);
         backgroundAudio.Play();
         LeanTween.scale(gameObject, new Vector3(0, 0, 0), 0.5f);
         
