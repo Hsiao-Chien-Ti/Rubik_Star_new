@@ -146,10 +146,12 @@
     <Compile Include="Assets\Script\Level3_hammer.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\WallMeshCombine.cs" />
     <Compile Include="Assets\HomeMenu.cs" />
     <Compile Include="Assets\Script\MinusPoint.cs" />
     <Compile Include="Assets\StartLevel.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
+    <Compile Include="Assets\Pause.cs" />
     <Compile Include="Assets\Script\ReadCube.cs" />
     <Compile Include="Assets\Script\OpenFoodGame.cs" />
     <Compile Include="Assets\Script\ShowTrainAnim.cs" />
@@ -184,7 +186,6 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

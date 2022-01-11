@@ -6428,6 +6428,10 @@ PrefabInstance:
       propertyPath: cubeRotator
       value: 
       objectReference: {fileID: 1876999969}
+    - target: {fileID: 1593083268, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: f0ff569833c9ed24cb4daa4cefb5a9e2, type: 2}
     - target: {fileID: 1593083272, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
       propertyPath: level
       value: 1
