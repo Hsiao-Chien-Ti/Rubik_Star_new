@@ -614,7 +614,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1ee85d2fe34128d4c83e4242fe259329, type: 3}
+  m_Sprite: {fileID: -7715877027896423846, guid: 7b1e4fec7359b5e4f855bf1c90e4fd73, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11658,7 +11658,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c544efde4682d814a814732b42522530, type: 3}
+  m_Sprite: {fileID: -6989316229226472368, guid: 7b1e4fec7359b5e4f855bf1c90e4fd73, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15875,6 +15875,7 @@ MonoBehaviour:
   targetCube: {fileID: 2001395413}
   rubik: 1
   isTrain: 0
+  trailDir: {fileID: 0}
 --- !u!114 &1876999970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17999,7 +18000,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3e54f624985e2cd4dacc65a01c372988, type: 3}
+  m_Sprite: {fileID: 8498933772477381437, guid: 7b1e4fec7359b5e4f855bf1c90e4fd73, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
