@@ -27,10 +27,13 @@ public class showLightning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (FindObjectOfType<CharacterMoving>() != null && !started)
+        if(!started)
         {
-            timeStamp = Time.time;
-            started = true;
+            if (FindObjectOfType<CharacterMoving>() != null)
+            {
+                timeStamp = Time.time;
+                started = true;
+            }
         }
         if(started)
         {

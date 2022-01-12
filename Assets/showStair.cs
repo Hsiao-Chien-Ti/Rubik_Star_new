@@ -10,11 +10,6 @@ public class showStair : MonoBehaviour
         StartCoroutine(fadeIn());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     IEnumerator fadeIn()
     {
        Material[] mat = new Material[3];

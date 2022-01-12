@@ -16,6 +16,7 @@ public class RotateBigCube : MonoBehaviour
     CubeState cubeState;
     public int rubik = 1;
     public bool isTrain = false;
+    public GameObject trailDir;
     // Start is called before the first frame update
     void Start()
     {
@@ -143,7 +144,6 @@ public class RotateBigCube : MonoBehaviour
     }
     public bool RotateToTrail()
     {
-        GameObject trailDir = GameObject.Find("TrailDirection");
         targetCube.transform.rotation = Quaternion.RotateTowards(targetCube.transform.rotation,trailDir.transform.rotation,5f);
         //print(Quaternion.Angle(targetCube.transform.rotation, trailDir.transform.rotation));
         return Quaternion.Angle(targetCube.transform.rotation, trailDir.transform.rotation) <= 1;

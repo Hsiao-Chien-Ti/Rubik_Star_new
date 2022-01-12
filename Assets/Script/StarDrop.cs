@@ -28,10 +28,13 @@ public class StarDrop : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (FindObjectOfType<CharacterMoving>() != null && !started)
+        if(!started)
         {
-            timeStamp = Time.time;
-            started = true;
+            if (FindObjectOfType<CharacterMoving>() != null)
+            {
+                timeStamp = Time.time;
+                started = true;
+            }
         }
         if (Time.time >= timeStamp + dropTime && Time.time <= timeStamp + dropTime + 1f && dropFlag == false && started)
         {

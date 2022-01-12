@@ -13,13 +13,6 @@ public class NextLevel : MonoBehaviour
     public List<GameObject> invisible = new List<GameObject>();
     public string nextSceneName;
     //public Animator anim;
-    private void Update()
-    {
-        //if(Input.GetKeyDown(KeyCode.A))
-        //{
-        //    hide();
-        //}
-    }
     public void hide()
     {
         int idx = SceneManager.GetActiveScene().buildIndex;

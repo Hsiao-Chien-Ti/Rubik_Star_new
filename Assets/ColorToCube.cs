@@ -16,11 +16,6 @@ public class ColorToCube : MonoBehaviour
         StartCoroutine(back());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     IEnumerator back()
     {
         player.GetComponent<FaceUp>().enabled = false;

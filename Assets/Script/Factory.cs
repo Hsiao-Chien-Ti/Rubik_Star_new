@@ -18,7 +18,6 @@ public class Factory : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        print("trigger");
         if (pieces > 1)
         {
             if (PlatformCombine.finish)
@@ -41,9 +40,6 @@ public class Factory : MonoBehaviour
                     {
                         txt.text = "Collect more!!!!!";
                         showToast("Collect more!!!!!", 1);
-
-                        //LeanTween.alpha(txt.gameObject, 255, 0.5f);
-                        //LeanTween.alpha(txt.gameObject, 0, 0.5f).setDelay(0.5f);
                         break;
                     }
                     if (i == sliderValue.Count - 1)

@@ -9,6 +9,7 @@ public class levelEventAnimation : MonoBehaviour
     public GameObject player;
     public List<GameObject> hideObj;
     public AudioSource backgroundAudio;
+    public GameObject timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class levelEventAnimation : MonoBehaviour
         }
         backgroundAudio.Pause();
         LeanTween.scale(gameObject, new Vector3(1, 1, 1), 1f).setIgnoreTimeScale(true);
+        timer.transform.localScale = new Vector3(0.001f, 0.001f, 0.001f);
         Time.timeScale = 0;
         
         //close();
@@ -36,6 +38,7 @@ public class levelEventAnimation : MonoBehaviour
             obj.SetActive(true);
         }
         player.SetActive(true);
+        timer.transform.localScale = new Vector3(1f, 1f, 1f);
         Time.timeScale = 1;
         //GL.Clear(true, true, Color.clear);
         gameObject.GetComponent<VideoPlayer>().SetDirectAudioMute(0, true);

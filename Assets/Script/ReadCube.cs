@@ -34,11 +34,6 @@ public class ReadCube : MonoBehaviour
         cubeState.started = true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //ReadState();
-    }
     public void ReadState()
     {
         //cubeState = FindObjectOfType<CubeState>();//只會有一個CubeState物件->可以用FindObjectOfType找到唯一一個

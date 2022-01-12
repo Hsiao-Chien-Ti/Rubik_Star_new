@@ -9,7 +9,6 @@ public class Collect : MonoBehaviour
     public AudioSource source;
     private void OnTriggerEnter(Collider other)
     {
-        //print(other.gameObject.name);
         if (other.gameObject.CompareTag("Player"))
         {
             source.Play();
@@ -18,13 +17,4 @@ public class Collect : MonoBehaviour
         }
 
     }
-    //private void OnTriggerEnter(Collision collision)
-    //{
-    //    print(collision.gameObject.name);
-    //    if(collision.gameObject.CompareTag("Player"))
-    //    {
-    //        slider.value += 1;
-    //        Destroy(gameObject);
-    //    }
-    //}
 }

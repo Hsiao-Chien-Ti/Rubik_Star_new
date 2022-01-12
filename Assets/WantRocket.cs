@@ -14,27 +14,6 @@ public class WantRocket : MonoBehaviour
     public GameObject ladder;
     public GameObject ladderNew;
     bool first = true;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    if(slider.value==slider.maxValue&&CollectWithTrash.trash==0)
-    //    {
-    //        GetComponent<BoxCollider>().isTrigger = true;
-    //    }
-    //}
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if(other.gameObject.CompareTag("Player"))
-    //    {
-    //        other.gameObject.GetComponent<Animator>().SetTrigger("WantRocket");
-    //    }
-    //}
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.CompareTag("Player"))

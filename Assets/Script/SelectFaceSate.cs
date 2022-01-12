@@ -29,8 +29,7 @@ public class SelectFaceSate : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 100.0f, layerMask))
             {
                 GameObject face = hit.collider.gameObject;
-                //print(face.transform.parent.name);
-                if(face.transform.parent.GetComponent<PivotRotationSate>()!=null)
+                if(face.transform.parent.name.Length>=2&&face.transform.parent.GetComponent<PivotRotationSate>()!=null)
                     face.transform.parent.GetComponent<PivotRotationSate>().Rotate(face);
             }
         }

@@ -6,16 +6,6 @@ public class ColorToFinish : MonoBehaviour
 {
     public static int[] finish=new int[6];
     public GameObject levelController;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    }
     private void LateUpdate()
     {
         if(finish[0]* finish[1]* finish[2]* finish[3]* finish[4]* finish[5]!=0)

@@ -23,10 +23,5 @@ public class LevelMemory : MonoBehaviour
         }
         memory[0] = true;
     }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

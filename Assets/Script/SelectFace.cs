@@ -29,8 +29,11 @@ public class SelectFace : MonoBehaviour
             if(Physics.Raycast(ray,out hit,100.0f,layerMask))
             {
                 GameObject face = hit.collider.gameObject;
-                if(face.transform.parent.GetComponent<PivotRotation>()!=null)
-                    face.transform.parent.GetComponent<PivotRotation>().Rotate(face);
+                if(face.transform.parent.name.Length>=2&& face.transform.parent.GetComponent<PivotRotation>() != null)
+                {
+                   face.transform.parent.GetComponent<PivotRotation>().Rotate(face);
+                }
+
             }
         }
     }

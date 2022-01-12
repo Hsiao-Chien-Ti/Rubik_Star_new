@@ -27,44 +27,18 @@ public class AsteroidDrop : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (FindObjectOfType<CharacterMoving>() != null && !started)
+        if(!started)
         {
-            timeStamp = Time.time;
-            started = true;
+            if (FindObjectOfType<CharacterMoving>() != null)
+            {
+                timeStamp = Time.time;
+                started = true;
+            }
         }
+
         if(Time.time>=timeStamp+dropTime&& Time.time <= timeStamp + dropTime+1f && dropFlag==false&&started)
         {
             StartCoroutine(calculate());
-            //dropFlag = true;
-            //posidx = Random.Range(0, 9);
-            //switch (face)
-            //{
-            //    case "L":
-            //        posList = cubeState.left.ToArray();
-            //        break;
-            //    case "R":
-            //        posList = cubeState.right.ToArray();
-            //        break;
-            //    case "U":
-            //        posList = cubeState.up.ToArray();
-            //        break;
-            //    case "D":
-            //        posList = cubeState.down.ToArray();
-            //        break;
-            //    case "F":
-            //        posList = cubeState.front.ToArray();
-            //        break;
-            //    case "B":
-            //        posList = cubeState.back.ToArray();
-            //        break;
-            //}
-            //Vector3 initpos = posList[posidx].transform.position + new Vector3(0, 18, 0);
-            //gameObject.transform.localScale*=300;
-            //gameObject.GetComponent<MeshCollider>().enabled = true;
-            //Audio.volume = 1.0f;
-            //Audio.clip = dropAudio;
-            //Audio.Play();
-            //fly = true;
         }
         if (fly)
         {

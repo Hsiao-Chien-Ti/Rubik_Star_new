@@ -8,17 +8,6 @@ public class LadderToColor : MonoBehaviour
     public List<GameObject> showObj;
     public List<GameObject> hideObj;
     public GameObject timer;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public IEnumerator climb()
     {
         yield return new WaitForSeconds(3.5f);
