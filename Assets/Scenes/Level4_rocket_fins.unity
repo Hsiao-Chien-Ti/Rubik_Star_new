@@ -12163,6 +12163,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f64083091628e4e6abf777cb911e523d, type: 3}
+--- !u!1 &933059688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 933059690}
+  - component: {fileID: 933059689}
+  m_Layer: 0
+  m_Name: AstroidManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &933059689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933059688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e627ec86f7ac114985c0c31e3c6805d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 7139729654043156525, guid: c03bd4a9c21eff74a8771f8e0d70e711, type: 3}
+  amountToPool: 5
+--- !u!4 &933059690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933059688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &952826656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19846,6 +19892,7 @@ MonoBehaviour:
   resetCam: 0
   mainCam: {fileID: 0}
   sateCam: {fileID: 0}
+  fpool: {fileID: 0}
 --- !u!114 &1666813532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19871,6 +19918,7 @@ MonoBehaviour:
   - {fileID: 1242743109}
   - {fileID: 1041053949}
   nextSceneName: Level5_train
+  fpool: {fileID: 0}
 --- !u!4 &1666813533
 Transform:
   m_ObjectHideFlags: 0
@@ -21986,6 +22034,7 @@ MonoBehaviour:
   targetCube: {fileID: 2001395413}
   rubik: 1
   isTrain: 0
+  trailDir: {fileID: 0}
 --- !u!114 &1876999970
 MonoBehaviour:
   m_ObjectHideFlags: 0

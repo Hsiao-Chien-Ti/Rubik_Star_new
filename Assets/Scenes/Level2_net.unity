@@ -1197,6 +1197,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4073144434043538, guid: 2abf19653d633114faedf3b60dc6c39f, type: 3}
   m_PrefabInstance: {fileID: 779169566}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &280186512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280186514}
+  - component: {fileID: 280186513}
+  m_Layer: 0
+  m_Name: AstroidManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &280186513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280186512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e627ec86f7ac114985c0c31e3c6805d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 7139729654043156525, guid: c03bd4a9c21eff74a8771f8e0d70e711, type: 3}
+  amountToPool: 5
+--- !u!4 &280186514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280186512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297593054 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8700732837190209545, guid: 8b162faa5bec6ac459ff94223125f835, type: 3}
@@ -13274,6 +13320,7 @@ MonoBehaviour:
   - {fileID: 1677271421}
   - {fileID: 63997708}
   nextSceneName: Level3_rocket_base
+  fpool: {fileID: 0}
 --- !u!4 &1666813533
 Transform:
   m_ObjectHideFlags: 0
@@ -15065,6 +15112,7 @@ MonoBehaviour:
   targetCube: {fileID: 2001395413}
   rubik: 1
   isTrain: 0
+  trailDir: {fileID: 0}
 --- !u!114 &1876999970
 MonoBehaviour:
   m_ObjectHideFlags: 0

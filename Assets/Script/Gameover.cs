@@ -16,11 +16,13 @@ public class Gameover : MonoBehaviour
     public GameObject mainCam;
     public GameObject sateCam;
     //public Animator anim;
-    private void Update()
+    public FractionPool fpool;
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        fpool = GameObject.FindObjectOfType<FractionPool>();
+        foreach (GameObject obj in fpool.pooledObjects)
         {
-            hide();
+            invisible.Add(obj);
         }
     }
     public void hide()

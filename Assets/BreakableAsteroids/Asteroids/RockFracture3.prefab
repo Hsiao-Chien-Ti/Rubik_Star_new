@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4066658912142326957}
   - component: {fileID: 3636688506048026988}
   - component: {fileID: 8484196199308548686}
+  - component: {fileID: 1730711484779719250}
   m_Layer: 12
   m_Name: rock.003_cell
   m_TagString: Untagged
@@ -113,6 +114,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1730711484779719250
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31444508733881152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.23650207
+  m_Height: 0.9331869
+  m_Direction: 1
+  m_Center: {x: -0.010410159, y: -0.33680764, z: -0.116732106}
 --- !u!1 &33920787317890272
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,6 +141,7 @@ GameObject:
   - component: {fileID: 920346895849621572}
   - component: {fileID: 8364559624236127226}
   - component: {fileID: 5081742300036178911}
+  - component: {fileID: 6279878257581313840}
   m_Layer: 12
   m_Name: rock.003_cell.022
   m_TagString: Untagged
@@ -226,6 +242,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6279878257581313840
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33920787317890272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.27122483
+  m_Height: 0.8889055
+  m_Direction: 1
+  m_Center: {x: 0.011784255, y: 0.07085687, z: -0.115071386}
 --- !u!1 &267712889204764474
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +269,7 @@ GameObject:
   - component: {fileID: 3701363051244519638}
   - component: {fileID: 5060054044065105240}
   - component: {fileID: 6678261201112569100}
+  - component: {fileID: 6025930993356981546}
   m_Layer: 12
   m_Name: rock.003_cell.021
   m_TagString: Untagged
@@ -339,6 +370,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6025930993356981546
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267712889204764474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.42952245
+  m_Height: 0.7992335
+  m_Direction: 1
+  m_Center: {x: -0.037438873, y: 0.1996501, z: -0.23778322}
 --- !u!1 &327090405451755555
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +397,7 @@ GameObject:
   - component: {fileID: 973722095277618805}
   - component: {fileID: 8755847244788358385}
   - component: {fileID: 879672628404588116}
+  - component: {fileID: 1982850902465506863}
   m_Layer: 12
   m_Name: rock.003_cell.092
   m_TagString: Untagged
@@ -452,6 +498,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1982850902465506863
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327090405451755555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3496823
+  m_Height: 0.6373169
+  m_Direction: 1
+  m_Center: {x: -0.063725494, y: -0.2078396, z: -0.15142803}
 --- !u!1 &523533613071711390
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +655,7 @@ GameObject:
   - component: {fileID: 216174141109703840}
   - component: {fileID: 4204640253445792548}
   - component: {fileID: 3072726968808709057}
+  - component: {fileID: 3960831620314068968}
   m_Layer: 12
   m_Name: rock.003_cell.093
   m_TagString: Untagged
@@ -695,6 +756,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3960831620314068968
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593049998913327841}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.45577905
+  m_Height: 0.63881326
+  m_Direction: 1
+  m_Center: {x: -0.18783616, y: 0.116257876, z: -0.2693496}
 --- !u!1 &614490598584056673
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +783,7 @@ GameObject:
   - component: {fileID: 5357288087065213468}
   - component: {fileID: 3545832043619020806}
   - component: {fileID: 350187129094427295}
+  - component: {fileID: 4285482907791233741}
   m_Layer: 12
   m_Name: rock.003_cell.082
   m_TagString: Untagged
@@ -808,6 +884,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4285482907791233741
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614490598584056673}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.39137188
+  m_Height: 0.641683
+  m_Direction: 1
+  m_Center: {x: 0.054278802, y: 0.0327904, z: 0.26270205}
 --- !u!1 &681733852461997912
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +911,7 @@ GameObject:
   - component: {fileID: 2145158863484628298}
   - component: {fileID: 4824300189043143023}
   - component: {fileID: 3184490260875317217}
+  - component: {fileID: 2751402873054954903}
   m_Layer: 12
   m_Name: rock.003_cell.011
   m_TagString: Untagged
@@ -921,6 +1012,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2751402873054954903
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681733852461997912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4426567
+  m_Height: 0.6433273
+  m_Direction: 1
+  m_Center: {x: -0.15115006, y: 0.035032757, z: -0.35131642}
 --- !u!1 &812024356045894309
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,6 +1039,7 @@ GameObject:
   - component: {fileID: 8445423802833216276}
   - component: {fileID: 5401140138027773203}
   - component: {fileID: 6499103173569318593}
+  - component: {fileID: 1212778124527187794}
   m_Layer: 12
   m_Name: rock.003_cell.035
   m_TagString: Untagged
@@ -1034,6 +1140,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1212778124527187794
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812024356045894309}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.33358854
+  m_Height: 0.6022701
+  m_Direction: 1
+  m_Center: {x: -0.071121804, y: -0.080180526, z: -0.15848787}
 --- !u!1 &859858444413833229
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1167,7 @@ GameObject:
   - component: {fileID: 2608396549696163725}
   - component: {fileID: 2514299712825295382}
   - component: {fileID: 5056132648640533895}
+  - component: {fileID: 5335010403012190267}
   m_Layer: 12
   m_Name: rock.003_cell.015
   m_TagString: Untagged
@@ -1147,6 +1268,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &5335010403012190267
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859858444413833229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.2581261
+  m_Height: 0.6881621
+  m_Direction: 1
+  m_Center: {x: 0.0036713404, y: -0.24763831, z: -0.017620657}
 --- !u!1 &1006805249029749679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,6 +1295,7 @@ GameObject:
   - component: {fileID: 2014681515432451228}
   - component: {fileID: 5316239511023221052}
   - component: {fileID: 4339755685660535564}
+  - component: {fileID: 7813051248376710954}
   m_Layer: 12
   m_Name: rock.003_cell.068
   m_TagString: Untagged
@@ -1260,6 +1396,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7813051248376710954
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006805249029749679}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3037357
+  m_Height: 0.9645765
+  m_Direction: 1
+  m_Center: {x: 0.03939871, y: -0.35311154, z: 0.03705062}
 --- !u!1 &1071528383549515122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1423,7 @@ GameObject:
   - component: {fileID: 8840126775241559531}
   - component: {fileID: 1629082044367470912}
   - component: {fileID: 3222008541154277831}
+  - component: {fileID: 4299120937459120738}
   m_Layer: 12
   m_Name: rock.003_cell.036
   m_TagString: Untagged
@@ -1373,6 +1524,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4299120937459120738
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071528383549515122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.29048038
+  m_Height: 0.66574305
+  m_Direction: 1
+  m_Center: {x: -0.086160466, y: -0.027220508, z: 0.0024044071}
 --- !u!1 &1112458966575382829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,6 +1551,7 @@ GameObject:
   - component: {fileID: 795510767093340534}
   - component: {fileID: 8217236193387692643}
   - component: {fileID: 7901238161186574107}
+  - component: {fileID: 7669784440368497887}
   m_Layer: 12
   m_Name: rock.003_cell.098
   m_TagString: Untagged
@@ -1486,6 +1652,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7669784440368497887
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112458966575382829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.33428755
+  m_Height: 1.0410616
+  m_Direction: 1
+  m_Center: {x: 0.09332809, y: -0.35056362, z: -0.032669894}
 --- !u!1 &1179377537576433318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,6 +1679,7 @@ GameObject:
   - component: {fileID: 8298900133228063247}
   - component: {fileID: 8447786781709339030}
   - component: {fileID: 346866933743430103}
+  - component: {fileID: 3381760036007564918}
   m_Layer: 12
   m_Name: rock.003_cell.066
   m_TagString: Untagged
@@ -1599,6 +1780,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3381760036007564918
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179377537576433318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.26237452
+  m_Height: 0.72922975
+  m_Direction: 1
+  m_Center: {x: -0.047210347, y: -0.27782506, z: 0.014775854}
 --- !u!1 &1261589585382756766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,6 +1807,7 @@ GameObject:
   - component: {fileID: 1513873769090275026}
   - component: {fileID: 4049140980447795109}
   - component: {fileID: 1395228630241947603}
+  - component: {fileID: 3672198809801641118}
   m_Layer: 12
   m_Name: rock.003_cell.083
   m_TagString: Untagged
@@ -1712,6 +1908,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3672198809801641118
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261589585382756766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.17715864
+  m_Height: 0.6582816
+  m_Direction: 1
+  m_Center: {x: -0.07543757, y: 0.016400803, z: -0.03894183}
 --- !u!1 &1305937239747630192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,6 +1935,7 @@ GameObject:
   - component: {fileID: 2239505037972553221}
   - component: {fileID: 5377425508188337719}
   - component: {fileID: 242852483716768433}
+  - component: {fileID: 4461599203951882635}
   m_Layer: 12
   m_Name: rock.003_cell.087
   m_TagString: Untagged
@@ -1825,6 +2036,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4461599203951882635
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305937239747630192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.31807843
+  m_Height: 0.5009301
+  m_Direction: 1
+  m_Center: {x: 0.010676554, y: -0.110481665, z: -0.0634889}
 --- !u!1 &1345692146576876122
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,6 +2063,7 @@ GameObject:
   - component: {fileID: 4413153886690147204}
   - component: {fileID: 2765087785911285440}
   - component: {fileID: 283289006132224947}
+  - component: {fileID: 3161940378321425392}
   m_Layer: 12
   m_Name: rock.003_cell.032
   m_TagString: Untagged
@@ -1938,6 +2164,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3161940378321425392
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345692146576876122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.38707513
+  m_Height: 0.7731476
+  m_Direction: 1
+  m_Center: {x: -0.03978875, y: -0.014723066, z: 0.19740368}
 --- !u!1 &1410294375432812517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,6 +2191,7 @@ GameObject:
   - component: {fileID: 9090041193809183162}
   - component: {fileID: 4967011075102086822}
   - component: {fileID: 735468293428218330}
+  - component: {fileID: 4188581220626492894}
   m_Layer: 12
   m_Name: rock.003_cell.057
   m_TagString: Untagged
@@ -2051,6 +2292,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4188581220626492894
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410294375432812517}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.28137365
+  m_Height: 0.4744547
+  m_Direction: 1
+  m_Center: {x: 0.17882368, y: -0.020234136, z: -0.038884908}
 --- !u!1 &1610818217082925326
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,6 +2319,7 @@ GameObject:
   - component: {fileID: 4383437632834247051}
   - component: {fileID: 4701592556921630754}
   - component: {fileID: 8131872479437470638}
+  - component: {fileID: 3481796819664274850}
   m_Layer: 12
   m_Name: rock.003_cell.041
   m_TagString: Untagged
@@ -2164,6 +2420,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3481796819664274850
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610818217082925326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.30268002
+  m_Height: 0.5882151
+  m_Direction: 1
+  m_Center: {x: -0.023247069, y: -0.08179648, z: -0.07753464}
 --- !u!1 &1679931630135950641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,6 +2447,7 @@ GameObject:
   - component: {fileID: 7775528603951983391}
   - component: {fileID: 6853087309587269353}
   - component: {fileID: 895110894006752388}
+  - component: {fileID: 9017860739808555025}
   m_Layer: 12
   m_Name: rock.003_cell.091
   m_TagString: Untagged
@@ -2277,6 +2548,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &9017860739808555025
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679931630135950641}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.34056374
+  m_Height: 0.72831357
+  m_Direction: 1
+  m_Center: {x: 0.01888155, y: -0.20739813, z: -0.06583756}
 --- !u!1 &1809743132755651766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +2575,7 @@ GameObject:
   - component: {fileID: 2696115362771494867}
   - component: {fileID: 1038393880008635796}
   - component: {fileID: 6491513215778307144}
+  - component: {fileID: 6163783770089730767}
   m_Layer: 12
   m_Name: rock.003_cell.042
   m_TagString: Untagged
@@ -2390,6 +2676,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6163783770089730767
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809743132755651766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.26746988
+  m_Height: 0.7321445
+  m_Direction: 1
+  m_Center: {x: -0.1316122, y: -0.0077983458, z: -0.015334237}
 --- !u!1 &1848455784291124932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2703,7 @@ GameObject:
   - component: {fileID: 7540216266997258882}
   - component: {fileID: 7935590515512407116}
   - component: {fileID: 2899146237491083513}
+  - component: {fileID: 4726292360967533864}
   m_Layer: 12
   m_Name: rock.003_cell.062
   m_TagString: Untagged
@@ -2503,6 +2804,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4726292360967533864
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848455784291124932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.37841842
+  m_Height: 0.62340903
+  m_Direction: 1
+  m_Center: {x: 0.24321419, y: -0.03499665, z: 0.059630066}
 --- !u!1 &1926867341196971007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,6 +2831,7 @@ GameObject:
   - component: {fileID: 9025611694787849540}
   - component: {fileID: 7072999793905685719}
   - component: {fileID: 7959937738414136339}
+  - component: {fileID: 23631877786052119}
   m_Layer: 12
   m_Name: rock.003_cell.030
   m_TagString: Untagged
@@ -2616,6 +2932,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &23631877786052119
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926867341196971007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.32598218
+  m_Height: 0.9138112
+  m_Direction: 1
+  m_Center: {x: -0.06197725, y: 0.27167958, z: -0.06595947}
 --- !u!1 &2014091858136886196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,6 +2959,7 @@ GameObject:
   - component: {fileID: 6567039935892871743}
   - component: {fileID: 4601240846341648453}
   - component: {fileID: 1260032392828455967}
+  - component: {fileID: 7864816347656684671}
   m_Layer: 12
   m_Name: rock.003_cell.012
   m_TagString: Untagged
@@ -2729,6 +3060,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7864816347656684671
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014091858136886196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4311029
+  m_Height: 0.6577832
+  m_Direction: 1
+  m_Center: {x: -0.13089073, y: -0.046187695, z: -0.26433665}
 --- !u!1 &2189970865317740142
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,6 +3087,7 @@ GameObject:
   - component: {fileID: 182493898803393}
   - component: {fileID: 7241980239534163411}
   - component: {fileID: 2317024335763053479}
+  - component: {fileID: 4410306502623644350}
   m_Layer: 12
   m_Name: rock.003_cell.097
   m_TagString: Untagged
@@ -2842,6 +3188,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4410306502623644350
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189970865317740142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.33248636
+  m_Height: 0.6075057
+  m_Direction: 1
+  m_Center: {x: 0.1736276, y: 0.0051622554, z: 0.0069271643}
 --- !u!1 &2279413522408002005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2855,6 +3215,7 @@ GameObject:
   - component: {fileID: 1204489957189576745}
   - component: {fileID: 8465862734568634578}
   - component: {fileID: 9142010299389077945}
+  - component: {fileID: 4673128036935312395}
   m_Layer: 12
   m_Name: rock.003_cell.055
   m_TagString: Untagged
@@ -2955,6 +3316,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4673128036935312395
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279413522408002005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.42610875
+  m_Height: 0.71831065
+  m_Direction: 1
+  m_Center: {x: -0.22499228, y: 0.07676536, z: -0.28427482}
 --- !u!1 &2329750914296057884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,6 +3343,7 @@ GameObject:
   - component: {fileID: 5031404756440201032}
   - component: {fileID: 7442554365628451620}
   - component: {fileID: 4405622479294197100}
+  - component: {fileID: 2263072767012403338}
   m_Layer: 12
   m_Name: rock.003_cell.008
   m_TagString: Untagged
@@ -3068,6 +3444,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2263072767012403338
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2329750914296057884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.45244876
+  m_Height: 0.8544611
+  m_Direction: 1
+  m_Center: {x: -0.1811848, y: 0.0131160645, z: -0.07742186}
 --- !u!1 &2366344264310478906
 GameObject:
   m_ObjectHideFlags: 0
@@ -3081,6 +3471,7 @@ GameObject:
   - component: {fileID: 9217746160000862505}
   - component: {fileID: 7436855140740371286}
   - component: {fileID: 270722819600622725}
+  - component: {fileID: 837909450980613275}
   m_Layer: 12
   m_Name: rock.003_cell.029
   m_TagString: Untagged
@@ -3181,6 +3572,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &837909450980613275
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366344264310478906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4483842
+  m_Height: 0.8532298
+  m_Direction: 1
+  m_Center: {x: 0.004264235, y: 0.017283905, z: 0.32194602}
 --- !u!1 &2388397235890357134
 GameObject:
   m_ObjectHideFlags: 0
@@ -3194,6 +3599,7 @@ GameObject:
   - component: {fileID: 4176162084770989942}
   - component: {fileID: 2245150777700344645}
   - component: {fileID: 5118124876334240857}
+  - component: {fileID: 2502089680261685391}
   m_Layer: 12
   m_Name: rock.003_cell.006
   m_TagString: Untagged
@@ -3294,6 +3700,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2502089680261685391
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388397235890357134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.33670008
+  m_Height: 0.49108103
+  m_Direction: 1
+  m_Center: {x: 0.2601729, y: 0.031147577, z: 0.0001649559}
 --- !u!1 &2474506154701643738
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,6 +3727,7 @@ GameObject:
   - component: {fileID: 729109195355023991}
   - component: {fileID: 4841404101291261428}
   - component: {fileID: 7542223560073974155}
+  - component: {fileID: 5506635633835169419}
   m_Layer: 12
   m_Name: rock.003_cell.026
   m_TagString: Untagged
@@ -3407,6 +3828,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &5506635633835169419
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2474506154701643738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.41690585
+  m_Height: 0.9380398
+  m_Direction: 1
+  m_Center: {x: -0.028838275, y: -0.07158676, z: 0.2650236}
 --- !u!1 &2486020276430550343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3420,6 +3855,7 @@ GameObject:
   - component: {fileID: 8940951524951252350}
   - component: {fileID: 172153945002980080}
   - component: {fileID: 1211492810048520215}
+  - component: {fileID: 6821564230536499118}
   m_Layer: 12
   m_Name: rock.003_cell.070
   m_TagString: Untagged
@@ -3520,6 +3956,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6821564230536499118
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2486020276430550343}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.377406
+  m_Height: 0.73860437
+  m_Direction: 1
+  m_Center: {x: -0.029718561, y: -0.0072127003, z: -0.20937671}
 --- !u!1 &2516518038901783544
 GameObject:
   m_ObjectHideFlags: 0
@@ -3533,6 +3983,7 @@ GameObject:
   - component: {fileID: 3460510442669571572}
   - component: {fileID: 1537048395221119119}
   - component: {fileID: 5296395029601616719}
+  - component: {fileID: 3349944827932063638}
   m_Layer: 12
   m_Name: rock.003_cell.019
   m_TagString: Untagged
@@ -3633,6 +4084,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3349944827932063638
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2516518038901783544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.39418337
+  m_Height: 0.53447974
+  m_Direction: 1
+  m_Center: {x: -0.25758398, y: 0.009949508, z: -0.22038127}
 --- !u!1 &2734515734003999900
 GameObject:
   m_ObjectHideFlags: 0
@@ -3646,6 +4111,7 @@ GameObject:
   - component: {fileID: 4296888498044597049}
   - component: {fileID: 6708706820124788902}
   - component: {fileID: 5125336402896513924}
+  - component: {fileID: 2058707427417596837}
   m_Layer: 12
   m_Name: rock.003_cell.076
   m_TagString: Untagged
@@ -3746,6 +4212,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2058707427417596837
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2734515734003999900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.22898939
+  m_Height: 0.28185245
+  m_Direction: 1
+  m_Center: {x: -0.03374799, y: -0.0015552643, z: -0.06518773}
 --- !u!1 &2892518859473399729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3759,6 +4239,7 @@ GameObject:
   - component: {fileID: 5004345409826790869}
   - component: {fileID: 8516148329781063315}
   - component: {fileID: 5132945041938210220}
+  - component: {fileID: 516594103498355525}
   m_Layer: 12
   m_Name: rock.003_cell.096
   m_TagString: Untagged
@@ -3859,6 +4340,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &516594103498355525
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2892518859473399729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.47570127
+  m_Height: 0.67319757
+  m_Direction: 1
+  m_Center: {x: 0.08451279, y: -0.19933036, z: -0.1340514}
 --- !u!1 &2997687205810100399
 GameObject:
   m_ObjectHideFlags: 0
@@ -3872,6 +4367,7 @@ GameObject:
   - component: {fileID: 8341986948443841096}
   - component: {fileID: 876885207330384264}
   - component: {fileID: 5167608098659089867}
+  - component: {fileID: 3406693693775696953}
   m_Layer: 12
   m_Name: rock.003_cell.007
   m_TagString: Untagged
@@ -3972,6 +4468,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3406693693775696953
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997687205810100399}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.36210886
+  m_Height: 0.5519915
+  m_Direction: 1
+  m_Center: {x: 0.2959967, y: 0.020408636, z: -0.019640999}
 --- !u!1 &3064126958652280793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3985,6 +4495,7 @@ GameObject:
   - component: {fileID: 3145340611966179554}
   - component: {fileID: 1120344377720764399}
   - component: {fileID: 8072109087326768571}
+  - component: {fileID: 2843593978310704539}
   m_Layer: 12
   m_Name: rock.003_cell.064
   m_TagString: Untagged
@@ -4085,6 +4596,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2843593978310704539
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3064126958652280793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.26950428
+  m_Height: 0.6174957
+  m_Direction: 1
+  m_Center: {x: 0.027079297, y: -0.18307374, z: -0.076408766}
 --- !u!1 &3177811492406955829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4098,6 +4623,7 @@ GameObject:
   - component: {fileID: 8244584271967767888}
   - component: {fileID: 344217912310623968}
   - component: {fileID: 3188453049829748294}
+  - component: {fileID: 2355079449990268791}
   m_Layer: 12
   m_Name: rock.003_cell.013
   m_TagString: Untagged
@@ -4198,6 +4724,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2355079449990268791
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177811492406955829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.53436697
+  m_Height: 0.75624746
+  m_Direction: 1
+  m_Center: {x: -0.012223615, y: 0.2038952, z: -0.29089627}
 --- !u!1 &3310054649793452836
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,6 +4751,7 @@ GameObject:
   - component: {fileID: 3420837484178714527}
   - component: {fileID: 238722341994544873}
   - component: {fileID: 5543641695631200723}
+  - component: {fileID: 8755649487853828602}
   m_Layer: 12
   m_Name: rock.003_cell.058
   m_TagString: Untagged
@@ -4311,6 +4852,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8755649487853828602
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3310054649793452836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.39205936
+  m_Height: 0.44349283
+  m_Direction: 1
+  m_Center: {x: 0.0025385523, y: 0.11952988, z: -0.29449427}
 --- !u!1 &3359860886889277630
 GameObject:
   m_ObjectHideFlags: 0
@@ -4324,6 +4879,7 @@ GameObject:
   - component: {fileID: 5985884381172558613}
   - component: {fileID: 5656396281198601276}
   - component: {fileID: 5711304790051921582}
+  - component: {fileID: 5675436582001734365}
   m_Layer: 12
   m_Name: rock.003_cell.044
   m_TagString: Untagged
@@ -4424,6 +4980,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &5675436582001734365
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359860886889277630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.34702748
+  m_Height: 0.6050285
+  m_Direction: 1
+  m_Center: {x: 0.017468652, y: 0.15708235, z: -0.24689594}
 --- !u!1 &3456202938871985021
 GameObject:
   m_ObjectHideFlags: 0
@@ -4437,6 +5007,7 @@ GameObject:
   - component: {fileID: 6605349891181078778}
   - component: {fileID: 1546634673374769957}
   - component: {fileID: 2707611258761913093}
+  - component: {fileID: 6996469756710926225}
   m_Layer: 12
   m_Name: rock.003_cell.052
   m_TagString: Untagged
@@ -4537,6 +5108,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6996469756710926225
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3456202938871985021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.47167626
+  m_Height: 0.7633151
+  m_Direction: 1
+  m_Center: {x: -0.16218556, y: 0.101568066, z: -0.2551854}
 --- !u!1 &3617169598993741964
 GameObject:
   m_ObjectHideFlags: 0
@@ -4550,6 +5135,7 @@ GameObject:
   - component: {fileID: 3760139798754169542}
   - component: {fileID: 5089741217668999631}
   - component: {fileID: 718085418881948725}
+  - component: {fileID: 2606262419051128038}
   m_Layer: 12
   m_Name: rock.003_cell.077
   m_TagString: Untagged
@@ -4650,6 +5236,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2606262419051128038
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617169598993741964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.50731844
+  m_Height: 0.76221704
+  m_Direction: 1
+  m_Center: {x: -0.21613592, y: 0.12098217, z: -0.28043205}
 --- !u!1 &3621731670511924737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4663,6 +5263,7 @@ GameObject:
   - component: {fileID: 8700552857988571594}
   - component: {fileID: 2925653745283975557}
   - component: {fileID: 3968712132138161843}
+  - component: {fileID: 8004087047638720875}
   m_Layer: 12
   m_Name: rock.003_cell.071
   m_TagString: Untagged
@@ -4763,6 +5364,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8004087047638720875
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621731670511924737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.30216593
+  m_Height: 0.65135646
+  m_Direction: 1
+  m_Center: {x: 0.035962034, y: -0.18615998, z: 0.011279541}
 --- !u!1 &3645443162023390235
 GameObject:
   m_ObjectHideFlags: 0
@@ -4776,6 +5391,7 @@ GameObject:
   - component: {fileID: 3948154086802816036}
   - component: {fileID: 7616755647524479209}
   - component: {fileID: 2521408791067447408}
+  - component: {fileID: 2344883776682775305}
   m_Layer: 12
   m_Name: rock.003_cell.046
   m_TagString: Untagged
@@ -4876,6 +5492,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2344883776682775305
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645443162023390235}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.51580614
+  m_Height: 0.97977406
+  m_Direction: 1
+  m_Center: {x: -0.036410745, y: 0.19107635, z: 0.021545252}
 --- !u!1 &3765146644138227576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4889,6 +5519,7 @@ GameObject:
   - component: {fileID: 7109480107682294754}
   - component: {fileID: 6910484399378268202}
   - component: {fileID: 2487906086953319901}
+  - component: {fileID: 3253565247869460029}
   m_Layer: 12
   m_Name: rock.003_cell.017
   m_TagString: Untagged
@@ -4989,6 +5620,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3253565247869460029
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3765146644138227576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.34121022
+  m_Height: 0.5837213
+  m_Direction: 1
+  m_Center: {x: 0.057148572, y: -0.15632895, z: 0.044312794}
 --- !u!1 &3810257927857545408
 GameObject:
   m_ObjectHideFlags: 0
@@ -5002,6 +5647,7 @@ GameObject:
   - component: {fileID: 7108660297280525254}
   - component: {fileID: 5193645477911715339}
   - component: {fileID: 8139154403872094261}
+  - component: {fileID: 3960124081261034807}
   m_Layer: 12
   m_Name: rock.003_cell.043
   m_TagString: Untagged
@@ -5102,6 +5748,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3960124081261034807
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3810257927857545408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4739617
+  m_Height: 0.5059576
+  m_Direction: 1
+  m_Center: {x: 0.088751934, y: 0.02515286, z: 0.17840317}
 --- !u!1 &3875913611269894560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5115,6 +5775,7 @@ GameObject:
   - component: {fileID: 8786114868777547012}
   - component: {fileID: 8974174205668169768}
   - component: {fileID: 3410085889597835405}
+  - component: {fileID: 8402506222599839988}
   m_Layer: 12
   m_Name: rock.003_cell.014
   m_TagString: Untagged
@@ -5215,6 +5876,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8402506222599839988
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3875913611269894560}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4936522
+  m_Height: 0.6140151
+  m_Direction: 1
+  m_Center: {x: -0.18220964, y: -0.0049262806, z: -0.14400695}
 --- !u!1 &3888766768644151380
 GameObject:
   m_ObjectHideFlags: 0
@@ -5228,6 +5903,7 @@ GameObject:
   - component: {fileID: 2388907488181425414}
   - component: {fileID: 7345001789469400594}
   - component: {fileID: 3370886332002560132}
+  - component: {fileID: 7068870924403234075}
   m_Layer: 12
   m_Name: rock.003_cell.004
   m_TagString: Untagged
@@ -5328,6 +6004,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7068870924403234075
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3888766768644151380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.49830845
+  m_Height: 0.96625227
+  m_Direction: 1
+  m_Center: {x: 0.00084443385, y: 0.090971224, z: 0.058214143}
 --- !u!1 &3926875120496275262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,6 +6031,7 @@ GameObject:
   - component: {fileID: 8236966830589378856}
   - component: {fileID: 3908972227654528609}
   - component: {fileID: 8306883646789709548}
+  - component: {fileID: 7889400457686935520}
   m_Layer: 12
   m_Name: rock.003_cell.009
   m_TagString: Untagged
@@ -5441,6 +6132,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7889400457686935520
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926875120496275262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4410323
+  m_Height: 0.7372066
+  m_Direction: 1
+  m_Center: {x: -0.013042345, y: 0.15903528, z: -0.22138661}
 --- !u!1 &3961615041061561457
 GameObject:
   m_ObjectHideFlags: 0
@@ -5454,6 +6159,7 @@ GameObject:
   - component: {fileID: 3755835965744546352}
   - component: {fileID: 8916988997188241949}
   - component: {fileID: 2770019772723721697}
+  - component: {fileID: 3750279754841058925}
   m_Layer: 12
   m_Name: rock.003_cell.049
   m_TagString: Untagged
@@ -5554,6 +6260,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3750279754841058925
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3961615041061561457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.31563026
+  m_Height: 0.4565038
+  m_Direction: 1
+  m_Center: {x: 0.23396452, y: -0.015663657, z: -0.015109951}
 --- !u!1 &4314082228338767236
 GameObject:
   m_ObjectHideFlags: 0
@@ -5567,6 +6287,7 @@ GameObject:
   - component: {fileID: 660499192567367313}
   - component: {fileID: 3442671661775332359}
   - component: {fileID: 6005257485543041096}
+  - component: {fileID: 5078430726763012048}
   m_Layer: 12
   m_Name: rock.003_cell.033
   m_TagString: Untagged
@@ -5667,6 +6388,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &5078430726763012048
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314082228338767236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.22388081
+  m_Height: 0.42880347
+  m_Direction: 1
+  m_Center: {x: -0.08698617, y: -0.045882676, z: -0.06404573}
 --- !u!1 &4421525082262044250
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,6 +6415,7 @@ GameObject:
   - component: {fileID: 6799348761506537533}
   - component: {fileID: 8881050032319543295}
   - component: {fileID: 2998861959365065579}
+  - component: {fileID: 325457660998111873}
   m_Layer: 12
   m_Name: rock.003_cell.067
   m_TagString: Untagged
@@ -5780,6 +6516,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &325457660998111873
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421525082262044250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3789027
+  m_Height: 1.0056261
+  m_Direction: 1
+  m_Center: {x: 0.018500654, y: 0.33261004, z: -0.027766846}
 --- !u!1 &4453900805738022553
 GameObject:
   m_ObjectHideFlags: 0
@@ -5793,6 +6543,7 @@ GameObject:
   - component: {fileID: 5013515950012472677}
   - component: {fileID: 6667517483373265899}
   - component: {fileID: 7356555587168747371}
+  - component: {fileID: 8934663141419088394}
   m_Layer: 12
   m_Name: rock.003_cell.053
   m_TagString: Untagged
@@ -5893,6 +6644,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8934663141419088394
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453900805738022553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.27728057
+  m_Height: 0.6860482
+  m_Direction: 1
+  m_Center: {x: 0.06765169, y: -0.056233317, z: 0.061376184}
 --- !u!1 &4456660114930001764
 GameObject:
   m_ObjectHideFlags: 0
@@ -5906,6 +6671,7 @@ GameObject:
   - component: {fileID: 4721843450819506733}
   - component: {fileID: 4162324403498190298}
   - component: {fileID: 5551794694938002791}
+  - component: {fileID: 1238175085311434264}
   m_Layer: 12
   m_Name: rock.003_cell.060
   m_TagString: Untagged
@@ -6006,6 +6772,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1238175085311434264
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4456660114930001764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.25900534
+  m_Height: 0.5806425
+  m_Direction: 1
+  m_Center: {x: -0.13971335, y: 0.027619518, z: -0.13150637}
 --- !u!1 &4507449648551597477
 GameObject:
   m_ObjectHideFlags: 0
@@ -6019,6 +6799,7 @@ GameObject:
   - component: {fileID: 2621181284766791964}
   - component: {fileID: 1837013673880005925}
   - component: {fileID: 5784679237284797464}
+  - component: {fileID: 3356543689962542287}
   m_Layer: 12
   m_Name: rock.003_cell.054
   m_TagString: Untagged
@@ -6119,6 +6900,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3356543689962542287
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4507449648551597477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3509367
+  m_Height: 0.7476
+  m_Direction: 1
+  m_Center: {x: 0.014801144, y: -0.15401189, z: 0.23148057}
 --- !u!1 &4536610528933433836
 GameObject:
   m_ObjectHideFlags: 0
@@ -6132,6 +6927,7 @@ GameObject:
   - component: {fileID: 4941365676273102500}
   - component: {fileID: 3810855757325794749}
   - component: {fileID: 3255509132405781111}
+  - component: {fileID: 1046797377311780752}
   m_Layer: 12
   m_Name: rock.003_cell.051
   m_TagString: Untagged
@@ -6232,6 +7028,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1046797377311780752
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4536610528933433836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.2966757
+  m_Height: 0.4463712
+  m_Direction: 1
+  m_Center: {x: 0.031864908, y: 0.05715666, z: -0.021353504}
 --- !u!1 &4610892655191936686
 GameObject:
   m_ObjectHideFlags: 0
@@ -6245,6 +7055,7 @@ GameObject:
   - component: {fileID: 3820690075894121197}
   - component: {fileID: 5971291642464247392}
   - component: {fileID: 2059072546536060685}
+  - component: {fileID: 1059394427999145152}
   m_Layer: 12
   m_Name: rock.003_cell.005
   m_TagString: Untagged
@@ -6345,6 +7156,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1059394427999145152
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610892655191936686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.33745107
+  m_Height: 0.48955512
+  m_Direction: 1
+  m_Center: {x: 0.2302377, y: 0.00822291, z: -0.06893991}
 --- !u!1 &4657292147705617131
 GameObject:
   m_ObjectHideFlags: 0
@@ -6358,6 +7183,7 @@ GameObject:
   - component: {fileID: 1143574467214776934}
   - component: {fileID: 4440958061314191338}
   - component: {fileID: 1081474021283766433}
+  - component: {fileID: 8677356982564475148}
   m_Layer: 12
   m_Name: rock.003_cell.045
   m_TagString: Untagged
@@ -6458,6 +7284,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8677356982564475148
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657292147705617131}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.46220753
+  m_Height: 0.45319042
+  m_Direction: 1
+  m_Center: {x: 0.37512913, y: -0.015396226, z: -0.038390577}
 --- !u!1 &4713022059587372828
 GameObject:
   m_ObjectHideFlags: 0
@@ -6471,6 +7311,7 @@ GameObject:
   - component: {fileID: 7661127824121028986}
   - component: {fileID: 3471900789567735684}
   - component: {fileID: 534754152763606323}
+  - component: {fileID: 2091737588395663951}
   m_Layer: 12
   m_Name: rock.003_cell.078
   m_TagString: Untagged
@@ -6571,6 +7412,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2091737588395663951
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4713022059587372828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.37352592
+  m_Height: 0.5289501
+  m_Direction: 1
+  m_Center: {x: 0.28025782, y: 0.051548716, z: -0.07709089}
 --- !u!1 &4724873641820416325
 GameObject:
   m_ObjectHideFlags: 0
@@ -6584,6 +7439,7 @@ GameObject:
   - component: {fileID: 8712782901661319183}
   - component: {fileID: 4453780912790166398}
   - component: {fileID: 9149813920661988345}
+  - component: {fileID: 2979233260344534563}
   m_Layer: 12
   m_Name: rock.003_cell.080
   m_TagString: Untagged
@@ -6684,6 +7540,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2979233260344534563
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4724873641820416325}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.34592986
+  m_Height: 0.3494722
+  m_Direction: 1
+  m_Center: {x: -0.20886298, y: 0.045487944, z: -0.1680916}
 --- !u!1 &4726759773787500498
 GameObject:
   m_ObjectHideFlags: 0
@@ -6697,6 +7567,7 @@ GameObject:
   - component: {fileID: 4267394717724481743}
   - component: {fileID: 9189389404437030895}
   - component: {fileID: 8204204225626458930}
+  - component: {fileID: 2236609117159320125}
   m_Layer: 12
   m_Name: rock.003_cell.075
   m_TagString: Untagged
@@ -6797,6 +7668,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2236609117159320125
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4726759773787500498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.34988007
+  m_Height: 0.7539732
+  m_Direction: 1
+  m_Center: {x: -0.12640257, y: -0.16249399, z: -0.07062614}
 --- !u!1 &4768003325814986057
 GameObject:
   m_ObjectHideFlags: 0
@@ -6810,6 +7695,7 @@ GameObject:
   - component: {fileID: 1452505671981907024}
   - component: {fileID: 259216561462617700}
   - component: {fileID: 7078594117955446591}
+  - component: {fileID: 678408037554254395}
   m_Layer: 12
   m_Name: rock.003_cell.048
   m_TagString: Untagged
@@ -6910,6 +7796,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &678408037554254395
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4768003325814986057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.2962191
+  m_Height: 0.579586
+  m_Direction: 1
+  m_Center: {x: 0.004642583, y: -0.10902112, z: -0.10918107}
 --- !u!1 &4800243824921350973
 GameObject:
   m_ObjectHideFlags: 0
@@ -6923,6 +7823,7 @@ GameObject:
   - component: {fileID: 2435714803924550796}
   - component: {fileID: 7761453385178888168}
   - component: {fileID: 5676513360993575793}
+  - component: {fileID: 3480290672810560605}
   m_Layer: 12
   m_Name: rock.003_cell.094
   m_TagString: Untagged
@@ -7023,6 +7924,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3480290672810560605
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4800243824921350973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.37815598
+  m_Height: 0.8459716
+  m_Direction: 1
+  m_Center: {x: 0.10847699, y: -0.3299504, z: -0.035096623}
 --- !u!1 &4962243166794724801
 GameObject:
   m_ObjectHideFlags: 0
@@ -7036,6 +7951,7 @@ GameObject:
   - component: {fileID: 1384752330319058666}
   - component: {fileID: 2496143223964129947}
   - component: {fileID: 7121375086024491143}
+  - component: {fileID: 8170644439944356047}
   m_Layer: 12
   m_Name: rock.003_cell.084
   m_TagString: Untagged
@@ -7136,6 +8052,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8170644439944356047
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962243166794724801}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.35644355
+  m_Height: 0.29682517
+  m_Direction: 1
+  m_Center: {x: -0.18318668, y: 0.028020157, z: -0.1822443}
 --- !u!1 &5256029062378259940
 GameObject:
   m_ObjectHideFlags: 0
@@ -7149,6 +8079,7 @@ GameObject:
   - component: {fileID: 3832354230887104160}
   - component: {fileID: 5946963842288591432}
   - component: {fileID: 4598580660420943586}
+  - component: {fileID: 1632624148664942938}
   m_Layer: 12
   m_Name: rock.003_cell.001
   m_TagString: Untagged
@@ -7249,6 +8180,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1632624148664942938
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5256029062378259940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.44341147
+  m_Height: 0.65741444
+  m_Direction: 1
+  m_Center: {x: -0.008760079, y: 0.2055434, z: -0.0022018705}
 --- !u!1 &5326271425771892410
 GameObject:
   m_ObjectHideFlags: 0
@@ -7262,6 +8207,7 @@ GameObject:
   - component: {fileID: 7063092582069445686}
   - component: {fileID: 6725854630730336106}
   - component: {fileID: 971126318166752188}
+  - component: {fileID: 6086343532435644185}
   m_Layer: 12
   m_Name: rock.003_cell.061
   m_TagString: Untagged
@@ -7362,6 +8308,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6086343532435644185
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326271425771892410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.41967747
+  m_Height: 0.8255548
+  m_Direction: 1
+  m_Center: {x: 0.06743489, y: -0.27282906, z: -0.22640926}
 --- !u!1 &5385485817771813286
 GameObject:
   m_ObjectHideFlags: 0
@@ -7375,6 +8335,7 @@ GameObject:
   - component: {fileID: 8629642565480796535}
   - component: {fileID: 5720053196554923045}
   - component: {fileID: 1094289410266295402}
+  - component: {fileID: 340894417688561567}
   m_Layer: 12
   m_Name: rock.003_cell.085
   m_TagString: Untagged
@@ -7475,6 +8436,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &340894417688561567
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5385485817771813286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.35545388
+  m_Height: 0.7507319
+  m_Direction: 1
+  m_Center: {x: -0.12795094, y: 0.14771298, z: -0.14655058}
 --- !u!1 &5587103172079371617
 GameObject:
   m_ObjectHideFlags: 0
@@ -7488,6 +8463,7 @@ GameObject:
   - component: {fileID: 6117249002134081554}
   - component: {fileID: 3938170165802005767}
   - component: {fileID: 4075558112953293140}
+  - component: {fileID: 3935720097527588574}
   m_Layer: 12
   m_Name: rock.003_cell.074
   m_TagString: Untagged
@@ -7588,6 +8564,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3935720097527588574
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5587103172079371617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.32207355
+  m_Height: 0.6973676
+  m_Direction: 1
+  m_Center: {x: 0.11819721, y: -0.0034183944, z: 0.08758262}
 --- !u!1 &5664007887816590210
 GameObject:
   m_ObjectHideFlags: 0
@@ -7601,6 +8591,7 @@ GameObject:
   - component: {fileID: 3410013114830222587}
   - component: {fileID: 6588798995494723932}
   - component: {fileID: 1859199856787455195}
+  - component: {fileID: 6713784314100054265}
   m_Layer: 12
   m_Name: rock.003_cell.031
   m_TagString: Untagged
@@ -7701,6 +8692,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6713784314100054265
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664007887816590210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.21414664
+  m_Height: 0.90828556
+  m_Direction: 1
+  m_Center: {x: -0.01972275, y: -0.35217774, z: -0.054885477}
 --- !u!1 &5734692342058856154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7714,6 +8719,7 @@ GameObject:
   - component: {fileID: 3424906737282232469}
   - component: {fileID: 6913912936636095400}
   - component: {fileID: 497363894806188939}
+  - component: {fileID: 4815151627337179457}
   m_Layer: 12
   m_Name: rock.003_cell.024
   m_TagString: Untagged
@@ -7814,6 +8820,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4815151627337179457
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5734692342058856154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.25171027
+  m_Height: 0.7038093
+  m_Direction: 1
+  m_Center: {x: -0.060493596, y: -0.27966225, z: -0.08134661}
 --- !u!1 &5811041932093671359
 GameObject:
   m_ObjectHideFlags: 0
@@ -7827,6 +8847,7 @@ GameObject:
   - component: {fileID: 803702977941229328}
   - component: {fileID: 8767249814322398036}
   - component: {fileID: 2799515591179516038}
+  - component: {fileID: 4601514542267210624}
   m_Layer: 12
   m_Name: rock.003_cell.056
   m_TagString: Untagged
@@ -7927,6 +8948,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4601514542267210624
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5811041932093671359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3338256
+  m_Height: 0.6773389
+  m_Direction: 1
+  m_Center: {x: 0.1399542, y: -0.14803188, z: -0.088243715}
 --- !u!1 &5966421812897665056
 GameObject:
   m_ObjectHideFlags: 0
@@ -7940,6 +8975,7 @@ GameObject:
   - component: {fileID: 8979468559179982175}
   - component: {fileID: 100350396863198409}
   - component: {fileID: 2527351459587258830}
+  - component: {fileID: 3415606432775642953}
   m_Layer: 12
   m_Name: rock.003_cell.072
   m_TagString: Untagged
@@ -8040,6 +9076,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3415606432775642953
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5966421812897665056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4842944
+  m_Height: 0.49073339
+  m_Direction: 1
+  m_Center: {x: 0.4036216, y: 0.010355349, z: -0.0397796}
 --- !u!1 &6141475636694487239
 GameObject:
   m_ObjectHideFlags: 0
@@ -8053,6 +9103,7 @@ GameObject:
   - component: {fileID: 7670702693964492741}
   - component: {fileID: 9110838046239201849}
   - component: {fileID: 9175235943673663919}
+  - component: {fileID: 6781868093485415181}
   m_Layer: 12
   m_Name: rock.003_cell.086
   m_TagString: Untagged
@@ -8153,6 +9204,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6781868093485415181
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141475636694487239}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3427493
+  m_Height: 0.5404664
+  m_Direction: 1
+  m_Center: {x: 0.08735365, y: -0.032024883, z: -0.035900004}
 --- !u!1 &6151160012660109105
 GameObject:
   m_ObjectHideFlags: 0
@@ -8166,6 +9231,7 @@ GameObject:
   - component: {fileID: 2659654403947687161}
   - component: {fileID: 7479700250067571785}
   - component: {fileID: 2248732794189492488}
+  - component: {fileID: 4929600713923109780}
   m_Layer: 12
   m_Name: rock.003_cell.010
   m_TagString: Untagged
@@ -8266,6 +9332,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4929600713923109780
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151160012660109105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.38773477
+  m_Height: 0.9726236
+  m_Direction: 1
+  m_Center: {x: 0.04320277, y: -0.15755537, z: 0.19159053}
 --- !u!1 &6184687683666411436
 GameObject:
   m_ObjectHideFlags: 0
@@ -8279,6 +9359,7 @@ GameObject:
   - component: {fileID: 4883087668614755344}
   - component: {fileID: 499784367947107077}
   - component: {fileID: 4138544159932744492}
+  - component: {fileID: 8695739961027939307}
   m_Layer: 12
   m_Name: rock.003_cell.073
   m_TagString: Untagged
@@ -8379,6 +9460,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8695739961027939307
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184687683666411436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4127006
+  m_Height: 0.5455636
+  m_Direction: 1
+  m_Center: {x: 0.35024977, y: 0.0032252676, z: 0.0034629041}
 --- !u!1 &6266086594158872070
 GameObject:
   m_ObjectHideFlags: 0
@@ -8392,6 +9487,7 @@ GameObject:
   - component: {fileID: 1628670840513103996}
   - component: {fileID: 2984716432803559682}
   - component: {fileID: 201216813470354219}
+  - component: {fileID: 8654973139299321834}
   m_Layer: 12
   m_Name: rock.003_cell.095
   m_TagString: Untagged
@@ -8492,6 +9588,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8654973139299321834
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266086594158872070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.26793632
+  m_Height: 0.5725229
+  m_Direction: 1
+  m_Center: {x: 0.02107474, y: -0.13466881, z: 0.03195153}
 --- !u!1 &6504866181721262925
 GameObject:
   m_ObjectHideFlags: 0
@@ -8505,6 +9615,7 @@ GameObject:
   - component: {fileID: 646311304220980089}
   - component: {fileID: 3490328928770428344}
   - component: {fileID: 3079370737824809456}
+  - component: {fileID: 1722527444570182742}
   m_Layer: 12
   m_Name: rock.003_cell.023
   m_TagString: Untagged
@@ -8605,6 +9716,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1722527444570182742
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6504866181721262925}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4169537
+  m_Height: 0.92356247
+  m_Direction: 1
+  m_Center: {x: 0.04093374, y: -0.26033607, z: -0.19613329}
 --- !u!1 &6722573622311582183
 GameObject:
   m_ObjectHideFlags: 0
@@ -8618,6 +9743,7 @@ GameObject:
   - component: {fileID: 4912189645047234009}
   - component: {fileID: 3743578645475059564}
   - component: {fileID: 1250101723254036688}
+  - component: {fileID: 6800696353283500316}
   m_Layer: 12
   m_Name: rock.003_cell.065
   m_TagString: Untagged
@@ -8718,6 +9844,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6800696353283500316
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6722573622311582183}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.32690334
+  m_Height: 0.6018511
+  m_Direction: 1
+  m_Center: {x: 0.017800743, y: -0.10647286, z: -0.13344687}
 --- !u!1 &6737946717240047435
 GameObject:
   m_ObjectHideFlags: 0
@@ -8731,6 +9871,7 @@ GameObject:
   - component: {fileID: 2883359247694207322}
   - component: {fileID: 4354121480384427601}
   - component: {fileID: 6493245605558452722}
+  - component: {fileID: 9052856619084801782}
   m_Layer: 12
   m_Name: rock.003_cell.034
   m_TagString: Untagged
@@ -8831,6 +9972,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &9052856619084801782
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6737946717240047435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.51361316
+  m_Height: 0.8759619
+  m_Direction: 1
+  m_Center: {x: -0.14223075, y: -0.061642796, z: 0.15175036}
 --- !u!1 &6908384064428518037
 GameObject:
   m_ObjectHideFlags: 0
@@ -8844,6 +9999,7 @@ GameObject:
   - component: {fileID: 3137877446690340410}
   - component: {fileID: 1315036902561624771}
   - component: {fileID: 5118334216480444314}
+  - component: {fileID: 7508908858419221256}
   m_Layer: 12
   m_Name: rock.003_cell.027
   m_TagString: Untagged
@@ -8944,6 +10100,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7508908858419221256
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6908384064428518037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4792471
+  m_Height: 0.6629392
+  m_Direction: 1
+  m_Center: {x: -0.11621126, y: -0.0017834012, z: -0.2782508}
 --- !u!1 &7054252633149603972
 GameObject:
   m_ObjectHideFlags: 0
@@ -8957,6 +10127,7 @@ GameObject:
   - component: {fileID: 8710007616965485175}
   - component: {fileID: 7343193209315113681}
   - component: {fileID: 6424184465387001983}
+  - component: {fileID: 7840206753824731735}
   m_Layer: 12
   m_Name: rock.003_cell.063
   m_TagString: Untagged
@@ -9057,6 +10228,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7840206753824731735
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7054252633149603972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.34057793
+  m_Height: 0.46522102
+  m_Direction: 1
+  m_Center: {x: 0.12133402, y: 0.0069003124, z: -0.014222648}
 --- !u!1 &7152887592094530794
 GameObject:
   m_ObjectHideFlags: 0
@@ -9070,6 +10255,7 @@ GameObject:
   - component: {fileID: 5614687715995959617}
   - component: {fileID: 2000950209351380099}
   - component: {fileID: 3402913392759820307}
+  - component: {fileID: 3921100134208560756}
   m_Layer: 12
   m_Name: rock.003_cell.037
   m_TagString: Untagged
@@ -9170,6 +10356,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3921100134208560756
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7152887592094530794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.4345483
+  m_Height: 0.55093724
+  m_Direction: 1
+  m_Center: {x: 0.3882644, y: 0.014268253, z: -0.04019547}
 --- !u!1 &7188325773435393038
 GameObject:
   m_ObjectHideFlags: 0
@@ -9183,6 +10383,7 @@ GameObject:
   - component: {fileID: 140394731632688413}
   - component: {fileID: 7428632326966795877}
   - component: {fileID: 4622434508220271342}
+  - component: {fileID: 4825177753610466214}
   m_Layer: 12
   m_Name: rock.003_cell.089
   m_TagString: Untagged
@@ -9283,6 +10484,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4825177753610466214
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188325773435393038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.23996645
+  m_Height: 0.4911903
+  m_Direction: 1
+  m_Center: {x: 0.04497731, y: -0.05009866, z: -0.07345282}
 --- !u!1 &7259095988837343410
 GameObject:
   m_ObjectHideFlags: 0
@@ -9296,6 +10511,7 @@ GameObject:
   - component: {fileID: 6289440517560836291}
   - component: {fileID: 5777242831605159444}
   - component: {fileID: 3378120713781468692}
+  - component: {fileID: 7261269195479538451}
   m_Layer: 12
   m_Name: rock.003_cell.040
   m_TagString: Untagged
@@ -9396,6 +10612,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7261269195479538451
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259095988837343410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.494777
+  m_Height: 0.81215507
+  m_Direction: 1
+  m_Center: {x: 0.071043156, y: -0.017031658, z: 0.32272446}
 --- !u!1 &7400468686200435886
 GameObject:
   m_ObjectHideFlags: 0
@@ -9409,6 +10639,7 @@ GameObject:
   - component: {fileID: 3562046915147850546}
   - component: {fileID: 1467023357099505510}
   - component: {fileID: 8617400860027743258}
+  - component: {fileID: 2953528633138060256}
   m_Layer: 12
   m_Name: rock.003_cell.018
   m_TagString: Untagged
@@ -9509,6 +10740,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2953528633138060256
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7400468686200435886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.354208
+  m_Height: 0.6926079
+  m_Direction: 1
+  m_Center: {x: 0.020365713, y: 0.122936875, z: -0.09059813}
 --- !u!1 &7414921779083720616
 GameObject:
   m_ObjectHideFlags: 0
@@ -9522,6 +10767,7 @@ GameObject:
   - component: {fileID: 487606684867945253}
   - component: {fileID: 427855148090170038}
   - component: {fileID: 579735623411317450}
+  - component: {fileID: 428530514836231159}
   m_Layer: 12
   m_Name: rock.003_cell.025
   m_TagString: Untagged
@@ -9622,6 +10868,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &428530514836231159
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7414921779083720616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3013463
+  m_Height: 0.5024085
+  m_Direction: 1
+  m_Center: {x: 0.104073085, y: -0.08042069, z: -0.120551184}
 --- !u!1 &7517957608486800973
 GameObject:
   m_ObjectHideFlags: 0
@@ -9635,6 +10895,7 @@ GameObject:
   - component: {fileID: 2867871904739371176}
   - component: {fileID: 6685572899866028583}
   - component: {fileID: 2725558842663905512}
+  - component: {fileID: 8150402390239664155}
   m_Layer: 12
   m_Name: rock.003_cell.079
   m_TagString: Untagged
@@ -9735,6 +10996,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8150402390239664155
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7517957608486800973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.29401648
+  m_Height: 1.006624
+  m_Direction: 1
+  m_Center: {x: -0.08283265, y: -0.022590613, z: 0.064652115}
 --- !u!1 &8415541939256137983
 GameObject:
   m_ObjectHideFlags: 0
@@ -9748,6 +11023,7 @@ GameObject:
   - component: {fileID: 6261156107522148472}
   - component: {fileID: 1715669071667868505}
   - component: {fileID: 2754466056830105995}
+  - component: {fileID: 8549372386467640115}
   m_Layer: 12
   m_Name: rock.003_cell.099
   m_TagString: Untagged
@@ -9848,6 +11124,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &8549372386467640115
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8415541939256137983}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.24903631
+  m_Height: 0.5326759
+  m_Direction: 1
+  m_Center: {x: -0.0483329, y: 0.120647036, z: -0.11369759}
 --- !u!1 &8577172419526479292
 GameObject:
   m_ObjectHideFlags: 0
@@ -9861,6 +11151,7 @@ GameObject:
   - component: {fileID: 8466065675836956300}
   - component: {fileID: 8017668720082756402}
   - component: {fileID: 2125719975032275230}
+  - component: {fileID: 7716098335294656766}
   m_Layer: 12
   m_Name: rock.003_cell.050
   m_TagString: Untagged
@@ -9961,6 +11252,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7716098335294656766
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577172419526479292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.48249862
+  m_Height: 0.927847
+  m_Direction: 1
+  m_Center: {x: 0.067826994, y: -0.0019918983, z: 0.33590978}
 --- !u!1 &8624568470407703184
 GameObject:
   m_ObjectHideFlags: 0
@@ -9974,6 +11279,7 @@ GameObject:
   - component: {fileID: 8106753251379988671}
   - component: {fileID: 7078093470066641412}
   - component: {fileID: 1337364536676195874}
+  - component: {fileID: 7187493732236763016}
   m_Layer: 12
   m_Name: rock.003_cell.038
   m_TagString: Untagged
@@ -10074,6 +11380,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7187493732236763016
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8624568470407703184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.24852467
+  m_Height: 0.8370293
+  m_Direction: 1
+  m_Center: {x: -0.029514609, y: -0.29055583, z: -0.051530283}
 --- !u!1 &8690085659044888330
 GameObject:
   m_ObjectHideFlags: 0
@@ -10087,6 +11407,7 @@ GameObject:
   - component: {fileID: 7828340297936460624}
   - component: {fileID: 6726631986672617625}
   - component: {fileID: 1559365288884076967}
+  - component: {fileID: 6708136325873454841}
   m_Layer: 12
   m_Name: rock.003_cell.002
   m_TagString: Untagged
@@ -10187,6 +11508,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &6708136325873454841
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690085659044888330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.18893294
+  m_Height: 0.36863288
+  m_Direction: 1
+  m_Center: {x: 0.02333465, y: -0.10322299, z: -0.03952081}
 --- !u!1 &8692236252620863588
 GameObject:
   m_ObjectHideFlags: 0
@@ -10200,6 +11535,7 @@ GameObject:
   - component: {fileID: 5523295958468393050}
   - component: {fileID: 4369307129265620411}
   - component: {fileID: 286519928882213159}
+  - component: {fileID: 7017907294482543343}
   m_Layer: 12
   m_Name: rock.003_cell.059
   m_TagString: Untagged
@@ -10300,6 +11636,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &7017907294482543343
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8692236252620863588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.260176
+  m_Height: 0.25074506
+  m_Direction: 1
+  m_Center: {x: -0.10147235, y: 0.00081497076, z: -0.15627708}
 --- !u!1 &8693392970288165759
 GameObject:
   m_ObjectHideFlags: 0
@@ -10313,6 +11663,7 @@ GameObject:
   - component: {fileID: 5563849633629315844}
   - component: {fileID: 9045624379172364790}
   - component: {fileID: 5304692444268811039}
+  - component: {fileID: 616549538163591043}
   m_Layer: 12
   m_Name: rock.003_cell.081
   m_TagString: Untagged
@@ -10413,6 +11764,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &616549538163591043
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8693392970288165759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.2764753
+  m_Height: 0.4457817
+  m_Direction: 1
+  m_Center: {x: -0.09063714, y: -0.030180544, z: -0.15721984}
 --- !u!1 &8728761165883229614
 GameObject:
   m_ObjectHideFlags: 0
@@ -10426,6 +11791,7 @@ GameObject:
   - component: {fileID: 1003880090389203457}
   - component: {fileID: 5813534982365643558}
   - component: {fileID: 5504822110563024618}
+  - component: {fileID: 2390214429807918733}
   m_Layer: 12
   m_Name: rock.003_cell.016
   m_TagString: Untagged
@@ -10526,6 +11892,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2390214429807918733
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8728761165883229614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.3365589
+  m_Height: 0.9164076
+  m_Direction: 1
+  m_Center: {x: 0.005957156, y: 0.23751952, z: -0.11624296}
 --- !u!1 &8761540125952890786
 GameObject:
   m_ObjectHideFlags: 0
@@ -10539,6 +11919,7 @@ GameObject:
   - component: {fileID: 1015515733495500485}
   - component: {fileID: 8677777921559323181}
   - component: {fileID: 6044465601940680160}
+  - component: {fileID: 3428284743667388086}
   m_Layer: 12
   m_Name: rock.003_cell.003
   m_TagString: Untagged
@@ -10639,6 +12020,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3428284743667388086
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8761540125952890786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.31236452
+  m_Height: 0.8727712
+  m_Direction: 1
+  m_Center: {x: -0.0643414, y: -0.018054504, z: 0.1704117}
 --- !u!1 &8830088650016267347
 GameObject:
   m_ObjectHideFlags: 0
@@ -10652,6 +12047,7 @@ GameObject:
   - component: {fileID: 53431997390902859}
   - component: {fileID: 4696245222006548629}
   - component: {fileID: 2545686342565810014}
+  - component: {fileID: 2117918952797467649}
   m_Layer: 12
   m_Name: rock.003_cell.047
   m_TagString: Untagged
@@ -10752,6 +12148,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2117918952797467649
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830088650016267347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.41961843
+  m_Height: 0.6354281
+  m_Direction: 1
+  m_Center: {x: -0.0702837, y: 0.07706036, z: -0.13134477}
 --- !u!1 &8834201680231984303
 GameObject:
   m_ObjectHideFlags: 0
@@ -10765,6 +12175,7 @@ GameObject:
   - component: {fileID: 1580444231274129601}
   - component: {fileID: 5170142226506002809}
   - component: {fileID: 4363330957355858729}
+  - component: {fileID: 938821600398736879}
   m_Layer: 12
   m_Name: rock.003_cell.039
   m_TagString: Untagged
@@ -10865,6 +12276,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &938821600398736879
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8834201680231984303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.23426642
+  m_Height: 0.7838489
+  m_Direction: 1
+  m_Center: {x: -0.0048447098, y: -0.31426662, z: -0.083155565}
 --- !u!1 &8893826288080669585
 GameObject:
   m_ObjectHideFlags: 0
@@ -10878,6 +12303,7 @@ GameObject:
   - component: {fileID: 7422013044177691496}
   - component: {fileID: 4190629334142069763}
   - component: {fileID: 4624628368544204476}
+  - component: {fileID: 5714833068275120146}
   m_Layer: 12
   m_Name: rock.003_cell.088
   m_TagString: Untagged
@@ -10978,6 +12404,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &5714833068275120146
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893826288080669585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.31393117
+  m_Height: 0.62252814
+  m_Direction: 1
+  m_Center: {x: -0.08152799, y: -0.005391599, z: -0.17322321}
 --- !u!1 &8893915638005622977
 GameObject:
   m_ObjectHideFlags: 0
@@ -10991,6 +12431,7 @@ GameObject:
   - component: {fileID: 4692691661362927790}
   - component: {fileID: 3371674299965932160}
   - component: {fileID: 5677058350846375276}
+  - component: {fileID: 2979254994030760913}
   m_Layer: 12
   m_Name: rock.003_cell.069
   m_TagString: Untagged
@@ -11091,6 +12532,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2979254994030760913
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8893915638005622977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.23777482
+  m_Height: 0.3917
+  m_Direction: 1
+  m_Center: {x: 0.15086636, y: -0.008412624, z: -0.021892702}
 --- !u!1 &8983834881855186198
 GameObject:
   m_ObjectHideFlags: 0
@@ -11104,6 +12559,7 @@ GameObject:
   - component: {fileID: 8344211773194557489}
   - component: {fileID: 3512773362671653181}
   - component: {fileID: 4463255839849853813}
+  - component: {fileID: 3737737495112278028}
   m_Layer: 12
   m_Name: rock.003_cell.028
   m_TagString: Untagged
@@ -11204,6 +12660,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3737737495112278028
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8983834881855186198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.38423467
+  m_Height: 0.80526036
+  m_Direction: 1
+  m_Center: {x: 0.18997939, y: -0.13579674, z: 0.046321165}
 --- !u!1 &9103799804160547259
 GameObject:
   m_ObjectHideFlags: 0
@@ -11217,6 +12687,7 @@ GameObject:
   - component: {fileID: 6940863552254272970}
   - component: {fileID: 7233353475438310788}
   - component: {fileID: 546631388690498318}
+  - component: {fileID: 4495923769565563502}
   m_Layer: 12
   m_Name: rock.003_cell.020
   m_TagString: Untagged
@@ -11317,6 +12788,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &4495923769565563502
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9103799804160547259}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.21422033
+  m_Height: 0.31670648
+  m_Direction: 1
+  m_Center: {x: 0.07394935, y: 0.04205311, z: -0.017548349}
 --- !u!1 &9202441559595807211
 GameObject:
   m_ObjectHideFlags: 0
@@ -11330,6 +12815,7 @@ GameObject:
   - component: {fileID: 6908049373423131578}
   - component: {fileID: 6727631006565161437}
   - component: {fileID: 7219247578897375539}
+  - component: {fileID: 2935130912426189358}
   m_Layer: 12
   m_Name: rock.003_cell.090
   m_TagString: Untagged
@@ -11430,3 +12916,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &2935130912426189358
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9202441559595807211}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.23653509
+  m_Height: 0.68498576
+  m_Direction: 1
+  m_Center: {x: 0.058717664, y: 0.26934263, z: -0.05043834}

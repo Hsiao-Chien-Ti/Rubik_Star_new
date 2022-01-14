@@ -12,7 +12,16 @@ public class NextLevel : MonoBehaviour
     public AudioClip clip;
     public List<GameObject> invisible = new List<GameObject>();
     public string nextSceneName;
+    public FractionPool fpool;
     //public Animator anim;
+    private void Start()
+    {
+        fpool = GameObject.FindObjectOfType<FractionPool>();
+        foreach(GameObject obj in fpool.pooledObjects)
+        {
+            invisible.Add(obj);
+        }
+    }
     public void hide()
     {
         int idx = SceneManager.GetActiveScene().buildIndex;

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,6 +53,9 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Script\NowPosition.cs" />
     <Compile Include="Assets\Script\levelEventAnimation.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
@@ -81,6 +84,7 @@
     <Compile Include="Assets\Script\PlatformCombine.cs" />
     <Compile Include="Assets\Script\MoveDish2D.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
+    <Compile Include="Assets\CollectTrain.cs" />
     <Compile Include="Assets\Advanced Object Pooling\Example\Scripts\AOP_Example_Obj.cs" />
     <Compile Include="Assets\Script\CloseLightningTips.cs" />
     <Compile Include="Assets\LevelMap.cs" />
@@ -110,6 +114,7 @@
     <Compile Include="Assets\Black Hole\Script\Demo.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\Script\AsteroidHit.cs" />
+    <Compile Include="Assets\FractionPool.cs" />
     <Compile Include="Assets\Script\AsteroidDrop.cs" />
     <Compile Include="Assets\Script\NextLevel.cs" />
     <Compile Include="Assets\Must Dash Sci-Fi Drinks Pack - Asian Edition Ver 1\DisplayFrameWork\Scripts\RepositionObject.cs" />
@@ -160,6 +165,7 @@
     <Compile Include="Assets\Script\ImageFadeIO.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Script\RocketCompose.cs" />
+    <Compile Include="Assets\fractureDestroy.cs" />
     <Compile Include="Assets\Advanced Object Pooling\Scripts\DynamicObjectPool.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
     <Compile Include="Assets\PickupLadder.cs" />
@@ -186,7 +192,6 @@
     <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\CollectTrain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

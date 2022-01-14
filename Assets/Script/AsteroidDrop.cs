@@ -19,11 +19,13 @@ public class AsteroidDrop : MonoBehaviour
     bool fly = false;
     int posidx;
     string face;
+    bool first;
     private void Start()
     {
         cubeState = transform.parent.transform.parent.transform.parent.GetComponent<CubeState>();
         face = transform.parent.parent.name;
         dropTime = Random.Range(dropMin, dropMax);
+        first = true;
     }
     private void FixedUpdate()
     {
@@ -87,11 +89,19 @@ public class AsteroidDrop : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        GetComponent<Fracture>().FractureObject();
-        Audio.clip = boomAudio;
-        Audio.volume = 0.5f;
-        Audio.Play();
-        Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
+        if(first)
+        {
+            first = false;
+            GetComponent<MeshRenderer>().enabled = false;
+            GetComponent<MeshCollider>().enabled = false;
+            //print("hit");
+            GetComponent<Fracture>().FractureObject();
+            Audio.clip = boomAudio;
+            Audio.volume = 0.5f;
+            Audio.Play();
+            Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
+        }
+
         
     }
     IEnumerator flyIE()
