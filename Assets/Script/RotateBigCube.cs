@@ -45,15 +45,19 @@ public class RotateBigCube : MonoBehaviour
             mouseDelta *= 0.15f;//reduction of the rotstion speed
             transform.rotation = Quaternion.Euler(mouseDelta.y*rubik, -mouseDelta.x , 0) * transform.rotation;
         }
-        else //automatically move to the target position
+        else//automatically move to the target position
         {
-            cubeState.rightDragging = false;
+            
             if (transform.rotation != targetCube.transform.rotation)
             {
                 //move to the target position by steps
                 //rotate a few steps per frame
                 var step = speed * Time.deltaTime;
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, targetCube.transform.rotation, step);
+            }
+            else
+            {
+                cubeState.rightDragging = false;
             }
         }
         previousMousePosition = Input.mousePosition;
@@ -124,22 +128,27 @@ public class RotateBigCube : MonoBehaviour
     }
     public void xRotate()
     {
+        cubeState.rightDragging = true;
         targetCube.transform.Rotate(0, 0, 90, Space.World);
     }
     public void mxRotate()
     {
+        cubeState.rightDragging = true;
         targetCube.transform.Rotate(0, 0, 270, Space.World);
     }
     public void zRotate()
     {
+        cubeState.rightDragging = true;
         targetCube.transform.Rotate(-90, 0, 0, Space.World);
     }
     public void mzRotate()
     {
+        cubeState.rightDragging = true;
         targetCube.transform.Rotate(-270, 0, 0, Space.World);
     }
     public void myRotate()
     {
+        cubeState.rightDragging = true;
         targetCube.transform.Rotate(-180, 0, 0, Space.World);
     }
     public bool RotateToTrail()

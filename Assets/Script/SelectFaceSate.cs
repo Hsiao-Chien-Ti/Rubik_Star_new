@@ -18,9 +18,9 @@ public class SelectFaceSate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !cubeState.autoRotating)
+        if (Input.GetMouseButtonDown(0) && !cubeState.autoRotating && !cubeState.rightDragging)
         {
-            //cubeState.leftDragging = true;
+            cubeState.leftDragging = true;
             //read the current of the cube
             readCube.ReadState();
             //從滑鼠位置發送ray，看碰到哪個面就知道是要轉哪個面

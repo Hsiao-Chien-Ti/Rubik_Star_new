@@ -36,7 +36,6 @@ public class PivotRotation : MonoBehaviour
             SpinSide();
             if(Input.GetMouseButtonUp(0))//not dragging anymore
             {
-                //cubeState.leftDragging = false;
                 dragging = false;
                 dirfix=false;
                 RotateToRightAngle();//fix the rotation angle
@@ -422,6 +421,7 @@ public class PivotRotation : MonoBehaviour
             cubeState.autoRotating = false;
             autoRotating = false;
             dragging = false;
+            cubeState.leftDragging = false;
         }
     }
 }

@@ -41,7 +41,7 @@ public class collectLigntning : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        print(other.gameObject.name);
+        //print(other.gameObject.name);
         if (other.gameObject.name=="L_Wall")
         {
             hitTime = Time.time;

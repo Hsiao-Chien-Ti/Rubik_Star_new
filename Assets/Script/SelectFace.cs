@@ -18,9 +18,8 @@ public class SelectFace : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)&&!cubeState.autoRotating)
+        if(Input.GetMouseButtonDown(0)&&!cubeState.autoRotating&&!cubeState.rightDragging)
         {
-            //cubeState.leftDragging = true;
             //read the current of the cube
             readCube.ReadState();
             //從滑鼠位置發送ray，看碰到哪個面就知道是要轉哪個面
@@ -28,7 +27,9 @@ public class SelectFace : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if(Physics.Raycast(ray,out hit,100.0f,layerMask))
             {
+                cubeState.leftDragging = true;
                 GameObject face = hit.collider.gameObject;
+                print(face.transform.parent.name);
                 if(face.transform.parent.name.Length>=2&& face.transform.parent.GetComponent<PivotRotation>() != null)
                 {
                    face.transform.parent.GetComponent<PivotRotation>().Rotate(face);

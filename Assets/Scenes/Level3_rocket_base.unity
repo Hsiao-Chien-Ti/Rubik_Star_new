@@ -289,7 +289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 16950911}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -797,11 +796,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 130759450}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &130759453 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 130759450}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &130759454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -819,7 +813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 130759453}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -1136,11 +1129,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 215820450}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &215820453 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 215820450}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &215820454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -1158,7 +1146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 215820453}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -1797,11 +1784,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 337150303}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &337150306 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 337150303}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &337150307 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -1819,7 +1801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 337150306}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -2712,7 +2693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 449159842}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -2835,7 +2815,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 453299740}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -3378,11 +3357,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 487489577}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &487489580 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 487489577}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &487489581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -3400,7 +3374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 487489580}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -3526,7 +3499,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 513699908}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -3649,7 +3621,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 518245726}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -4273,7 +4244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 588798155}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -4389,11 +4359,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 605580976}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &605580979 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 605580976}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &605580980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -4411,7 +4376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 605580979}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -5206,7 +5170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 728026815}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -6407,11 +6370,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 844650832}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &844650835 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 844650832}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &844650836 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -6429,7 +6387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 844650835}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -6709,11 +6666,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 854742242}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &854742245 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 854742242}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &854742246 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -6731,7 +6683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 854742245}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -7350,7 +7301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 905888887}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -8316,7 +8266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 980416562}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -8726,7 +8675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1066788418}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -9679,7 +9627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1199615242}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -9984,7 +9931,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1249510139}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -10348,11 +10294,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 1266405809}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1266405812 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 1266405809}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1266405813 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -10370,7 +10311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1266405812}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -10618,11 +10558,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 1289178874}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1289178877 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 1289178874}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1289178878 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -10640,7 +10575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1289178877}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -11358,7 +11292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1313591147}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -11485,7 +11418,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1316367086}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -12661,7 +12593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1406949746}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -14045,7 +13976,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593083264}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 500
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -15293,7 +15224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1805741885}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -15640,7 +15570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1867910411}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -16433,11 +16362,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 1988036313}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1988036316 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 1988036313}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1988036317 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -16455,7 +16379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1988036316}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -16620,11 +16543,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 1988661215}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1988661218 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 1988661215}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1988661219 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -16642,7 +16560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1988661218}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}
@@ -17001,7 +16918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2007710125}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -17431,7 +17347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d46c0b1b0e3a2874a89a7b9d581759f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2107726852}
   Audio: {fileID: 1677271422}
   dropAudio: {fileID: 8300000, guid: 741105c1d54747c479bb4b1fc5e7a1c3, type: 3}
   boomAudio: {fileID: 8300000, guid: 4087c0cbb60397e4ca5658e12ca3a093, type: 3}
@@ -17880,11 +17795,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593260611307061587, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
   m_PrefabInstance: {fileID: 2122259449}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &2122259452 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1927420260181218802, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
-  m_PrefabInstance: {fileID: 2122259449}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2122259453 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1621009245903760476, guid: 079a15c679989eb49b7976f9b95a98fa, type: 3}
@@ -17902,7 +17812,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce861ccee0b2991499d909709335e320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2122259452}
   Audio: {fileID: 319362329}
   dropAudio: {fileID: 8300000, guid: 2456ff553b90b6f4dba41f90184d7e16, type: 3}
   catchAudio: {fileID: 8300000, guid: 4bf2e9bdd9c411b43a1ce682cb4ae5bc, type: 3}

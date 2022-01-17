@@ -15,7 +15,7 @@ public class fractureDestroy : MonoBehaviour
     }
     private void OnDisable()
     {
-        print(transform.localPosition);
+        //print(transform.localPosition);
         transform.localPosition = initPos;
         transform.localRotation = initRot;
     }

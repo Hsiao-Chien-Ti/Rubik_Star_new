@@ -421,6 +421,7 @@ public class PivotRotationSate : MonoBehaviour
             cubeState.autoRotating = false;
             autoRotating = false;
             dragging = false;
+            cubeState.leftDragging = false;
         }
     }
 }

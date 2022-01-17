@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AsteroidDrop : MonoBehaviour
 {
-    public Rigidbody rb;
     public AudioSource Audio;
     public AudioClip dropAudio;
     public AudioClip boomAudio;
@@ -22,6 +21,7 @@ public class AsteroidDrop : MonoBehaviour
     bool first;
     private void Start()
     {
+        //Audio = GetComponentInChildren<AudioSource>();
         cubeState = transform.parent.transform.parent.transform.parent.GetComponent<CubeState>();
         face = transform.parent.parent.name;
         dropTime = Random.Range(dropMin, dropMax);
@@ -97,7 +97,7 @@ public class AsteroidDrop : MonoBehaviour
             //print("hit");
             GetComponent<Fracture>().FractureObject();
             Audio.clip = boomAudio;
-            Audio.volume = 0.5f;
+            //Audio.volume = 0.5f;
             Audio.Play();
             Audio.SetScheduledEndTime(AudioSettings.dspTime + 1f);
         }

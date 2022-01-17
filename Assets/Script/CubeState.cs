@@ -20,14 +20,14 @@ public class CubeState : MonoBehaviour
     private void FixedUpdate()
     {
         //print(autoRotating);
-        if (autoRotating)
+        if (leftDragging)
         {
-            leftDragging = true;
+            //leftDragging = true;
             player.GetComponent<BoxCollider>().enabled = false;
         }
         else
         {
-            leftDragging = false;
+            //leftDragging = false;
             player.GetComponent<BoxCollider>().enabled = true;
         }
     }
