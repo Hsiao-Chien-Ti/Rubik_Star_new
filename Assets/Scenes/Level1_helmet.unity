@@ -11411,7 +11411,7 @@ MonoBehaviour:
   fill: {fileID: 857213375}
   time: {fileID: 850667468}
   levelController: {fileID: 0}
-  duration: 60
+  duration: 90
   remainingDuration: 0
 --- !u!114 &1714364737
 MonoBehaviour:

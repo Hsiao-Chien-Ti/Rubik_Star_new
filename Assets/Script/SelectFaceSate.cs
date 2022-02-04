@@ -20,7 +20,7 @@ public class SelectFaceSate : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !cubeState.autoRotating && !cubeState.rightDragging)
         {
-            cubeState.leftDragging = true;
+            //cubeState.leftDragging = true;
             //read the current of the cube
             readCube.ReadState();
             //從滑鼠位置發送ray，看碰到哪個面就知道是要轉哪個面
@@ -28,6 +28,7 @@ public class SelectFaceSate : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, 100.0f, layerMask))
             {
+                cubeState.leftDragging = true;
                 GameObject face = hit.collider.gameObject;
                 if(face.transform.parent.name.Length>=2&&face.transform.parent.GetComponent<PivotRotationSate>()!=null)
                     face.transform.parent.GetComponent<PivotRotationSate>().Rotate(face);
